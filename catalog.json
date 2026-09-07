@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "generated": "2026-09-07T00:00:00Z",
+  "plugins": [
+    {
+      "id": "browser",
+      "name": "AERA Browser",
+      "version": "1.0.0",
+      "description": "Private WebKit browser with modern mobile-site support.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/main/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/main/plugin.json.sig"
+    }
+  ]
+}
