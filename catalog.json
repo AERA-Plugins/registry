@@ -7,8 +7,8 @@
       "name": "AERA Browser",
       "version": "1.1.0",
       "description": "Private mobile WebKit browser with video and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/main/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/main/plugin.json.sig"
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/af4707862d0791a3f701a8c50463fdd09d67707e/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/af4707862d0791a3f701a8c50463fdd09d67707e/plugin.json.sig"
     }
   ]
 }
