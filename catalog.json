@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-08T18:29:10Z",
+  "generated": "2026-09-08T19:35:07Z",
   "plugins": [
     {
       "id": "browser",
@@ -13,10 +13,10 @@
     {
       "id": "retroarch",
       "name": "AERA RetroArch",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "description": "Touch-first RetroArch with GLUI, Game Boy/Color emulation, speaker audio, isolated content access, and a bundled test core.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/560af5155b83e6e6a21d61924e845fe8498f5cae/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/560af5155b83e6e6a21d61924e845fe8498f5cae/plugin.json.sig"
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/57f577306ba6766b3b36a2511a2f288823ade12b/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/57f577306ba6766b3b36a2511a2f288823ade12b/plugin.json.sig"
     }
   ]
 }
