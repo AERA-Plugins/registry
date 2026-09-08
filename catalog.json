@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "generated": "2026-09-08T00:00:00Z",
+  "generated": "2026-09-08T14:50:00Z",
   "plugins": [
     {
       "id": "browser",
       "name": "AERA Browser",
-      "version": "1.1.0",
-      "description": "Private mobile WebKit browser with video and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/af4707862d0791a3f701a8c50463fdd09d67707e/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/af4707862d0791a3f701a8c50463fdd09d67707e/plugin.json.sig"
+      "version": "1.2.0",
+      "description": "Private mobile WebKit browser with GPU compositing, video, and AERA speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/7729e7352a9804e5c11f003994876b2393bdac13/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/7729e7352a9804e5c11f003994876b2393bdac13/plugin.json.sig"
     }
   ]
 }
