@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-08T16:13:08Z",
+  "generated": "2026-09-08T16:17:30Z",
   "plugins": [
     {
       "id": "browser",
@@ -15,8 +15,8 @@
       "name": "AERA RetroArch",
       "version": "1.0.0",
       "description": "Touch-first RetroArch with MaterialUI, speaker audio, isolated content access, and a bundled 2048 test core.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/260b1165b0fe878dc8cc7db568a60177e6e80228/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/260b1165b0fe878dc8cc7db568a60177e6e80228/plugin.json.sig"
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/d79c8901c4a0ce6ad5d676c0d9e5b53e19921d30/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/d79c8901c4a0ce6ad5d676c0d9e5b53e19921d30/plugin.json.sig"
     }
   ]
 }
