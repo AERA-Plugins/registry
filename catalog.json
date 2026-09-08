@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-08T15:22:17Z",
+  "generated": "2026-09-08T16:13:08Z",
   "plugins": [
     {
       "id": "browser",
@@ -9,6 +9,14 @@
       "description": "Full-height mobile WebKit browser with 120 Hz GPU compositing, video, and AERA speaker audio.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3fcd8065206c0215a285871af15020d4f5ecd0f9/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3fcd8065206c0215a285871af15020d4f5ecd0f9/plugin.json.sig"
+    },
+    {
+      "id": "retroarch",
+      "name": "AERA RetroArch",
+      "version": "1.0.0",
+      "description": "Touch-first RetroArch with MaterialUI, speaker audio, isolated content access, and a bundled 2048 test core.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/260b1165b0fe878dc8cc7db568a60177e6e80228/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/260b1165b0fe878dc8cc7db568a60177e6e80228/plugin.json.sig"
     }
   ]
 }
