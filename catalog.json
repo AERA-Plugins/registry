@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-08T20:19:32Z",
+  "generated": "2026-09-08T20:32:00Z",
   "plugins": [
     {
       "id": "browser",
@@ -23,8 +23,8 @@
       "name": "AERA Telegram",
       "version": "1.0.0",
       "description": "Recovery-native Telegram with encrypted TDLib sessions, chats, history, and text messaging.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/9f0197e9369f6b5b8a4f6a96a88cd910e043b669/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/9f0197e9369f6b5b8a4f6a96a88cd910e043b669/plugin.json.sig"
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/439c791f5a9a2b9a2039e977c4c95dd6dfeafdb7/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/439c791f5a9a2b9a2039e977c4c95dd6dfeafdb7/plugin.json.sig"
     }
   ]
 }
