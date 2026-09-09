@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-08T22:09:03Z",
+  "generated": "2026-09-09T16:17:32Z",
   "plugins": [
     {
       "id": "browser",
@@ -25,6 +25,22 @@
       "description": "Full-screen recovery Telegram with encrypted sessions, paginated history, chat previews, messaging, and read-only file attachments.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/e92c3b202c3435f68dc6154d4a4211a07a278402/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/e92c3b202c3435f68dc6154d4a4211a07a278402/plugin.json.sig"
+    },
+    {
+      "id": "gallery",
+      "name": "AERA Gallery",
+      "version": "1.0.0",
+      "description": "Fast recovery gallery for PNG and JPEG images, AERA screenshots, fullscreen viewing, zoom and pan.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/dbdddde4cad0405cee32402a30c00cc376b251a3/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/dbdddde4cad0405cee32402a30c00cc376b251a3/plugin.json.sig"
+    },
+    {
+      "id": "media",
+      "name": "AERA Media",
+      "version": "1.0.0",
+      "description": "Fullscreen local music and video player with playlists, seeking, GPU-composited video and AERA speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/9fc803cf0dae03565b243a68dee71bf2735a52ee/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/9fc803cf0dae03565b243a68dee71bf2735a52ee/plugin.json.sig"
     }
   ]
 }
