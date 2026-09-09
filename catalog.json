@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-09T16:17:32Z",
+  "generated": "2026-09-09T16:30:00Z",
   "plugins": [
     {
       "id": "browser",
@@ -37,10 +37,10 @@
     {
       "id": "media",
       "name": "AERA Media",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Fullscreen local music and video player with playlists, seeking, GPU-composited video and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/9fc803cf0dae03565b243a68dee71bf2735a52ee/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/9fc803cf0dae03565b243a68dee71bf2735a52ee/plugin.json.sig"
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/46b2f041075e4f6dd4c46f91e2bb66596f588046/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/46b2f041075e4f6dd4c46f91e2bb66596f588046/plugin.json.sig"
     }
   ]
 }
