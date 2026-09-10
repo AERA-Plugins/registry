@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-10T11:25:00Z",
+  "generated": "2026-09-10T16:31:00Z",
   "plugins": [
     {
       "id": "browser",
@@ -49,6 +49,14 @@
       "description": "Native recovery screen recording with isolated OpenH264 MP4 encoding, 720p/1080p quality and 30/60 FPS profiles.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/33238bf6c0c27984ecde0537283445d78d660332/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/33238bf6c0c27984ecde0537283445d78d660332/plugin.json.sig"
+    },
+    {
+      "id": "appvault",
+      "name": "AERA App Backup Vault",
+      "version": "1.0.0",
+      "description": "Encrypted per-app backups and restores for internal or mounted network storage, powered by restic.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/cf27b4c4f0f655abffe0920596e5de6499988e83/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/cf27b4c4f0f655abffe0920596e5de6499988e83/plugin.json.sig"
     }
   ]
 }
