@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-09T16:30:00Z",
+  "generated": "2026-09-10T11:25:00Z",
   "plugins": [
     {
       "id": "browser",
@@ -41,6 +41,14 @@
       "description": "Fullscreen local music and video player with playlists, seeking, GPU-composited video and AERA speaker audio.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/46b2f041075e4f6dd4c46f91e2bb66596f588046/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/46b2f041075e4f6dd4c46f91e2bb66596f588046/plugin.json.sig"
+    },
+    {
+      "id": "recorder",
+      "name": "AERA Recorder",
+      "version": "1.0.0",
+      "description": "Native recovery screen recording with isolated OpenH264 MP4 encoding, 720p/1080p quality and 30/60 FPS profiles.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/33238bf6c0c27984ecde0537283445d78d660332/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/33238bf6c0c27984ecde0537283445d78d660332/plugin.json.sig"
     }
   ]
 }
