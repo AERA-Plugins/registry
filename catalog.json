@@ -55,8 +55,8 @@
       "name": "AERA App Backup Vault",
       "version": "1.0.0",
       "description": "Encrypted per-app backups and restores for internal or mounted network storage, powered by restic.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/cf27b4c4f0f655abffe0920596e5de6499988e83/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/cf27b4c4f0f655abffe0920596e5de6499988e83/plugin.json.sig"
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/c87a6ee336488328dbfc4ae779cb9ed002c0b32f/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/c87a6ee336488328dbfc4ae779cb9ed002c0b32f/plugin.json.sig"
     }
   ]
 }
