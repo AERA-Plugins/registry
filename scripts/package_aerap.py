@@ -76,7 +76,7 @@ def main() -> None:
     if metadata.get("schema") != 1 or not SAFE_ID.fullmatch(plugin_id):
         raise ValueError("unsupported plugin manifest or unsafe plugin id")
     if metadata.get("payload") != "runtime.xz":
-        raise ValueError("AERA host API 1 requires payload name runtime.xz")
+        raise ValueError("AERA plugin packages require payload name runtime.xz")
     if metadata.get("payload_size") != payload.stat().st_size:
         raise ValueError("payload size does not match plugin.json")
     if metadata.get("payload_sha256", "").lower() != sha256(payload):

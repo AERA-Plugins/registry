@@ -27,7 +27,7 @@ licenses in `stage/usr/share/licenses`. Do not include device nodes, absolute
 paths, or links that leave the staging directory.
 
 Use an existing plugin's `source/pack.py` to convert that directory into the
-bounded Host API 1 `runtime.xz` format:
+bounded AERA `runtime.xz` format:
 
 ```sh
 python3 source/pack.py stage build
@@ -38,13 +38,16 @@ Create `plugin.json` using the values printed in `build/metadata.json`:
 ```json
 {
   "schema": 1,
-  "id": "gallery",
-  "name": "My Gallery",
+  "id": "my-plugin",
+  "name": "My Plugin",
   "version": "1.0.0",
   "description": "A short description.",
-  "type": "app-runtime",
-  "entry": "gallery",
-  "min_host_api": 1,
+  "type": "ui-runtime",
+  "entry": "main",
+  "min_host_api": 2,
+  "protocol_version": 2,
+  "executable": "usr/bin/aera-plugin",
+  "icon": "plugin",
   "payload": "runtime.xz",
   "payload_url": "https://example.invalid/runtime.xz",
   "payload_size": 1234,
@@ -56,11 +59,15 @@ Create `plugin.json` using the values printed in `build/metadata.json`:
 }
 ```
 
-Host API 1 currently supports the host-integrated entries `browser`,
-`retroarch`, `telegram`, `gallery`, `media`, `recorder`, and `appvault`; an
-arbitrary new UI entrypoint requires recovery-side support first. Match the
-existing official plugin with the same entry to learn its runtime protocol and
-allowed access. Plugins run isolated and receive only host-provided access.
+Host API 2 accepts new IDs without recovery-side routing. The isolated ARM64
+worker communicates over file descriptor 4 while AERA owns all visible UI and
+privileged operations. Its manifest must request `display` and `touch-input`.
+See the `AERA-settings-backup-plugin` reference and recovery's
+`ui2/plugin_api/README.md` for protocol negotiation, declarative UI, lifecycle,
+resource limits, and mediated permissions.
+
+Host API 1 remains compatible with the built-in `browser`, `retroarch`,
+`telegram`, `gallery`, `media`, `recorder`, and `appvault` entries.
 
 Finally, create the installable file:
 
