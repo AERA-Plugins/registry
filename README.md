@@ -9,6 +9,73 @@ manifest that pins its payload size and SHA-256.
 Only reviewed repositories in the `AERA-Plugins` organization may be added.
 Changing a catalog URL cannot bypass manifest or payload verification.
 
+## Make a plugin
+
+An AERA plugin is one `.aerap` file containing a manifest and a compressed
+runtime:
+
+```text
+My-Plugin-1.0.0.aerap
+├── plugin.json
+├── plugin.json.sig       # official plugins only
+└── runtime.xz
+```
+
+Build the files your plugin needs in a staging directory such as `stage/`.
+Executables normally go in `stage/usr/bin`, libraries in `stage/usr/lib`, and
+licenses in `stage/usr/share/licenses`. Do not include device nodes, absolute
+paths, or links that leave the staging directory.
+
+Use an existing plugin's `source/pack.py` to convert that directory into the
+bounded Host API 1 `runtime.xz` format:
+
+```sh
+python3 source/pack.py stage build
+```
+
+Create `plugin.json` using the values printed in `build/metadata.json`:
+
+```json
+{
+  "schema": 1,
+  "id": "gallery",
+  "name": "My Gallery",
+  "version": "1.0.0",
+  "description": "A short description.",
+  "type": "app-runtime",
+  "entry": "gallery",
+  "min_host_api": 1,
+  "payload": "runtime.xz",
+  "payload_url": "https://example.invalid/runtime.xz",
+  "payload_size": 1234,
+  "payload_sha256": "64-lowercase-hex-characters",
+  "expanded_size": 5678,
+  "expanded_sha256": "64-lowercase-hex-characters",
+  "member_count": 3,
+  "permissions": ["display", "touch-input", "read-only-storage"]
+}
+```
+
+Host API 1 currently supports the host-integrated entries `browser`,
+`retroarch`, `telegram`, `gallery`, `media`, `recorder`, and `appvault`; an
+arbitrary new UI entrypoint requires recovery-side support first. Match the
+existing official plugin with the same entry to learn its runtime protocol and
+allowed access. Plugins run isolated and receive only host-provided access.
+
+Finally, create the installable file:
+
+```sh
+python3 scripts/package_aerap.py \
+  --manifest plugin.json \
+  --payload build/runtime.xz \
+  --output My-Plugin-1.0.0.aerap
+```
+
+This creates an **unofficial** plugin. AERA allows its installation after a
+security warning and lists it under **Unofficial Apps**. Only AERA maintainers
+can sign reviewed releases with the private release key and publish them as
+**Official Apps**.
+
 ## Publishing without breaking the store
 
 Do not edit or sign `catalog.json` by hand. After the plugin manifest and its
