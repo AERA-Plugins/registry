@@ -80,6 +80,7 @@ def validate_manifest(manifest, expected_id=None):
             "display", "touch-input",
             "settings-backup", "settings-restore",
             "android-settings-backup", "android-settings-restore",
+            "screen-mirror",
         }
         if (not isinstance(permissions, list) or
                 not {"display", "touch-input"}.issubset(permissions) or
