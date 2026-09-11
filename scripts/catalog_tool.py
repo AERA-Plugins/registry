@@ -3,6 +3,7 @@
 
 import argparse
 import datetime
+import hashlib
 import json
 import re
 import subprocess
@@ -100,6 +101,20 @@ def validate_catalog(catalog, online=False):
             raise ValueError(f"{plugin_id} manifest URL is not pinned to an immutable commit")
         if entry["signature_url"] != entry["manifest_url"] + ".sig":
             raise ValueError(f"{plugin_id} signature URL does not match its manifest")
+        package_url = entry.get("package_url", "")
+        package_size = entry.get("package_size", 0)
+        package_hash = entry.get("package_sha256", "")
+        package_present = bool(package_url or package_size or package_hash)
+        if package_present:
+            repository = plugin_id.replace("appvault", "app-backup-vault")
+            if not package_url.startswith(RELEASE_PREFIX + repository + "/releases/download/"):
+                raise ValueError(f"{plugin_id} package URL is outside its official repository")
+            if not package_url.endswith(".aerap"):
+                raise ValueError(f"{plugin_id} package does not use the .aerap extension")
+            if not isinstance(package_size, int) or package_size <= 0 or package_size > 513 * 1024 * 1024:
+                raise ValueError(f"{plugin_id} has an invalid package size")
+            if not re.fullmatch(r"[0-9a-f]{64}", package_hash):
+                raise ValueError(f"{plugin_id} has an invalid package SHA-256")
         if online:
             manifest_data = fetch(entry["manifest_url"], 64 * 1024)
             signature_data = fetch(entry["signature_url"], 4096)
@@ -145,10 +160,18 @@ def add(arguments):
         raise ValueError("--commit must be the full 40-character lowercase Git commit")
     repository = arguments.repository or manifest["id"]
     manifest_url = f"{RAW_PREFIX}{repository}/{arguments.commit}/plugin.json"
+    package_path = arguments.package.resolve(strict=True)
+    if package_path.suffix.lower() != ".aerap":
+        raise ValueError("--package must point to an .aerap file")
+    package_hash = hashlib.sha256(package_path.read_bytes()).hexdigest()
+    release_base = manifest["payload_url"].rsplit("/", 1)[0]
     entry = {
         "id": manifest["id"], "name": manifest["name"],
         "version": manifest["version"], "description": manifest["description"],
         "manifest_url": manifest_url, "signature_url": manifest_url + ".sig",
+        "package_url": release_base + "/" + package_path.name,
+        "package_size": package_path.stat().st_size,
+        "package_sha256": package_hash,
     }
     catalog["plugins"] = [item for item in catalog["plugins"] if item["id"] != manifest["id"]]
     catalog["plugins"].append(entry)
@@ -176,6 +199,7 @@ def main():
     publish.add_argument("--manifest", type=Path, required=True)
     publish.add_argument("--commit", required=True)
     publish.add_argument("--repository")
+    publish.add_argument("--package", type=Path, required=True)
     publish.add_argument("--key", type=Path, required=True)
     publish.add_argument("--online", action="store_true")
     arguments = parser.parse_args()

@@ -26,3 +26,23 @@ The command verifies the current catalog, verifies the plugin signature,
 requires an immutable Git commit URL, signs into AERA's required lowercase-hex
 format, verifies the result again, and only then atomically replaces the two
 catalog files. CI repeats the complete public-key and remote-URL validation.
+
+## Downloadable `.aerap` packages
+
+The Plugin Manager store and the recovery Files app use the same `.aerap`
+artifact. An official bundle contains exactly `plugin.json`,
+`plugin.json.sig`, and `runtime.xz`. Build it from the already signed release
+files with:
+
+```sh
+python3 scripts/package_aerap.py \
+  --manifest ../AERA-example-plugin/plugin.json \
+  --signature ../AERA-example-plugin/plugin.json.sig \
+  --payload ../AERA-example-plugin/build/runtime.xz \
+  --public-key keys/catalog-public.pem
+```
+
+Third-party developers may omit `--signature` to create an unofficial bundle.
+AERA presents an explicit privileged-code warning and requires an additional
+confirmation before installing it. Renaming an unsigned package never makes it
+official; the recovery derives trust from the embedded Ed25519 signature.
