@@ -55,13 +55,21 @@ Create `plugin.json` using the values printed in `build/metadata.json`:
   "expanded_size": 5678,
   "expanded_sha256": "64-lowercase-hex-characters",
   "member_count": 3,
-  "permissions": ["display", "touch-input", "read-only-storage"]
+  "permissions": [
+    "display",
+    "touch-input",
+    "android-settings-backup",
+    "android-settings-restore"
+  ]
 }
 ```
 
 Host API 2 accepts new IDs without recovery-side routing. The isolated ARM64
 worker communicates over file descriptor 4 while AERA owns all visible UI and
 privileged operations. Its manifest must request `display` and `touch-input`.
+Android and ROM settings use operation IDs 3/4 and the separately declared
+`android-settings-backup` / `android-settings-restore` permissions. The host
+performs those operations without exposing `/data/system` to the worker.
 See the `AERA-settings-backup-plugin` reference and recovery's
 `ui2/plugin_api/README.md` for protocol negotiation, declarative UI, lifecycle,
 resource limits, and mediated permissions.

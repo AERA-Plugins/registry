@@ -76,8 +76,11 @@ def validate_manifest(manifest, expected_id=None):
                 manifest["executable"] != "usr/bin/aera-plugin"):
             raise ValueError("Host API 2 entrypoint is unsupported")
         permissions = manifest["permissions"]
-        allowed = {"display", "touch-input", "settings-backup",
-                   "settings-restore"}
+        allowed = {
+            "display", "touch-input",
+            "settings-backup", "settings-restore",
+            "android-settings-backup", "android-settings-restore",
+        }
         if (not isinstance(permissions, list) or
                 not {"display", "touch-input"}.issubset(permissions) or
                 any(not isinstance(item, str) or item not in allowed
