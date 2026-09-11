@@ -63,8 +63,26 @@ def validate_manifest(manifest, expected_id=None):
     missing = sorted(required - manifest.keys())
     if missing:
         raise ValueError(f"manifest is missing: {', '.join(missing)}")
-    if manifest["schema"] != 1 or manifest["min_host_api"] != 1:
+    if manifest["schema"] != 1 or manifest["min_host_api"] not in (1, 2):
         raise ValueError("manifest schema/host API is unsupported")
+    if manifest["min_host_api"] == 2:
+        required_api2 = {"protocol_version", "executable", "permissions"}
+        missing_api2 = sorted(required_api2 - manifest.keys())
+        if missing_api2:
+            raise ValueError(
+                "Host API 2 manifest is missing: " + ", ".join(missing_api2))
+        if (manifest["type"] != "ui-runtime" or manifest["entry"] != "main" or
+                manifest["protocol_version"] != 2 or
+                manifest["executable"] != "usr/bin/aera-plugin"):
+            raise ValueError("Host API 2 entrypoint is unsupported")
+        permissions = manifest["permissions"]
+        allowed = {"display", "touch-input", "settings-backup",
+                   "settings-restore"}
+        if (not isinstance(permissions, list) or
+                not {"display", "touch-input"}.issubset(permissions) or
+                any(not isinstance(item, str) or item not in allowed
+                    for item in permissions)):
+            raise ValueError("Host API 2 permissions violate host policy")
     if expected_id and manifest["id"] != expected_id:
         raise ValueError("catalog and manifest IDs differ")
     if not re.fullmatch(r"[a-z0-9][a-z0-9.-]{0,63}", manifest["id"]):
