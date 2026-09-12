@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-11T22:56:35Z",
+  "generated": "2026-09-12T08:16:35Z",
   "plugins": [
     {
       "id": "browser",
@@ -82,13 +82,13 @@
     {
       "id": "mirror",
       "name": "AERA Mirror",
-      "version": "0.1.0",
-      "description": "View and control AERA Recovery from a computer over a low-latency USB connection.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/7684f9e5eda62de531be1f9ebb4e2d5d96829cfd/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/7684f9e5eda62de531be1f9ebb4e2d5d96829cfd/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/mirror/releases/download/v0.1.0/AERA-Mirror-0.1.0.aerap",
-      "package_size": 17318,
-      "package_sha256": "bca37e941551175412add95bf85de973deda42146c9af8eccd4cba2821f7101a"
+      "version": "0.2.0",
+      "description": "View and control AERA Recovery through a browser over Wi-Fi or a low-latency USB connection.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/05b8becd629232fe0ea1cdccc51b52921579fded/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/05b8becd629232fe0ea1cdccc51b52921579fded/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/mirror/releases/download/v0.2.0/AERA-Mirror-0.2.0.aerap",
+      "package_size": 17345,
+      "package_sha256": "17815bd658e093e3dc3941df39f5c7797c43c15006842c13fcf676d2badab3af"
     }
   ]
 }
