@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-12T10:03:50Z",
+  "generated": "2026-09-13T07:36:05Z",
   "plugins": [
     {
       "id": "browser",
@@ -47,17 +47,6 @@
       "package_sha256": "3e345d9f331a4184c5f36072170ad90597ff58dec8b0208fa24f7e2068837304"
     },
     {
-      "id": "media",
-      "name": "AERA Media",
-      "version": "1.0.1",
-      "description": "Fullscreen local music and video player with playlists, seeking, GPU-composited video and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/46b2f041075e4f6dd4c46f91e2bb66596f588046/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/46b2f041075e4f6dd4c46f91e2bb66596f588046/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.0.1/AERA-Media-1.0.1.aerap",
-      "package_size": 6888291,
-      "package_sha256": "4309bbbfeb91a1aa730c266785f0160ba2f75c21b27401a79ad64df40ea76ed9"
-    },
-    {
       "id": "recorder",
       "name": "AERA Recorder",
       "version": "1.0.0",
@@ -89,6 +78,17 @@
       "package_url": "https://github.com/AERA-Plugins/mirror/releases/download/v0.2.3/AERA-Mirror-0.2.3.aerap",
       "package_size": 25977,
       "package_sha256": "219fb8297a0837139f9d5df67f8980f789b4cef720746e342e5ba7bdcf150aa2"
+    },
+    {
+      "id": "media",
+      "name": "AERA Media",
+      "version": "1.1.0",
+      "description": "Orientation-aware fullscreen music and video player with overlay controls, draggable seeking, GPU-composited video and AERA speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/97b09724b71da42fa452a74f74b47769166ca96e/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/97b09724b71da42fa452a74f74b47769166ca96e/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.1.0/AERA-Media-1.1.0.aerap",
+      "package_size": 6892096,
+      "package_sha256": "6485bd84cadf110a68e72c79cba9447fd50339763358bea5ad9cfbac265fe4f5"
     }
   ]
 }
