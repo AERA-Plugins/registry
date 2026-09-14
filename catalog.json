@@ -1,144 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-09-14T18:21:32Z",
+  "generated": "2026-09-14T18:28:03Z",
   "plugins": [
-    {
-      "id": "retroarch",
-      "name": "AERA RetroArch",
-      "version": "1.1.0",
-      "description": "Touch-first RetroArch with GLUI, Game Boy/Color emulation, speaker audio, isolated content access, and a bundled test core.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/829cfc876993405d4651ac12fafcd254df5ac67d/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/829cfc876993405d4651ac12fafcd254df5ac67d/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/retroarch/releases/download/v1.1.0/AERA-RetroArch-1.1.0.aerap",
-      "package_size": 2767112,
-      "package_sha256": "790fcc5ac3e631214cf12bda670dbd619fa9037cb5277e0f4eb30c590713ec6c",
-      "localizations": {
-        "ar_SA": {
-          "name": "AERA RetroArch",
-          "description": "لمس أول RetroArch باستخدام محاكاة GLUI و Game Boy و Game Boy Color، وصوت السماعة، والوصول للمحتوى المعزول، ونواة اختبار مرفقة."
-        },
-        "bg_BG": {
-          "name": "AERA RetroArch",
-          "description": "Първо докоснете RetroArch с GLUI, Game Boy и Game Boy Color емулация, аудио от високоговорителя, изолиран достъп до съдържание и включено тестово ядро."
-        },
-        "bn_BD": {
-          "name": "AERA RetroArch",
-          "description": "RetroArch কে GLUI, Game Boy এবং Game Boy Color মিমিক্রি, স্পিকার অডিও, পৃথক বিষয়বস্তু অ্যাক্সেস এবং একটি সংযুক্ত পরীক্ষার কোর সহ প্রথমে স্পর্শ করুন।"
-        },
-        "ca_ES": {
-          "name": "AERA RetroArch",
-          "description": "Touch-first RetroArch amb emulació GLUI, Game Boy i Game Boy Color, àudio del altaveu, accés a contingut aïllat i un nucli de prova integrat."
-        },
-        "cs_CZ": {
-          "name": "AERA RetroArch",
-          "description": "První dotyk RetroArch s emulací GLUI, Game Boy a Game Boy Color, audio reproduktor, izolovaný přístup k obsahu a součástí je testovací jádro."
-        },
-        "de_DE": {
-          "name": "AERA RetroArch",
-          "description": "Touch-first RetroArch mit GLUI, Game Boy und Game Boy Color-Emulation, Lautsprecher-Audio, isoliertem Inhaltszugriff und einem gebündelten Testkern."
-        },
-        "el_GR": {
-          "name": "AERA RetroArch",
-          "description": "Πρώτη χρήση αφής RetroArch με GLUI, προσομοίωση Game Boy και Game Boy Color, ήχο ηχείου, απομονωμένη πρόσβαση περιεχομένου και ενσωματωμένο δοκιμαστικό πυρήνα."
-        },
-        "es-ES": {
-          "name": "AERA RetroArch",
-          "description": "Tacto primero RetroArch con GLUI, emulación Game Boy y Game Boy Color, audio de altavoz, acceso a contenido aislado y un núcleo de prueba incluido."
-        },
-        "fa_IR": {
-          "name": "AERA RetroArch",
-          "description": "لمس اول RetroArch با شبیه‌سازی GLUI، Game Boy و Game Boy Color، صدای بلندگو، دسترسی به محتوای جدا شده و یک هسته تست بسته‌بندی شده."
-        },
-        "fr_FR": {
-          "name": "AERA RetroArch",
-          "description": "Touchez d'abord RetroArch avec l'émulation GLUI, Game Boy et Game Boy Color, le son du haut-parleur, l'accès au contenu isolé et un noyau de test inclus."
-        },
-        "he_IL": {
-          "name": "AERA RetroArch",
-          "description": "גע תחילה ב-RetroArch עם GLUI, Game Boy ו-Game Boy Color חיקוי, שמע לרמקול, גישה לתוכן מבודד וליבת בדיקה מצורפת."
-        },
-        "hi_IN": {
-          "name": "AERA RetroArch",
-          "description": "RetroArch को GLUI, Game Boy और Game Boy Color अनुकरण, स्पीकर ऑडियो, पृथक सामग्री पहुँच, और बंडल किए गए परीक्षण कोर के साथ पहले छूएं।"
-        },
-        "hu": {
-          "name": "AERA RetroArch",
-          "description": "Érintés-első RetroArch GLUI, Game Boy és Game Boy Color emulációval, hangszóró audióval, elszigetelt tartalom-hozzáféréssel és egy csomagolt tesztmaggal."
-        },
-        "id_ID": {
-          "name": "AERA RetroArch",
-          "description": "Sentuh-pertama RetroArch dengan emulasi GLUI, Game Boy dan Game Boy Color, audio speaker, akses konten terisolasi, dan inti uji yang disertakan."
-        },
-        "it_IT": {
-          "name": "AERA RetroArch",
-          "description": "Primo tocco RetroArch con emulazione GLUI, Game Boy e Game Boy Color, audio altoparlante, accesso a contenuti isolati e core di test incluso."
-        },
-        "ja_JP": {
-          "name": "AERA RetroArch",
-          "description": "RetroArch を GLUI、Game Boy、Game Boy Color のエミュレーション、スピーカーオーディオ、分離されたコンテンツアクセス、およびバンドルされたテストコアでタッチファーストします。"
-        },
-        "ko_KR": {
-          "name": "AERA RetroArch",
-          "description": "터치 우선 RetroArch를 GLUI, Game Boy 및 Game Boy Color 에뮬레이션, 스피커 오디오, 격리된 콘텐츠 접근, 그리고 번들 테스트 코어와 함께 사용"
-        },
-        "nl_NL": {
-          "name": "AERA RetroArch",
-          "description": "Raak eerst RetroArch aan met GLUI, Game Boy en Game Boy Color-emulatie, luidsprekeraudio, geïsoleerde toegang tot inhoud en een gebundelde testkern."
-        },
-        "no_NO": {
-          "name": "AERA RetroArch",
-          "description": "Berør-først RetroArch med GLUI, Game Boy og Game Boy Color-emulering, høyttalerlyd, isolert innholdstilgang og en inkludert testkjerne."
-        },
-        "pl_PL": {
-          "name": "AERA RetroArch",
-          "description": "Dotknij najpierw RetroArch z emulacją GLUI, Game Boy i Game Boy Color, audio głośnika, izolowany dostęp do treści i zintegrowane jądro testowe."
-        },
-        "pt_BR": {
-          "name": "AERA RetroArch",
-          "description": "Primeiro toque RetroArch com emulação GLUI, Game Boy e Game Boy Color, áudio do alto-falante, acesso a conteúdo isolado e um núcleo de teste incluído."
-        },
-        "pt_PT": {
-          "name": "AERA RetroArch",
-          "description": "Primeiro toque RetroArch com emulação GLUI, Game Boy e Game Boy Color, áudio do altifalante, acesso a conteúdo isolado, e um núcleo de teste incluído."
-        },
-        "ro_RO": {
-          "name": "AERA RetroArch",
-          "description": "Atingere întâi RetroArch cu emulație GLUI, Game Boy și Game Boy Color, audio la difuzor, acces izolat la conținut și un nucleu de testare inclus."
-        },
-        "ru": {
-          "name": "AERA RetroArch",
-          "description": "Сначала коснитесь RetroArch с эмуляцией GLUI, Game Boy и Game Boy Color, аудио динамика, изолированного доступа к контенту и встроенного тестового ядра."
-        },
-        "sr_Cyrl": {
-          "name": "AERA RetroArch",
-          "description": "Прво тапкање RetroArch са GLUI, Game Boy и Game Boy Color емулатором, звучником, изолованим приступом садржају и уграђеним тест кером."
-        },
-        "th_TH": {
-          "name": "AERA RetroArch",
-          "description": "สัมผัส RetroArch ก่อนด้วยการจำลอง GLUI, Game Boy และ Game Boy Color, เสียงลำโพง, การเข้าถึงเนื้อหาแบบแยกส่วน, และแกนทดสอบที่รวมมาให้"
-        },
-        "tr_TR": {
-          "name": "AERA RetroArch",
-          "description": "RetroArch'yi GLUI, Game Boy ve Game Boy Color emülasyonu, hoparlör sesi, izole içerik erişimi ve paketlenmiş test çekirdeği ile önce dokunarak kullanın."
-        },
-        "uk_UA": {
-          "name": "AERA RetroArch",
-          "description": "Спочатку торкніться RetroArch з емуліацією GLUI, Game Boy та Game Boy Color, аудіо динаміка, ізольованим доступом до контенту та комплектним тестовим ядром."
-        },
-        "vi_VN": {
-          "name": "AERA RetroArch",
-          "description": "Chạm trước RetroArch với giả lập GLUI, Game Boy và Game Boy Color, âm thanh loa, quyền truy cập nội dung riêng biệt và lõi thử nghiệm đi kèm."
-        },
-        "zh_CN": {
-          "name": "AERA RetroArch",
-          "description": "首次触控 RetroArch 与 GLUI、Game Boy 和 Game Boy Color 模拟、扬声器音频、隔离内容访问以及捆绑的测试核心。"
-        },
-        "zh_TW": {
-          "name": "AERA RetroArch",
-          "description": "先觸控 RetroArch，使用 GLUI、Game Boy 與 Game Boy Color 模擬、揚聲器音訊、隔離內容存取以及內建測試核心。"
-        }
-      }
-    },
     {
       "id": "telegram",
       "name": "AERA Telegram",
@@ -1232,6 +1095,143 @@
         "zh_TW": {
           "name": "AERA Settings Backup",
           "description": "備份並還原 AERA 恢復偏好設定。"
+        }
+      }
+    },
+    {
+      "id": "retroarch",
+      "name": "AERA RetroArch",
+      "version": "1.1.1",
+      "description": "Touch-first RetroArch with GLUI, Game Boy/Color emulation, speaker audio, isolated content access, and a bundled test core.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/7401f91a37553731990a46a51650223ad1239aff/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/7401f91a37553731990a46a51650223ad1239aff/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/retroarch/releases/download/v1.1.1/AERA-RetroArch-1.1.1.aerap",
+      "package_size": 4453453,
+      "package_sha256": "0fc9bb4664879b1b11e0ccd21a16a69d6d5e5c1314a9389711f8010b073119f2",
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA RetroArch",
+          "description": "لمس أول RetroArch باستخدام محاكاة GLUI و Game Boy و Game Boy Color، وصوت السماعة، والوصول للمحتوى المعزول، ونواة اختبار مرفقة."
+        },
+        "bg_BG": {
+          "name": "AERA RetroArch",
+          "description": "Първо докоснете RetroArch с GLUI, Game Boy и Game Boy Color емулация, аудио от високоговорителя, изолиран достъп до съдържание и включено тестово ядро."
+        },
+        "bn_BD": {
+          "name": "AERA RetroArch",
+          "description": "RetroArch কে GLUI, Game Boy এবং Game Boy Color মিমিক্রি, স্পিকার অডিও, পৃথক বিষয়বস্তু অ্যাক্সেস এবং একটি সংযুক্ত পরীক্ষার কোর সহ প্রথমে স্পর্শ করুন।"
+        },
+        "ca_ES": {
+          "name": "AERA RetroArch",
+          "description": "Touch-first RetroArch amb emulació GLUI, Game Boy i Game Boy Color, àudio del altaveu, accés a contingut aïllat i un nucli de prova integrat."
+        },
+        "cs_CZ": {
+          "name": "AERA RetroArch",
+          "description": "První dotyk RetroArch s emulací GLUI, Game Boy a Game Boy Color, audio reproduktor, izolovaný přístup k obsahu a součástí je testovací jádro."
+        },
+        "de_DE": {
+          "name": "AERA RetroArch",
+          "description": "Touch-first RetroArch mit GLUI, Game Boy und Game Boy Color-Emulation, Lautsprecher-Audio, isoliertem Inhaltszugriff und einem gebündelten Testkern."
+        },
+        "el_GR": {
+          "name": "AERA RetroArch",
+          "description": "Πρώτη χρήση αφής RetroArch με GLUI, προσομοίωση Game Boy και Game Boy Color, ήχο ηχείου, απομονωμένη πρόσβαση περιεχομένου και ενσωματωμένο δοκιμαστικό πυρήνα."
+        },
+        "es-ES": {
+          "name": "AERA RetroArch",
+          "description": "Tacto primero RetroArch con GLUI, emulación Game Boy y Game Boy Color, audio de altavoz, acceso a contenido aislado y un núcleo de prueba incluido."
+        },
+        "fa_IR": {
+          "name": "AERA RetroArch",
+          "description": "لمس اول RetroArch با شبیه‌سازی GLUI، Game Boy و Game Boy Color، صدای بلندگو، دسترسی به محتوای جدا شده و یک هسته تست بسته‌بندی شده."
+        },
+        "fr_FR": {
+          "name": "AERA RetroArch",
+          "description": "Touchez d'abord RetroArch avec l'émulation GLUI, Game Boy et Game Boy Color, le son du haut-parleur, l'accès au contenu isolé et un noyau de test inclus."
+        },
+        "he_IL": {
+          "name": "AERA RetroArch",
+          "description": "גע תחילה ב-RetroArch עם GLUI, Game Boy ו-Game Boy Color חיקוי, שמע לרמקול, גישה לתוכן מבודד וליבת בדיקה מצורפת."
+        },
+        "hi_IN": {
+          "name": "AERA RetroArch",
+          "description": "RetroArch को GLUI, Game Boy और Game Boy Color अनुकरण, स्पीकर ऑडियो, पृथक सामग्री पहुँच, और बंडल किए गए परीक्षण कोर के साथ पहले छूएं।"
+        },
+        "hu": {
+          "name": "AERA RetroArch",
+          "description": "Érintés-első RetroArch GLUI, Game Boy és Game Boy Color emulációval, hangszóró audióval, elszigetelt tartalom-hozzáféréssel és egy csomagolt tesztmaggal."
+        },
+        "id_ID": {
+          "name": "AERA RetroArch",
+          "description": "Sentuh-pertama RetroArch dengan emulasi GLUI, Game Boy dan Game Boy Color, audio speaker, akses konten terisolasi, dan inti uji yang disertakan."
+        },
+        "it_IT": {
+          "name": "AERA RetroArch",
+          "description": "Primo tocco RetroArch con emulazione GLUI, Game Boy e Game Boy Color, audio altoparlante, accesso a contenuti isolati e core di test incluso."
+        },
+        "ja_JP": {
+          "name": "AERA RetroArch",
+          "description": "RetroArch を GLUI、Game Boy、Game Boy Color のエミュレーション、スピーカーオーディオ、分離されたコンテンツアクセス、およびバンドルされたテストコアでタッチファーストします。"
+        },
+        "ko_KR": {
+          "name": "AERA RetroArch",
+          "description": "터치 우선 RetroArch를 GLUI, Game Boy 및 Game Boy Color 에뮬레이션, 스피커 오디오, 격리된 콘텐츠 접근, 그리고 번들 테스트 코어와 함께 사용"
+        },
+        "nl_NL": {
+          "name": "AERA RetroArch",
+          "description": "Raak eerst RetroArch aan met GLUI, Game Boy en Game Boy Color-emulatie, luidsprekeraudio, geïsoleerde toegang tot inhoud en een gebundelde testkern."
+        },
+        "no_NO": {
+          "name": "AERA RetroArch",
+          "description": "Berør-først RetroArch med GLUI, Game Boy og Game Boy Color-emulering, høyttalerlyd, isolert innholdstilgang og en inkludert testkjerne."
+        },
+        "pl_PL": {
+          "name": "AERA RetroArch",
+          "description": "Dotknij najpierw RetroArch z emulacją GLUI, Game Boy i Game Boy Color, audio głośnika, izolowany dostęp do treści i zintegrowane jądro testowe."
+        },
+        "pt_BR": {
+          "name": "AERA RetroArch",
+          "description": "Primeiro toque RetroArch com emulação GLUI, Game Boy e Game Boy Color, áudio do alto-falante, acesso a conteúdo isolado e um núcleo de teste incluído."
+        },
+        "pt_PT": {
+          "name": "AERA RetroArch",
+          "description": "Primeiro toque RetroArch com emulação GLUI, Game Boy e Game Boy Color, áudio do altifalante, acesso a conteúdo isolado, e um núcleo de teste incluído."
+        },
+        "ro_RO": {
+          "name": "AERA RetroArch",
+          "description": "Atingere întâi RetroArch cu emulație GLUI, Game Boy și Game Boy Color, audio la difuzor, acces izolat la conținut și un nucleu de testare inclus."
+        },
+        "ru": {
+          "name": "AERA RetroArch",
+          "description": "Сначала коснитесь RetroArch с эмуляцией GLUI, Game Boy и Game Boy Color, аудио динамика, изолированного доступа к контенту и встроенного тестового ядра."
+        },
+        "sr_Cyrl": {
+          "name": "AERA RetroArch",
+          "description": "Прво тапкање RetroArch са GLUI, Game Boy и Game Boy Color емулатором, звучником, изолованим приступом садржају и уграђеним тест кером."
+        },
+        "th_TH": {
+          "name": "AERA RetroArch",
+          "description": "สัมผัส RetroArch ก่อนด้วยการจำลอง GLUI, Game Boy และ Game Boy Color, เสียงลำโพง, การเข้าถึงเนื้อหาแบบแยกส่วน, และแกนทดสอบที่รวมมาให้"
+        },
+        "tr_TR": {
+          "name": "AERA RetroArch",
+          "description": "RetroArch'yi GLUI, Game Boy ve Game Boy Color emülasyonu, hoparlör sesi, izole içerik erişimi ve paketlenmiş test çekirdeği ile önce dokunarak kullanın."
+        },
+        "uk_UA": {
+          "name": "AERA RetroArch",
+          "description": "Спочатку торкніться RetroArch з емуліацією GLUI, Game Boy та Game Boy Color, аудіо динаміка, ізольованим доступом до контенту та комплектним тестовим ядром."
+        },
+        "vi_VN": {
+          "name": "AERA RetroArch",
+          "description": "Chạm trước RetroArch với giả lập GLUI, Game Boy và Game Boy Color, âm thanh loa, quyền truy cập nội dung riêng biệt và lõi thử nghiệm đi kèm."
+        },
+        "zh_CN": {
+          "name": "AERA RetroArch",
+          "description": "首次触控 RetroArch 与 GLUI、Game Boy 和 Game Boy Color 模拟、扬声器音频、隔离内容访问以及捆绑的测试核心。"
+        },
+        "zh_TW": {
+          "name": "AERA RetroArch",
+          "description": "先觸控 RetroArch，使用 GLUI、Game Boy 與 Game Boy Color 模擬、揚聲器音訊、隔離內容存取以及內建測試核心。"
         }
       }
     }
