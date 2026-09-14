@@ -54,6 +54,24 @@ def load_json(data: bytes, source: str):
         raise ValueError(f"invalid JSON in {source}: {error}") from error
 
 
+def validate_localizations(value):
+    if value is None:
+        return
+    if not isinstance(value, dict) or len(value) > 64:
+        raise ValueError("localizations must be an object")
+    for locale, metadata in value.items():
+        if (not re.fullmatch(r"[A-Za-z]{2,3}(?:[-_][A-Za-z]{2,8})?", locale) or
+                not isinstance(metadata, dict)):
+            raise ValueError(f"invalid localization: {locale}")
+        if set(metadata) - {"name", "description"}:
+            raise ValueError(f"unsupported localized metadata: {locale}")
+        for field in ("name", "description"):
+            if field in metadata and not isinstance(metadata[field], str):
+                raise ValueError(f"invalid localized {field}: {locale}")
+        if len(metadata.get("name", "")) > 80 or len(metadata.get("description", "")) > 320:
+            raise ValueError(f"localized metadata is too long: {locale}")
+
+
 def validate_manifest(manifest, expected_id=None):
     required = {
         "schema", "id", "name", "version", "description", "type", "entry",
@@ -65,6 +83,7 @@ def validate_manifest(manifest, expected_id=None):
         raise ValueError(f"manifest is missing: {', '.join(missing)}")
     if manifest["schema"] != 1 or manifest["min_host_api"] not in (1, 2):
         raise ValueError("manifest schema/host API is unsupported")
+    validate_localizations(manifest.get("localizations"))
     if manifest["min_host_api"] == 2:
         required_api2 = {"protocol_version", "executable", "permissions"}
         missing_api2 = sorted(required_api2 - manifest.keys())
@@ -115,6 +134,7 @@ def validate_catalog(catalog, online=False):
         for field in ("id", "name", "version", "description", "manifest_url", "signature_url"):
             if not isinstance(entry.get(field), str) or not entry[field]:
                 raise ValueError(f"{plugin_id or 'entry'} has invalid {field}")
+        validate_localizations(entry.get("localizations"))
         expected_prefix = RAW_PREFIX + plugin_id.replace("appvault", "app-backup-vault") + "/"
         if not entry["manifest_url"].startswith(expected_prefix):
             raise ValueError(f"{plugin_id} manifest URL is outside its official repository")
@@ -145,6 +165,8 @@ def validate_catalog(catalog, online=False):
             validate_manifest(manifest, plugin_id)
             if manifest["name"] != entry["name"] or manifest["version"] != entry["version"]:
                 raise ValueError(f"{plugin_id} catalog metadata does not match its manifest")
+            if manifest.get("localizations") != entry.get("localizations"):
+                raise ValueError(f"{plugin_id} localized metadata does not match its manifest")
 
 
 def current_catalog(online=False):
@@ -195,6 +217,8 @@ def add(arguments):
         "package_size": package_path.stat().st_size,
         "package_sha256": package_hash,
     }
+    if manifest.get("localizations"):
+        entry["localizations"] = manifest["localizations"]
     catalog["plugins"] = [item for item in catalog["plugins"] if item["id"] != manifest["id"]]
     catalog["plugins"].append(entry)
     catalog["generated"] = datetime.datetime.now(datetime.timezone.utc).replace(

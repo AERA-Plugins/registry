@@ -42,6 +42,16 @@ Create `plugin.json` using the values printed in `build/metadata.json`:
   "name": "My Plugin",
   "version": "1.0.0",
   "description": "A short description.",
+  "localizations": {
+    "de_DE": {
+      "name": "Mein Plugin",
+      "description": "Eine kurze Beschreibung."
+    },
+    "zh_CN": {
+      "name": "我的插件",
+      "description": "简短说明。"
+    }
+  },
   "type": "ui-runtime",
   "entry": "main",
   "min_host_api": 2,
@@ -67,6 +77,9 @@ Create `plugin.json` using the values printed in `build/metadata.json`:
 Host API 2 accepts new IDs without recovery-side routing. The isolated ARM64
 worker communicates over file descriptor 4 while AERA owns all visible UI and
 privileged operations. Its manifest must request `display` and `touch-input`.
+The optional `localizations` object localizes store and installed-plugin
+metadata. AERA matches the complete `AERA_LOCALE` first, then its base language,
+and always falls back to the top-level English `name` and `description`.
 Android and ROM settings use operation IDs 3/4 and the separately declared
 `android-settings-backup` / `android-settings-restore` permissions. The host
 performs those operations without exposing `/data/system` to the worker.
