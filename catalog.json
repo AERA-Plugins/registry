@@ -1,18 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-09-13T07:36:05Z",
+  "generated": "2026-09-14T10:57:31Z",
   "plugins": [
-    {
-      "id": "browser",
-      "name": "AERA Browser",
-      "version": "1.3.0",
-      "description": "Full-height mobile WebKit browser with 120 Hz GPU compositing, video, and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3fcd8065206c0215a285871af15020d4f5ecd0f9/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3fcd8065206c0215a285871af15020d4f5ecd0f9/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.3.0/AERA-Browser-1.3.0.aerap",
-      "package_size": 40993624,
-      "package_sha256": "3c5fe5d81cd236d2f080477679a6e2917ca428d8743cbaaf2d429c84c5a37e5e"
-    },
     {
       "id": "retroarch",
       "name": "AERA RetroArch",
@@ -89,6 +78,17 @@
       "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.1.0/AERA-Media-1.1.0.aerap",
       "package_size": 6892096,
       "package_sha256": "6485bd84cadf110a68e72c79cba9447fd50339763358bea5ad9cfbac265fe4f5"
+    },
+    {
+      "id": "browser",
+      "name": "AERA Browser",
+      "version": "1.4.0",
+      "description": "Full-height mobile WebKit browser with pinch zoom, managed downloads, 120 Hz GPU compositing, video, and AERA speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/d2701f97bb0a47b24b778b981cf0c6a7db4add43/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/d2701f97bb0a47b24b778b981cf0c6a7db4add43/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.4.0/AERA-Browser-1.4.0.aerap",
+      "package_size": 40930907,
+      "package_sha256": "74a9235249c413ddc12c112f3833474a4475d3651410bc7367aaa256a7877395"
     }
   ]
 }
