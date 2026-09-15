@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-15T17:53:14Z",
+  "generated": "2026-09-15T20:11:46Z",
   "plugins": [
     {
       "id": "mirror",
@@ -1268,6 +1268,147 @@
         "zh_TW": {
           "name": "AERA RetroArch",
           "description": "觸控優化的 RetroArch 具有 Game Boy 模擬和揚聲器音訊。"
+        }
+      }
+    },
+    {
+      "id": "streams",
+      "name": "AERA Streams",
+      "version": "0.2.2",
+      "description": "Browse and search YouTube, SoundCloud, PeerTube, Bandcamp and media.ccc.de with thumbnails, categories, playlists, adaptive video and AERA audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/streams/a8c54d2f4d07fd62156ff5d0e4ecb7814d365dc0/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/streams/a8c54d2f4d07fd62156ff5d0e4ecb7814d365dc0/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/streams/releases/download/v0.2.2/AERA-Streams-0.2.2.aerap",
+      "package_size": 43435658,
+      "package_sha256": "b2ccb46ef31ac2417e180e0a04f890d706ea6793b3b9fcb47120993b5a87fc15",
+      "localizations": {
+        "ar_SA": {
+          "description": "تصفح مقاطع الفيديو والموسيقى من خدمات البث المفتوح.",
+          "name": "AERA Streams"
+        },
+        "bg_BG": {
+          "description": "Преглеждайте видеоклипове и музика от отворени стрийминг услуги.",
+          "name": "AERA Streams"
+        },
+        "bn_BD": {
+          "description": "ওপেন স্ট্রিমিং পরিষেবা থেকে ভিডিও এবং সঙ্গীত ব্রাউজ করুন ।",
+          "name": "AERA Streams"
+        },
+        "ca_ES": {
+          "description": "Navega per vídeos i música dels serveis de streaming oberts.",
+          "name": "AERA Streams"
+        },
+        "cs_CZ": {
+          "description": "Procházejte videa a hudbu z otevřených streamovacích služeb.",
+          "name": "AERA Streams"
+        },
+        "de_DE": {
+          "description": "Durchsuchen Sie Videos und Musik von offenen Streaming-Diensten.",
+          "name": "AERA Streams"
+        },
+        "el_GR": {
+          "description": "Περιηγηθείτε σε βίντεο και μουσική από υπηρεσίες ανοικτής ροής.",
+          "name": "AERA Streams"
+        },
+        "es-ES": {
+          "description": "Navega por vídeos y música desde servicios de streaming abiertos.",
+          "name": "AERA Streams"
+        },
+        "fa_IR": {
+          "description": "ویدیوها و موسیقی را از سرویس‌های پخش آنلاین باز مرور کنید.",
+          "name": "AERA Streams"
+        },
+        "fr_FR": {
+          "description": "Parcourez les vidéos et la musique des services de streaming ouverts.",
+          "name": "AERA Streams"
+        },
+        "he_IL": {
+          "description": "עיון בסרטונים ומוזיקה משירותי סטרימינג פתוחים.",
+          "name": "AERA Streams"
+        },
+        "hi_IN": {
+          "description": "खुली स्ट्रीमिंग सेवाओं से वीडियो और संगीत ब्राउज़ करें।",
+          "name": "AERA Streams"
+        },
+        "hu": {
+          "description": "Böngésszen a nyitott streamingszolgáltatások videói és zenéi között.",
+          "name": "AERA Streams"
+        },
+        "id_ID": {
+          "description": "Telusuri video dan musik dari layanan streaming terbuka.",
+          "name": "AERA Streams"
+        },
+        "it_IT": {
+          "description": "Sfoglia video e musica dai servizi di streaming aperti.",
+          "name": "AERA Streams"
+        },
+        "ja_JP": {
+          "description": "オープンなストリーミングサービスから動画や音楽を閲覧できます。",
+          "name": "AERA Streams"
+        },
+        "ko_KR": {
+          "description": "오픈 스트리밍 서비스에서 동영상과 음악을 찾아보세요.",
+          "name": "AERA Streams"
+        },
+        "nl_NL": {
+          "description": "Blader door video's en muziek van open streamingdiensten.",
+          "name": "AERA Streams"
+        },
+        "no_NO": {
+          "description": "Bla gjennom videoer og musikk fra åpne strømmetjenester.",
+          "name": "AERA Streams"
+        },
+        "pl_PL": {
+          "description": "Przeglądaj filmy i muzykę z otwartych serwisów streamingowych.",
+          "name": "AERA Streams"
+        },
+        "pt_BR": {
+          "description": "Navegue por vídeos e músicas de serviços de streaming abertos.",
+          "name": "AERA Streams"
+        },
+        "pt_PT": {
+          "description": "Navegue por vídeos e músicas de serviços de streaming abertos.",
+          "name": "AERA Streams"
+        },
+        "ro_RO": {
+          "description": "Răsfoiți videoclipuri și muzică de la serviciile de streaming deschise.",
+          "name": "AERA Streams"
+        },
+        "ru": {
+          "description": "Просмотр видео и музыки из открытых потоковых сервисов.",
+          "name": "AERA Streams"
+        },
+        "sr_Cyrl": {
+          "description": "Pregledajte video zapise i muziku iz otvorenih servisa za strimovanje.",
+          "name": "AERA Streams"
+        },
+        "sv_SE": {
+          "description": "Bläddra bland videor och musik från öppna streamingtjänster.",
+          "name": "AERA Streams"
+        },
+        "th_TH": {
+          "description": "เรียกดูวิดีโอและเพลงจากบริการสตรีมมิ่งแบบเปิด",
+          "name": "AERA Streams"
+        },
+        "tr_TR": {
+          "description": "Açık akış hizmetlerinden videolara ve müziklere göz atın.",
+          "name": "AERA Streams"
+        },
+        "uk_UA": {
+          "description": "Переглядайте відео та музику з відкритих потокових сервісів.",
+          "name": "AERA Streams"
+        },
+        "vi_VN": {
+          "description": "Duyệt video và nhạc từ các dịch vụ phát trực tuyến mở.",
+          "name": "AERA Streams"
+        },
+        "zh_CN": {
+          "description": "通过开放式流媒体服务浏览视频和音乐。",
+          "name": "AERA Streams"
+        },
+        "zh_TW": {
+          "description": "透過開放式串流服務瀏覽影片和音樂。",
+          "name": "AERA Streams"
         }
       }
     }
