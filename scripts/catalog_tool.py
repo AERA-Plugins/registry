@@ -47,6 +47,15 @@ def fetch(url: str, maximum: int) -> bytes:
     return value
 
 
+def verify_remote_package(url: str, expected_size: int):
+    request = urllib.request.Request(
+        url, method="HEAD", headers={"User-Agent": "AERA-catalog-validator/1"})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        length = response.headers.get("Content-Length")
+    if length is not None and int(length) != expected_size:
+        raise ValueError(f"remote package size differs from catalog: {url}")
+
+
 def load_json(data: bytes, source: str):
     try:
         return json.loads(data)
@@ -167,6 +176,8 @@ def validate_catalog(catalog, online=False):
                 raise ValueError(f"{plugin_id} catalog metadata does not match its manifest")
             if manifest.get("localizations") != entry.get("localizations"):
                 raise ValueError(f"{plugin_id} localized metadata does not match its manifest")
+            if package_present:
+                verify_remote_package(package_url, package_size)
 
 
 def current_catalog(online=False):
@@ -208,7 +219,8 @@ def add(arguments):
     if package_path.suffix.lower() != ".aerap":
         raise ValueError("--package must point to an .aerap file")
     package_hash = hashlib.sha256(package_path.read_bytes()).hexdigest()
-    release_base = manifest["payload_url"].rsplit("/", 1)[0]
+    release_base = (
+        f"{RELEASE_PREFIX}{repository}/releases/download/v{manifest['version']}")
     entry = {
         "id": manifest["id"], "name": manifest["name"],
         "version": manifest["version"], "description": manifest["description"],
@@ -219,8 +231,12 @@ def add(arguments):
     }
     if manifest.get("localizations"):
         entry["localizations"] = manifest["localizations"]
-    catalog["plugins"] = [item for item in catalog["plugins"] if item["id"] != manifest["id"]]
-    catalog["plugins"].append(entry)
+    for index, item in enumerate(catalog["plugins"]):
+        if item["id"] == manifest["id"]:
+            catalog["plugins"][index] = entry
+            break
+    else:
+        catalog["plugins"].append(entry)
     catalog["generated"] = datetime.datetime.now(datetime.timezone.utc).replace(
         microsecond=0).isoformat().replace("+00:00", "Z")
     validate_catalog(catalog, arguments.online)

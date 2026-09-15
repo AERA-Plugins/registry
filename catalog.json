@@ -1,289 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-09-15T17:18:39Z",
+  "generated": "2026-09-15T17:53:14Z",
   "plugins": [
-    {
-      "id": "browser",
-      "name": "AERA Browser",
-      "version": "1.5.1",
-      "description": "WebKit browser with downloads, video, GPU rendering, and speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3b7830c75a5faa42e7b57eb4376b3d281814bb59/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3b7830c75a5faa42e7b57eb4376b3d281814bb59/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.5.0/AERA-Browser-1.5.1.aerap",
-      "package_size": 40936544,
-      "package_sha256": "e374e24ef56e0b7e04427928c99bdfd53acbc34917e0fe2b5749be60225bb1a7",
-      "localizations": {
-        "ar_SA": {
-          "name": "AERA Browser",
-          "description": "متصفح WebKit مع التنزيلات والفيديو وعرض GPU وصوت مكبر الصوت."
-        },
-        "bg_BG": {
-          "name": "AERA Browser",
-          "description": "WebKit браузър с изтегляния, видео, GPU изобразяване и аудио на високоговорителя."
-        },
-        "bn_BD": {
-          "name": "AERA Browser",
-          "description": "ডাউনলোড, ভিডিও, GPU রেন্ডারিং এবং স্পিকার অডিও সহ WebKit ব্রাউজার।"
-        },
-        "ca_ES": {
-          "name": "AERA Browser",
-          "description": "Navegador WebKit amb baixades, vídeo, renderització GPU i àudio dels altaveus."
-        },
-        "cs_CZ": {
-          "name": "AERA Browser",
-          "description": "Prohlížeč WebKit se stahováním, videem, vykreslováním GPU a zvukem reproduktorů."
-        },
-        "de_DE": {
-          "name": "AERA Browser",
-          "description": "WebKit-Browser mit Downloads, Video, GPU-Rendering und Lautsprecher-Audio."
-        },
-        "el_GR": {
-          "name": "AERA Browser",
-          "description": "Πρόγραμμα περιήγησης WebKit με λήψεις, βίντεο, απόδοση GPU και ήχο ηχείων."
-        },
-        "es-ES": {
-          "name": "AERA Browser",
-          "description": "Navegador WebKit con descargas, video, renderizado GPU y audio de altavoz."
-        },
-        "fa_IR": {
-          "name": "AERA Browser",
-          "description": "مرورگر WebKit با دانلود، ویدیو، رندر GPU و صدای بلندگو."
-        },
-        "fr_FR": {
-          "name": "AERA Browser",
-          "description": "Navigateur WebKit avec téléchargements, vidéo, rendu GPU et audio du haut-parleur."
-        },
-        "he_IL": {
-          "name": "AERA Browser",
-          "description": "דפדפן WebKit עם הורדות, וידאו, עיבוד GPU ואודיו של רמקול."
-        },
-        "hi_IN": {
-          "name": "AERA Browser",
-          "description": "डाउनलोड, वीडियो, GPU रेंडरिंग और स्पीकर ऑडियो के साथ WebKit ब्राउज़र।"
-        },
-        "hu": {
-          "name": "AERA Browser",
-          "description": "WebKit böngésző letöltésekkel, videóval, GPU rendereléssel és hangszóró hanggal."
-        },
-        "id_ID": {
-          "name": "AERA Browser",
-          "description": "Browser WebKit dengan unduhan, video, rendering GPU, dan audio speaker."
-        },
-        "it_IT": {
-          "name": "AERA Browser",
-          "description": "Browser WebKit con download, video, rendering GPU e audio dell'altoparlante."
-        },
-        "ja_JP": {
-          "name": "AERA Browser",
-          "description": "ダウンロード、ビデオ、GPU レンダリング、スピーカー オーディオを備えた WebKit ブラウザー。"
-        },
-        "ko_KR": {
-          "name": "AERA Browser",
-          "description": "다운로드, 비디오, GPU 렌더링 및 스피커 오디오가 포함된 WebKit 브라우저."
-        },
-        "nl_NL": {
-          "name": "AERA Browser",
-          "description": "WebKit-browser met downloads, video, GPU-rendering en luidsprekeraudio."
-        },
-        "no_NO": {
-          "name": "AERA Browser",
-          "description": "WebKit-nettleser med nedlastinger, video, GPU-gjengivelse og høyttalerlyd."
-        },
-        "pl_PL": {
-          "name": "AERA Browser",
-          "description": "Przeglądarka WebKit z plikami do pobrania, wideo, renderowaniem GPU i dźwiękiem z głośników."
-        },
-        "pt_BR": {
-          "name": "AERA Browser",
-          "description": "Navegador WebKit com downloads, vídeo, renderização GPU e áudio do alto-falante."
-        },
-        "pt_PT": {
-          "name": "AERA Browser",
-          "description": "WebKit Browser com downloads, vídeo, renderização GPU e áudio do altifalante."
-        },
-        "ro_RO": {
-          "name": "AERA Browser",
-          "description": "Browser WebKit cu descărcări, videoclipuri, redare GPU și audio difuzor."
-        },
-        "ru": {
-          "name": "AERA Browser",
-          "description": "Браузер WebKit с загрузками, видео, рендерингом GPU и звуком динамика."
-        },
-        "sr_Cyrl": {
-          "name": "AERA Browser",
-          "description": "WebKit претраживач са преузимањима, видео записима, GPU рендеровањем и звуком звучника."
-        },
-        "sv_SE": {
-          "name": "AERA Browser",
-          "description": "WebKit-webbläsare med hämtningar, video, GPU-rendering och högtalarljud."
-        },
-        "th_TH": {
-          "name": "AERA Browser",
-          "description": "เบราว์เซอร์ WebKit พร้อมการดาวน์โหลด วิดีโอ การเรนเดอร์ GPU และเสียงลำโพง"
-        },
-        "tr_TR": {
-          "name": "AERA Browser",
-          "description": "İndirmeler, video, GPU oluşturma ve hoparlör sesi içeren WebKit tarayıcı."
-        },
-        "uk_UA": {
-          "name": "AERA Browser",
-          "description": "Браузер WebKit із завантаженнями, відео, рендерингом GPU і звуком динаміків."
-        },
-        "vi_VN": {
-          "name": "AERA Browser",
-          "description": "Trình duyệt WebKit với các bản tải xuống, video, kết xuất GPU và âm thanh loa."
-        },
-        "zh_CN": {
-          "name": "AERA Browser",
-          "description": "WebKit 浏览器，提供下载、视频、GPU 渲染和扬声器音频。"
-        },
-        "zh_TW": {
-          "name": "AERA Browser",
-          "description": "WebKit 瀏覽器，提供下載、視訊、GPU 渲染和揚聲器音訊。"
-        }
-      }
-    },
-    {
-      "id": "media",
-      "name": "AERA Media",
-      "version": "1.2.1",
-      "description": "Music and video player with rotation, timeline controls, and speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/f1a3e607f30eb3d434f38e34c7b933a322223344/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/f1a3e607f30eb3d434f38e34c7b933a322223344/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.2.0/AERA-Media-1.2.1.aerap",
-      "package_size": 6898191,
-      "package_sha256": "84322d8f56333478810441352b709effe07746ac5c9f552113fecb04f9cdeda4",
-      "localizations": {
-        "ar_SA": {
-          "name": "AERA Media",
-          "description": "مشغل الموسيقى والفيديو مع إمكانية التدوير وعناصر التحكم في الجدول الزمني وصوت مكبر الصوت."
-        },
-        "bg_BG": {
-          "name": "AERA Media",
-          "description": "Музикален и видео плейър с ротация, контроли на времевата линия и аудио на високоговорителя."
-        },
-        "bn_BD": {
-          "name": "AERA Media",
-          "description": "ঘূর্ণন, টাইমলাইন নিয়ন্ত্রণ এবং স্পিকার অডিও সহ সঙ্গীত এবং ভিডিও প্লেয়ার।"
-        },
-        "ca_ES": {
-          "name": "AERA Media",
-          "description": "Reproductor de música i vídeo amb rotació, controls de línia de temps i àudio dels altaveus."
-        },
-        "cs_CZ": {
-          "name": "AERA Media",
-          "description": "Přehrávač hudby a videa s rotací, ovládáním časové osy a zvukem reproduktoru."
-        },
-        "de_DE": {
-          "name": "AERA Media",
-          "description": "Musik- und Videoplayer mit Drehung, Zeitleiste und Lautsprecher-Audio."
-        },
-        "el_GR": {
-          "name": "AERA Media",
-          "description": "Πρόγραμμα αναπαραγωγής μουσικής και βίντεο με περιστροφή, χειριστήρια γραμμής χρόνου και ήχο ηχείων."
-        },
-        "es-ES": {
-          "name": "AERA Media",
-          "description": "Reproductor de música y vídeo con rotación, controles de línea de tiempo y audio del altavoz."
-        },
-        "fa_IR": {
-          "name": "AERA Media",
-          "description": "پخش کننده موسیقی و ویدیو با چرخش، کنترل های جدول زمانی و صدای بلندگو."
-        },
-        "fr_FR": {
-          "name": "AERA Media",
-          "description": "Lecteur de musique et vidéo avec rotation, commandes de chronologie et haut-parleur audio."
-        },
-        "he_IL": {
-          "name": "AERA Media",
-          "description": "נגן מוזיקה ווידאו עם סיבוב, בקרות ציר זמן ואודיו של רמקול."
-        },
-        "hi_IN": {
-          "name": "AERA Media",
-          "description": "रोटेशन, टाइमलाइन नियंत्रण और स्पीकर ऑडियो के साथ संगीत और वीडियो प्लेयर।"
-        },
-        "hu": {
-          "name": "AERA Media",
-          "description": "Zene- és videolejátszó forgatással, idővonal-vezérlőkkel és hangszóró hanggal."
-        },
-        "id_ID": {
-          "name": "AERA Media",
-          "description": "Pemutar musik dan video dengan rotasi, kontrol garis waktu, dan audio speaker."
-        },
-        "it_IT": {
-          "name": "AERA Media",
-          "description": "Lettore musicale e video con rotazione, controlli della timeline e audio dell'altoparlante."
-        },
-        "ja_JP": {
-          "name": "AERA Media",
-          "description": "回転、タイムライン コントロール、スピーカー オーディオを備えた音楽およびビデオ プレーヤー。"
-        },
-        "ko_KR": {
-          "name": "AERA Media",
-          "description": "회전, 타임라인 제어, 스피커 오디오가 포함된 음악 및 비디오 플레이어입니다."
-        },
-        "nl_NL": {
-          "name": "AERA Media",
-          "description": "Muziek- en videospeler met rotatie, tijdlijnbediening en luidsprekeraudio."
-        },
-        "no_NO": {
-          "name": "AERA Media",
-          "description": "Musikk- og videospiller med rotasjon, tidslinjekontroller og høyttalerlyd."
-        },
-        "pl_PL": {
-          "name": "AERA Media",
-          "description": "Odtwarzacz muzyki i wideo z możliwością obracania, sterowaniem osią czasu i dźwiękiem z głośników."
-        },
-        "pt_BR": {
-          "name": "AERA Media",
-          "description": "Reprodutor de música e vídeo com rotação, controles de linha do tempo e áudio do alto-falante."
-        },
-        "pt_PT": {
-          "name": "AERA Media",
-          "description": "Reprodutor de música e vídeo com rotação, controlos de linha do tempo e áudio do altifalante."
-        },
-        "ro_RO": {
-          "name": "AERA Media",
-          "description": "Player muzical și video cu rotație, comenzi cronologice și audio difuzor."
-        },
-        "ru": {
-          "name": "AERA Media",
-          "description": "Музыкальный и видеоплеер с вращением, элементами управления временной шкалой и звуком через динамик."
-        },
-        "sr_Cyrl": {
-          "name": "AERA Media",
-          "description": "Музички и видео плејер са ротацијом, контролама временске линије и звуком звучника."
-        },
-        "sv_SE": {
-          "name": "AERA Media",
-          "description": "Musik- och videospelare med rotation, tidslinje och högtalarljud."
-        },
-        "th_TH": {
-          "name": "AERA Media",
-          "description": "เครื่องเล่นเพลงและวิดีโอพร้อมการหมุน การควบคุมไทม์ไลน์ และเสียงลำโพง"
-        },
-        "tr_TR": {
-          "name": "AERA Media",
-          "description": "Döndürme, zaman çizelgesi kontrolleri ve hoparlör sesi özelliklerine sahip müzik ve video oynatıcı."
-        },
-        "uk_UA": {
-          "name": "AERA Media",
-          "description": "Музичний та відеоплеєр із обертанням, елементами керування часовою шкалою та звуком динаміків."
-        },
-        "vi_VN": {
-          "name": "AERA Media",
-          "description": "Trình phát nhạc và video có tính năng xoay, điều khiển dòng thời gian và âm thanh loa."
-        },
-        "zh_CN": {
-          "name": "AERA Media",
-          "description": "具有旋转、时间线控制和扬声器音频的音乐和视频播放器。"
-        },
-        "zh_TW": {
-          "name": "AERA Media",
-          "description": "具有旋轉、時間軸控制和揚聲器音訊的音樂和視訊播放器。"
-        }
-      }
-    },
     {
       "id": "mirror",
       "name": "AERA Mirror",
@@ -567,13 +285,295 @@
       }
     },
     {
+      "id": "browser",
+      "name": "AERA Browser",
+      "version": "1.5.1",
+      "description": "WebKit browser with downloads, video, GPU rendering, and speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3b7830c75a5faa42e7b57eb4376b3d281814bb59/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3b7830c75a5faa42e7b57eb4376b3d281814bb59/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.5.1/AERA-Browser-1.5.1.aerap",
+      "package_size": 40936544,
+      "package_sha256": "e374e24ef56e0b7e04427928c99bdfd53acbc34917e0fe2b5749be60225bb1a7",
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA Browser",
+          "description": "متصفح WebKit مع التنزيلات والفيديو وعرض GPU وصوت مكبر الصوت."
+        },
+        "bg_BG": {
+          "name": "AERA Browser",
+          "description": "WebKit браузър с изтегляния, видео, GPU изобразяване и аудио на високоговорителя."
+        },
+        "bn_BD": {
+          "name": "AERA Browser",
+          "description": "ডাউনলোড, ভিডিও, GPU রেন্ডারিং এবং স্পিকার অডিও সহ WebKit ব্রাউজার।"
+        },
+        "ca_ES": {
+          "name": "AERA Browser",
+          "description": "Navegador WebKit amb baixades, vídeo, renderització GPU i àudio dels altaveus."
+        },
+        "cs_CZ": {
+          "name": "AERA Browser",
+          "description": "Prohlížeč WebKit se stahováním, videem, vykreslováním GPU a zvukem reproduktorů."
+        },
+        "de_DE": {
+          "name": "AERA Browser",
+          "description": "WebKit-Browser mit Downloads, Video, GPU-Rendering und Lautsprecher-Audio."
+        },
+        "el_GR": {
+          "name": "AERA Browser",
+          "description": "Πρόγραμμα περιήγησης WebKit με λήψεις, βίντεο, απόδοση GPU και ήχο ηχείων."
+        },
+        "es-ES": {
+          "name": "AERA Browser",
+          "description": "Navegador WebKit con descargas, video, renderizado GPU y audio de altavoz."
+        },
+        "fa_IR": {
+          "name": "AERA Browser",
+          "description": "مرورگر WebKit با دانلود، ویدیو، رندر GPU و صدای بلندگو."
+        },
+        "fr_FR": {
+          "name": "AERA Browser",
+          "description": "Navigateur WebKit avec téléchargements, vidéo, rendu GPU et audio du haut-parleur."
+        },
+        "he_IL": {
+          "name": "AERA Browser",
+          "description": "דפדפן WebKit עם הורדות, וידאו, עיבוד GPU ואודיו של רמקול."
+        },
+        "hi_IN": {
+          "name": "AERA Browser",
+          "description": "डाउनलोड, वीडियो, GPU रेंडरिंग और स्पीकर ऑडियो के साथ WebKit ब्राउज़र।"
+        },
+        "hu": {
+          "name": "AERA Browser",
+          "description": "WebKit böngésző letöltésekkel, videóval, GPU rendereléssel és hangszóró hanggal."
+        },
+        "id_ID": {
+          "name": "AERA Browser",
+          "description": "Browser WebKit dengan unduhan, video, rendering GPU, dan audio speaker."
+        },
+        "it_IT": {
+          "name": "AERA Browser",
+          "description": "Browser WebKit con download, video, rendering GPU e audio dell'altoparlante."
+        },
+        "ja_JP": {
+          "name": "AERA Browser",
+          "description": "ダウンロード、ビデオ、GPU レンダリング、スピーカー オーディオを備えた WebKit ブラウザー。"
+        },
+        "ko_KR": {
+          "name": "AERA Browser",
+          "description": "다운로드, 비디오, GPU 렌더링 및 스피커 오디오가 포함된 WebKit 브라우저."
+        },
+        "nl_NL": {
+          "name": "AERA Browser",
+          "description": "WebKit-browser met downloads, video, GPU-rendering en luidsprekeraudio."
+        },
+        "no_NO": {
+          "name": "AERA Browser",
+          "description": "WebKit-nettleser med nedlastinger, video, GPU-gjengivelse og høyttalerlyd."
+        },
+        "pl_PL": {
+          "name": "AERA Browser",
+          "description": "Przeglądarka WebKit z plikami do pobrania, wideo, renderowaniem GPU i dźwiękiem z głośników."
+        },
+        "pt_BR": {
+          "name": "AERA Browser",
+          "description": "Navegador WebKit com downloads, vídeo, renderização GPU e áudio do alto-falante."
+        },
+        "pt_PT": {
+          "name": "AERA Browser",
+          "description": "WebKit Browser com downloads, vídeo, renderização GPU e áudio do altifalante."
+        },
+        "ro_RO": {
+          "name": "AERA Browser",
+          "description": "Browser WebKit cu descărcări, videoclipuri, redare GPU și audio difuzor."
+        },
+        "ru": {
+          "name": "AERA Browser",
+          "description": "Браузер WebKit с загрузками, видео, рендерингом GPU и звуком динамика."
+        },
+        "sr_Cyrl": {
+          "name": "AERA Browser",
+          "description": "WebKit претраживач са преузимањима, видео записима, GPU рендеровањем и звуком звучника."
+        },
+        "sv_SE": {
+          "name": "AERA Browser",
+          "description": "WebKit-webbläsare med hämtningar, video, GPU-rendering och högtalarljud."
+        },
+        "th_TH": {
+          "name": "AERA Browser",
+          "description": "เบราว์เซอร์ WebKit พร้อมการดาวน์โหลด วิดีโอ การเรนเดอร์ GPU และเสียงลำโพง"
+        },
+        "tr_TR": {
+          "name": "AERA Browser",
+          "description": "İndirmeler, video, GPU oluşturma ve hoparlör sesi içeren WebKit tarayıcı."
+        },
+        "uk_UA": {
+          "name": "AERA Browser",
+          "description": "Браузер WebKit із завантаженнями, відео, рендерингом GPU і звуком динаміків."
+        },
+        "vi_VN": {
+          "name": "AERA Browser",
+          "description": "Trình duyệt WebKit với các bản tải xuống, video, kết xuất GPU và âm thanh loa."
+        },
+        "zh_CN": {
+          "name": "AERA Browser",
+          "description": "WebKit 浏览器，提供下载、视频、GPU 渲染和扬声器音频。"
+        },
+        "zh_TW": {
+          "name": "AERA Browser",
+          "description": "WebKit 瀏覽器，提供下載、視訊、GPU 渲染和揚聲器音訊。"
+        }
+      }
+    },
+    {
+      "id": "media",
+      "name": "AERA Media",
+      "version": "1.2.1",
+      "description": "Music and video player with rotation, timeline controls, and speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/f1a3e607f30eb3d434f38e34c7b933a322223344/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/f1a3e607f30eb3d434f38e34c7b933a322223344/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.2.1/AERA-Media-1.2.1.aerap",
+      "package_size": 6898191,
+      "package_sha256": "84322d8f56333478810441352b709effe07746ac5c9f552113fecb04f9cdeda4",
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA Media",
+          "description": "مشغل الموسيقى والفيديو مع إمكانية التدوير وعناصر التحكم في الجدول الزمني وصوت مكبر الصوت."
+        },
+        "bg_BG": {
+          "name": "AERA Media",
+          "description": "Музикален и видео плейър с ротация, контроли на времевата линия и аудио на високоговорителя."
+        },
+        "bn_BD": {
+          "name": "AERA Media",
+          "description": "ঘূর্ণন, টাইমলাইন নিয়ন্ত্রণ এবং স্পিকার অডিও সহ সঙ্গীত এবং ভিডিও প্লেয়ার।"
+        },
+        "ca_ES": {
+          "name": "AERA Media",
+          "description": "Reproductor de música i vídeo amb rotació, controls de línia de temps i àudio dels altaveus."
+        },
+        "cs_CZ": {
+          "name": "AERA Media",
+          "description": "Přehrávač hudby a videa s rotací, ovládáním časové osy a zvukem reproduktoru."
+        },
+        "de_DE": {
+          "name": "AERA Media",
+          "description": "Musik- und Videoplayer mit Drehung, Zeitleiste und Lautsprecher-Audio."
+        },
+        "el_GR": {
+          "name": "AERA Media",
+          "description": "Πρόγραμμα αναπαραγωγής μουσικής και βίντεο με περιστροφή, χειριστήρια γραμμής χρόνου και ήχο ηχείων."
+        },
+        "es-ES": {
+          "name": "AERA Media",
+          "description": "Reproductor de música y vídeo con rotación, controles de línea de tiempo y audio del altavoz."
+        },
+        "fa_IR": {
+          "name": "AERA Media",
+          "description": "پخش کننده موسیقی و ویدیو با چرخش، کنترل های جدول زمانی و صدای بلندگو."
+        },
+        "fr_FR": {
+          "name": "AERA Media",
+          "description": "Lecteur de musique et vidéo avec rotation, commandes de chronologie et haut-parleur audio."
+        },
+        "he_IL": {
+          "name": "AERA Media",
+          "description": "נגן מוזיקה ווידאו עם סיבוב, בקרות ציר זמן ואודיו של רמקול."
+        },
+        "hi_IN": {
+          "name": "AERA Media",
+          "description": "रोटेशन, टाइमलाइन नियंत्रण और स्पीकर ऑडियो के साथ संगीत और वीडियो प्लेयर।"
+        },
+        "hu": {
+          "name": "AERA Media",
+          "description": "Zene- és videolejátszó forgatással, idővonal-vezérlőkkel és hangszóró hanggal."
+        },
+        "id_ID": {
+          "name": "AERA Media",
+          "description": "Pemutar musik dan video dengan rotasi, kontrol garis waktu, dan audio speaker."
+        },
+        "it_IT": {
+          "name": "AERA Media",
+          "description": "Lettore musicale e video con rotazione, controlli della timeline e audio dell'altoparlante."
+        },
+        "ja_JP": {
+          "name": "AERA Media",
+          "description": "回転、タイムライン コントロール、スピーカー オーディオを備えた音楽およびビデオ プレーヤー。"
+        },
+        "ko_KR": {
+          "name": "AERA Media",
+          "description": "회전, 타임라인 제어, 스피커 오디오가 포함된 음악 및 비디오 플레이어입니다."
+        },
+        "nl_NL": {
+          "name": "AERA Media",
+          "description": "Muziek- en videospeler met rotatie, tijdlijnbediening en luidsprekeraudio."
+        },
+        "no_NO": {
+          "name": "AERA Media",
+          "description": "Musikk- og videospiller med rotasjon, tidslinjekontroller og høyttalerlyd."
+        },
+        "pl_PL": {
+          "name": "AERA Media",
+          "description": "Odtwarzacz muzyki i wideo z możliwością obracania, sterowaniem osią czasu i dźwiękiem z głośników."
+        },
+        "pt_BR": {
+          "name": "AERA Media",
+          "description": "Reprodutor de música e vídeo com rotação, controles de linha do tempo e áudio do alto-falante."
+        },
+        "pt_PT": {
+          "name": "AERA Media",
+          "description": "Reprodutor de música e vídeo com rotação, controlos de linha do tempo e áudio do altifalante."
+        },
+        "ro_RO": {
+          "name": "AERA Media",
+          "description": "Player muzical și video cu rotație, comenzi cronologice și audio difuzor."
+        },
+        "ru": {
+          "name": "AERA Media",
+          "description": "Музыкальный и видеоплеер с вращением, элементами управления временной шкалой и звуком через динамик."
+        },
+        "sr_Cyrl": {
+          "name": "AERA Media",
+          "description": "Музички и видео плејер са ротацијом, контролама временске линије и звуком звучника."
+        },
+        "sv_SE": {
+          "name": "AERA Media",
+          "description": "Musik- och videospelare med rotation, tidslinje och högtalarljud."
+        },
+        "th_TH": {
+          "name": "AERA Media",
+          "description": "เครื่องเล่นเพลงและวิดีโอพร้อมการหมุน การควบคุมไทม์ไลน์ และเสียงลำโพง"
+        },
+        "tr_TR": {
+          "name": "AERA Media",
+          "description": "Döndürme, zaman çizelgesi kontrolleri ve hoparlör sesi özelliklerine sahip müzik ve video oynatıcı."
+        },
+        "uk_UA": {
+          "name": "AERA Media",
+          "description": "Музичний та відеоплеєр із обертанням, елементами керування часовою шкалою та звуком динаміків."
+        },
+        "vi_VN": {
+          "name": "AERA Media",
+          "description": "Trình phát nhạc và video có tính năng xoay, điều khiển dòng thời gian và âm thanh loa."
+        },
+        "zh_CN": {
+          "name": "AERA Media",
+          "description": "具有旋转、时间线控制和扬声器音频的音乐和视频播放器。"
+        },
+        "zh_TW": {
+          "name": "AERA Media",
+          "description": "具有旋轉、時間軸控制和揚聲器音訊的音樂和視訊播放器。"
+        }
+      }
+    },
+    {
       "id": "appvault",
       "name": "AERA App Backup Vault",
       "version": "1.1.1",
       "description": "Encrypted per-app backups to internal or connected network storage.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/d0f88de358eac8304bceb3db21b76f0e0e420e20/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/d0f88de358eac8304bceb3db21b76f0e0e420e20/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/app-backup-vault/releases/download/v1.1.0/AERA-App-Backup-Vault-1.1.1.aerap",
+      "package_url": "https://github.com/AERA-Plugins/app-backup-vault/releases/download/v1.1.1/AERA-App-Backup-Vault-1.1.1.aerap",
       "package_size": 7626777,
       "package_sha256": "27c0070342c563dbc9bfe0a469743f2a1c82e70b7d08f49a9953c01d5a30d893",
       "localizations": {
@@ -714,7 +714,7 @@
       "description": "Record AERA Recovery as MP4 using native controls and OpenH264.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/46cba2651b6d73e1cd44aeb964634e2be3b112d0/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/46cba2651b6d73e1cd44aeb964634e2be3b112d0/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/recorder/releases/download/v1.1.0/AERA-Recorder-1.1.1.aerap",
+      "package_url": "https://github.com/AERA-Plugins/recorder/releases/download/v1.1.1/AERA-Recorder-1.1.1.aerap",
       "package_size": 4026402,
       "package_sha256": "d95814000e537b14cc36fd9bd40f16efc48b1c63475840e9818d68bcd7e9f62a",
       "localizations": {
@@ -855,7 +855,7 @@
       "description": "View images and AERA screenshots with zoom and pan (PNG/JPEG).",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/dae4f0dab0c5e2b47ffd272b31ef99d2f25ce493/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/dae4f0dab0c5e2b47ffd272b31ef99d2f25ce493/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/gallery/releases/download/v1.1.0/AERA-Gallery-1.1.1.aerap",
+      "package_url": "https://github.com/AERA-Plugins/gallery/releases/download/v1.1.1/AERA-Gallery-1.1.1.aerap",
       "package_size": 6818,
       "package_sha256": "8bfc796a80bd7e615e912075d0e5fe5a8c8c4e0fc020859fda8b7444af16dea1",
       "localizations": {
@@ -996,7 +996,7 @@
       "description": "Telegram with encrypted sessions, chats, and read-only attachments.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/387bd304c74717300ed0b719cc6fabd9b08bcbe6/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/387bd304c74717300ed0b719cc6fabd9b08bcbe6/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/telegram/releases/download/v1.2.0/AERA-Telegram-1.2.1.aerap",
+      "package_url": "https://github.com/AERA-Plugins/telegram/releases/download/v1.2.1/AERA-Telegram-1.2.1.aerap",
       "package_size": 7200007,
       "package_sha256": "f8195432bb22a557bb776335c50f21477e0758fbfcf71c7128270644c7b86f09",
       "localizations": {
@@ -1137,7 +1137,7 @@
       "description": "Touch-optimized RetroArch with Game Boy emulation and speaker audio.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/aa5bdc9b30bfb9e1359d3bf780f234fd796970ac/plugin.json",
       "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/aa5bdc9b30bfb9e1359d3bf780f234fd796970ac/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/retroarch/releases/download/v1.1.1/AERA-RetroArch-1.1.2.aerap",
+      "package_url": "https://github.com/AERA-Plugins/retroarch/releases/download/v1.1.2/AERA-RetroArch-1.1.2.aerap",
       "package_size": 4450775,
       "package_sha256": "4dbb6dcab0339ace58ca97e8e7abd6384c3b6917997530f3da017465adf4964e",
       "localizations": {
