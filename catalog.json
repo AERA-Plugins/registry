@@ -1,1237 +1,1273 @@
 {
   "schema": 1,
-  "generated": "2026-09-14T18:28:03Z",
+  "generated": "2026-09-15T17:18:39Z",
   "plugins": [
     {
-      "id": "telegram",
-      "name": "AERA Telegram",
-      "version": "1.2.0",
-      "description": "Full-screen recovery Telegram with encrypted sessions, paginated history, chat previews, messaging, and read-only file attachments.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/af58727dd10ebebc18cc69255f3c9ebff05db08d/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/af58727dd10ebebc18cc69255f3c9ebff05db08d/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/telegram/releases/download/v1.2.0/AERA-Telegram-1.2.0.aerap",
-      "package_size": 7203171,
-      "package_sha256": "5de32b90d9bbbc758030b36d11e1856382d5162fe5773119845cd5be68a30b9d",
+      "id": "browser",
+      "name": "AERA Browser",
+      "version": "1.5.1",
+      "description": "WebKit browser with downloads, video, GPU rendering, and speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3b7830c75a5faa42e7b57eb4376b3d281814bb59/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3b7830c75a5faa42e7b57eb4376b3d281814bb59/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.5.0/AERA-Browser-1.5.1.aerap",
+      "package_size": 40936544,
+      "package_sha256": "e374e24ef56e0b7e04427928c99bdfd53acbc34917e0fe2b5749be60225bb1a7",
       "localizations": {
         "ar_SA": {
-          "name": "AERA Telegram",
-          "description": "الاسترداد بملء الشاشة Telegram مع الجلسات المشفرة، والسجل المجزأ، ومعاينات الدردشة، والمراسلة، ومرفقات الملفات للقراءة فقط."
+          "name": "AERA Browser",
+          "description": "متصفح WebKit مع التنزيلات والفيديو وعرض GPU وصوت مكبر الصوت."
         },
         "bg_BG": {
-          "name": "AERA Telegram",
-          "description": "Възстановяване на цял екран Telegram с криптирани сесии, странична история, визуализации на чата, съобщения и прикачени файлове само за четене."
+          "name": "AERA Browser",
+          "description": "WebKit браузър с изтегляния, видео, GPU изобразяване и аудио на високоговорителя."
         },
         "bn_BD": {
-          "name": "AERA Telegram",
-          "description": "এনক্রিপ্ট করা সেশনে সম্পূর্ণ-স্ক্রীন পুনরুদ্ধার Telegram, পৃষ্ঠাবদ্ধ ইতিহাস, চ্যাট প্রিভিউ, মেসেজিং এবং শুধুমাত্র-পঠন ফাইল সংযুক্তি সহ।"
+          "name": "AERA Browser",
+          "description": "ডাউনলোড, ভিডিও, GPU রেন্ডারিং এবং স্পিকার অডিও সহ WebKit ব্রাউজার।"
         },
         "ca_ES": {
-          "name": "AERA Telegram",
-          "description": "Recuperació a pantalla completa Telegram sessions xifrades, historial paginat, previsualitzacions de xat, missatgeria i fitxers adjunts de només lectura."
+          "name": "AERA Browser",
+          "description": "Navegador WebKit amb baixades, vídeo, renderització GPU i àudio dels altaveus."
         },
         "cs_CZ": {
-          "name": "AERA Telegram",
-          "description": "Obnova na celou obrazovku Telegram se šifrovanými relacemi, stránkovanou historií, náhledy chatu, zasíláním zpráv a soubory pouze pro čtení."
+          "name": "AERA Browser",
+          "description": "Prohlížeč WebKit se stahováním, videem, vykreslováním GPU a zvukem reproduktorů."
         },
         "de_DE": {
-          "name": "AERA Telegram",
-          "description": "Vollbild-Wiederherstellung Telegram mit verschlüsselten Sitzungen, paginierter Historie, Chat-Vorschauen, Messaging und schreibgeschützten Dateianhängen."
+          "name": "AERA Browser",
+          "description": "WebKit-Browser mit Downloads, Video, GPU-Rendering und Lautsprecher-Audio."
         },
         "el_GR": {
-          "name": "AERA Telegram",
-          "description": "Ανάκτηση πλήρους οθόνης Telegram με κρυπτογραφημένες συνεδρίες, ιστορικό με σελίδες, προεπισκοπήσεις συνομιλιών, μηνύματα και συνημμένα αρχεία μόνο για ανάγνωση."
+          "name": "AERA Browser",
+          "description": "Πρόγραμμα περιήγησης WebKit με λήψεις, βίντεο, απόδοση GPU και ήχο ηχείων."
         },
         "es-ES": {
-          "name": "AERA Telegram",
-          "description": "Recuperación en pantalla completa Telegram con sesiones encriptadas, historial paginado, vistas previas de chat, mensajería y archivos adjuntos de solo lectura."
+          "name": "AERA Browser",
+          "description": "Navegador WebKit con descargas, video, renderizado GPU y audio de altavoz."
         },
         "fa_IR": {
-          "name": "AERA Telegram",
-          "description": "بازیابی تمام‌صفحه Telegram با جلسات رمزگذاری‌شده، تاریخچه صفحه‌بندی‌شده، پیش‌نمایش چت، پیام‌رسانی و پیوست‌های فایل فقط خواندنی."
+          "name": "AERA Browser",
+          "description": "مرورگر WebKit با دانلود، ویدیو، رندر GPU و صدای بلندگو."
         },
         "fr_FR": {
-          "name": "AERA Telegram",
-          "description": "Récupération en plein écran Telegram avec sessions chiffrées, historique paginé, aperçus de chat, messagerie et pièces jointes en lecture seule."
+          "name": "AERA Browser",
+          "description": "Navigateur WebKit avec téléchargements, vidéo, rendu GPU et audio du haut-parleur."
         },
         "he_IL": {
-          "name": "AERA Telegram",
-          "description": "שחזור במסך מלא Telegram עם סשנים מוצפנים, היסטוריה מפולחת, תצוגות צ'אט, הודעות, וקבצים מצורפים לקריאה בלבד."
+          "name": "AERA Browser",
+          "description": "דפדפן WebKit עם הורדות, וידאו, עיבוד GPU ואודיו של רמקול."
         },
         "hi_IN": {
-          "name": "AERA Telegram",
-          "description": "पूर्ण-स्क्रीन रिकवरी Telegram एन्क्रिप्टेड सत्रों, पेज़ की गई हिस्ट्री, चैट प्रिव्यूज़, मैसेजिंग और केवल-पढ़ने योग्य फ़ाइल अटैचमेंट्स के साथ।"
+          "name": "AERA Browser",
+          "description": "डाउनलोड, वीडियो, GPU रेंडरिंग और स्पीकर ऑडियो के साथ WebKit ब्राउज़र।"
         },
         "hu": {
-          "name": "AERA Telegram",
-          "description": "Teljes képernyős helyreállítás Telegram titkosított munkamenetekkel, oldalszámozott előzményekkel, csevegés-előnézetekkel, üzenetküldéssel és csak olvasható fájlcsatolmányokkal."
+          "name": "AERA Browser",
+          "description": "WebKit böngésző letöltésekkel, videóval, GPU rendereléssel és hangszóró hanggal."
         },
         "id_ID": {
-          "name": "AERA Telegram",
-          "description": "Pemulihan layar penuh Telegram dengan sesi terenkripsi, riwayat berpaging, pratinjau obrolan, pengiriman pesan, dan lampiran file hanya-baca."
+          "name": "AERA Browser",
+          "description": "Browser WebKit dengan unduhan, video, rendering GPU, dan audio speaker."
         },
         "it_IT": {
-          "name": "AERA Telegram",
-          "description": "Recupero a schermo intero Telegram con sessioni criptate, cronologia impaginata, anteprime chat, messaggistica e allegati file in sola lettura."
+          "name": "AERA Browser",
+          "description": "Browser WebKit con download, video, rendering GPU e audio dell'altoparlante."
         },
         "ja_JP": {
-          "name": "AERA Telegram",
-          "description": "フルスクリーンリカバリー Telegram 暗号化セッション、ページ分割された履歴、チャットプレビュー、メッセージング、読み取り専用のファイル添付付き。"
+          "name": "AERA Browser",
+          "description": "ダウンロード、ビデオ、GPU レンダリング、スピーカー オーディオを備えた WebKit ブラウザー。"
         },
         "ko_KR": {
-          "name": "AERA Telegram",
-          "description": "암호화된 세션, 페이지별 기록, 채팅 미리보기, 메시징 및 읽기 전용 파일 첨부와 함께 전체 화면 복구 Telegram."
+          "name": "AERA Browser",
+          "description": "다운로드, 비디오, GPU 렌더링 및 스피커 오디오가 포함된 WebKit 브라우저."
         },
         "nl_NL": {
-          "name": "AERA Telegram",
-          "description": "Volledig scherm herstel Telegram met versleutelde sessies, gepagineerde geschiedenis, chatvoorbeelden, berichten en alleen-lezen bijlagen."
+          "name": "AERA Browser",
+          "description": "WebKit-browser met downloads, video, GPU-rendering en luidsprekeraudio."
         },
         "no_NO": {
-          "name": "AERA Telegram",
-          "description": "Fullskjermgjenoppretting Telegram med krypterte økter, paginert historikk, chat-forhåndsvisning, meldinger og skrivebeskyttede filvedlegg."
+          "name": "AERA Browser",
+          "description": "WebKit-nettleser med nedlastinger, video, GPU-gjengivelse og høyttalerlyd."
         },
         "pl_PL": {
-          "name": "AERA Telegram",
-          "description": "Pełnoekranowe odzyskiwanie Telegram z szyfrowanymi sesjami, podzieloną historią, podglądem czatu, wiadomościami i załącznikami plików tylko do odczytu."
+          "name": "AERA Browser",
+          "description": "Przeglądarka WebKit z plikami do pobrania, wideo, renderowaniem GPU i dźwiękiem z głośników."
         },
         "pt_BR": {
-          "name": "AERA Telegram",
-          "description": "Recuperação em tela cheia Telegram com sessões criptografadas, histórico paginado, pré-visualizações de chat, mensagens e anexos de arquivos somente leitura."
+          "name": "AERA Browser",
+          "description": "Navegador WebKit com downloads, vídeo, renderização GPU e áudio do alto-falante."
         },
         "pt_PT": {
-          "name": "AERA Telegram",
-          "description": "Recuperação em ecrã completo Telegram com sessões encriptadas, histórico paginado, pré-visualizações de chat, mensagens e anexos de ficheiros apenas leitura."
+          "name": "AERA Browser",
+          "description": "WebKit Browser com downloads, vídeo, renderização GPU e áudio do altifalante."
         },
         "ro_RO": {
-          "name": "AERA Telegram",
-          "description": "Recuperare pe ecran complet Telegram cu sesiuni criptate, istoric paginat, previzualizări de chat, mesagerie și atașamente de fișiere doar pentru citire."
+          "name": "AERA Browser",
+          "description": "Browser WebKit cu descărcări, videoclipuri, redare GPU și audio difuzor."
         },
         "ru": {
-          "name": "AERA Telegram",
-          "description": "Полноэкранное восстановление Telegram с зашифрованными сессиями, постраничной историей, предварительным просмотром чатов, обменом сообщениями и файлами только для чтения."
+          "name": "AERA Browser",
+          "description": "Браузер WebKit с загрузками, видео, рендерингом GPU и звуком динамика."
         },
         "sr_Cyrl": {
-          "name": "AERA Telegram",
-          "description": "Потпуни опоравак на целом екрану Telegram са шифрованим сесијама, пагинираном историјом, прегледима ћаскања, разменом порука и прилозима датотека у режиму само за читање."
+          "name": "AERA Browser",
+          "description": "WebKit претраживач са преузимањима, видео записима, GPU рендеровањем и звуком звучника."
+        },
+        "sv_SE": {
+          "name": "AERA Browser",
+          "description": "WebKit-webbläsare med hämtningar, video, GPU-rendering och högtalarljud."
         },
         "th_TH": {
-          "name": "AERA Telegram",
-          "description": "กู้คืนเต็มหน้าจอ Telegram พร้อมเซสชันเข้ารหัส ประวัติแบ่งหน้า ตัวอย่างแชท การส่งข้อความ และไฟล์แนบอ่านได้อย่างเดียว"
+          "name": "AERA Browser",
+          "description": "เบราว์เซอร์ WebKit พร้อมการดาวน์โหลด วิดีโอ การเรนเดอร์ GPU และเสียงลำโพง"
         },
         "tr_TR": {
-          "name": "AERA Telegram",
-          "description": "Şifreli oturumlar, sayfalı geçmiş, sohbet önizlemeleri, mesajlaşma ve salt okunur dosya ekleri ile tam ekran kurtarma Telegram."
+          "name": "AERA Browser",
+          "description": "İndirmeler, video, GPU oluşturma ve hoparlör sesi içeren WebKit tarayıcı."
         },
         "uk_UA": {
-          "name": "AERA Telegram",
-          "description": "Повне відновлення на весь екран Telegram з зашифрованими сесіями, пагінованою історією, попереднім переглядом чатів, обміном повідомленнями та вкладеннями файлів лише для читання."
+          "name": "AERA Browser",
+          "description": "Браузер WebKit із завантаженнями, відео, рендерингом GPU і звуком динаміків."
         },
         "vi_VN": {
-          "name": "AERA Telegram",
-          "description": "Phục hồi toàn màn hình Telegram với các phiên mã hóa, lịch sử phân trang, xem trước trò chuyện, nhắn tin và tập tin đính kèm chỉ đọc."
+          "name": "AERA Browser",
+          "description": "Trình duyệt WebKit với các bản tải xuống, video, kết xuất GPU và âm thanh loa."
         },
         "zh_CN": {
-          "name": "AERA Telegram",
-          "description": "全屏恢复 Telegram，具有加密会话、分页历史记录、聊天预览、消息传递和只读文件附件。"
+          "name": "AERA Browser",
+          "description": "WebKit 浏览器，提供下载、视频、GPU 渲染和扬声器音频。"
         },
         "zh_TW": {
-          "name": "AERA Telegram",
-          "description": "全螢幕恢復 Telegram，支持加密會話、分頁歷史記錄、聊天預覽、訊息傳送及唯讀檔案附件。"
-        }
-      }
-    },
-    {
-      "id": "gallery",
-      "name": "AERA Gallery",
-      "version": "1.1.0",
-      "description": "Fast recovery gallery for PNG and JPEG images, AERA screenshots, fullscreen viewing, zoom and pan.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/8669a9b62624f0ae76b4ca2db522eb83f7b93d5a/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/8669a9b62624f0ae76b4ca2db522eb83f7b93d5a/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/gallery/releases/download/v1.1.0/AERA-Gallery-1.1.0.aerap",
-      "package_size": 8597,
-      "package_sha256": "af81aee25ac1381cd9530ff53600034cb53f943db4c3a9b3de224857acaa9629",
-      "localizations": {
-        "ar_SA": {
-          "name": "AERA Gallery",
-          "description": "معرض الاسترداد السريع لصور PNG و JPEG، لقطات الشاشة AERA، العرض بملء الشاشة، التكبير والتصغير والتنقل."
-        },
-        "bg_BG": {
-          "name": "AERA Gallery",
-          "description": "Бърза галерия за възстановяване на изображения PNG и JPEG, скрийншотове AERA, пълен екран за гледане, увеличение и панорамиране."
-        },
-        "bn_BD": {
-          "name": "AERA Gallery",
-          "description": "PNG এবং JPEG চিত্র, AERA স্ক্রিনশট, সম্পূর্ণ পর্দায় দেখার, জুম এবং প্যানের জন্য দ্রুত পুনরুদ্ধার গ্যালারি।"
-        },
-        "ca_ES": {
-          "name": "AERA Gallery",
-          "description": "Galeria de recuperació ràpida per a imatges PNG i JPEG, captures de pantalla AERA, visualització en pantalla completa, zoom i desplaçament."
-        },
-        "cs_CZ": {
-          "name": "AERA Gallery",
-          "description": "Rychlá galerie obnovy pro obrázky PNG a JPEG, snímky obrazovky AERA, zobrazení na celou obrazovku, přibližování a posouvání."
-        },
-        "de_DE": {
-          "name": "AERA Gallery",
-          "description": "Schnelle Wiederherstellungsgalerie für PNG- und JPEG-Bilder, AERA-Screenshots, Vollbildanzeige, Zoomen und Verschieben."
-        },
-        "el_GR": {
-          "name": "AERA Gallery",
-          "description": "Γρήγορη ανάκτηση γκαλερί για εικόνες PNG και JPEG, στιγμιότυπα οθόνης AERA, προβολή πλήρους οθόνης, μεγέθυνση και μετακίνηση."
-        },
-        "es-ES": {
-          "name": "AERA Gallery",
-          "description": "Galería de recuperación rápida para imágenes PNG y JPEG, capturas de pantalla AERA, visualización en pantalla completa, zoom y desplazamiento."
-        },
-        "fa_IR": {
-          "name": "AERA Gallery",
-          "description": "گالری بازیابی سریع برای تصاویر PNG و JPEG، اسکرین‌شات AERA، مشاهده تمام صفحه، بزرگ‌نمایی و جابجایی."
-        },
-        "fr_FR": {
-          "name": "AERA Gallery",
-          "description": "Galerie de récupération rapide pour les images PNG et JPEG, les captures d'écran AERA, affichage plein écran, zoom et déplacement."
-        },
-        "he_IL": {
-          "name": "AERA Gallery",
-          "description": "גלריית שחזור מהירה עבור PNG ו-JPEG תמונות, AERA צילומי מסך, צפייה במסך מלא, זום וגרירה."
-        },
-        "hi_IN": {
-          "name": "AERA Gallery",
-          "description": "PNG और JPEG इमेजेज़, AERA स्क्रीनशॉट्स के लिए तेज़ रिकवरी गैलरी, फुलस्क्रीन देखने, ज़ूम और पैन।"
-        },
-        "hu": {
-          "name": "AERA Gallery",
-          "description": "Gyors helyreállító galéria PNG és JPEG képekhez, AERA képernyőmentésekhez, teljes képernyős megtekintéshez, nagyításhoz és mozgatáshoz."
-        },
-        "id_ID": {
-          "name": "AERA Gallery",
-          "description": "Galeri pemulihan cepat untuk gambar PNG dan JPEG, tangkapan layar AERA, tampilan layar penuh, zoom dan geser."
-        },
-        "it_IT": {
-          "name": "AERA Gallery",
-          "description": "Galleria di recupero veloce per immagini PNG e JPEG, screenshot AERA, visualizzazione a schermo intero, zoom e panoramica."
-        },
-        "ja_JP": {
-          "name": "AERA Gallery",
-          "description": "PNGおよびJPEGの画像、AERAのスクリーンショットの高速回復ギャラリー、全画面表示、ズームおよびパン。"
-        },
-        "ko_KR": {
-          "name": "AERA Gallery",
-          "description": "PNG 및 JPEG 이미지, AERA 스크린샷, 전체 화면 보기, 확대/축소 및 팬 기능을 위한 빠른 복구 갤러리"
-        },
-        "nl_NL": {
-          "name": "AERA Gallery",
-          "description": "Snelle herstelgalerij voor PNG en JPEG afbeeldingen, AERA schermafbeeldingen, volledig scherm bekijken, in- en uitzoomen en verplaatsen."
-        },
-        "no_NO": {
-          "name": "AERA Gallery",
-          "description": "Rask gjenopprettingsgalleri for PNG og JPEG bilder, AERA skjermbilder, fullskjermvisning, zoom og panorering."
-        },
-        "pl_PL": {
-          "name": "AERA Gallery",
-          "description": "Szybka galeria odzyskiwania dla obrazów PNG i JPEG, zrzutów ekranu AERA, tryb pełnoekranowy, powiększanie i przesuwanie."
-        },
-        "pt_BR": {
-          "name": "AERA Gallery",
-          "description": "Galeria de recuperação rápida para imagens PNG e JPEG, capturas de tela AERA, visualização em tela cheia, zoom e panorâmica."
-        },
-        "pt_PT": {
-          "name": "AERA Gallery",
-          "description": "Galeria de recuperação rápida para imagens PNG e JPEG, capturas de ecrã AERA, visualização em ecrã inteiro, zoom e deslocamento."
-        },
-        "ro_RO": {
-          "name": "AERA Gallery",
-          "description": "Galerie de recuperare rapidă pentru imaginile PNG și JPEG, capturi de ecran AERA, vizualizare pe ecran complet, mărire și pan."
-        },
-        "ru": {
-          "name": "AERA Gallery",
-          "description": "Галерея быстрого восстановления для изображений PNG и JPEG, скриншотов AERA, полноэкранный просмотр, увеличение и перемещение."
-        },
-        "sr_Cyrl": {
-          "name": "AERA Gallery",
-          "description": "Галерија за брзо враћање за слике PNG и JPEG, снимке екрана AERA, приказ преко целог екрана, увеличавање и померање."
-        },
-        "th_TH": {
-          "name": "AERA Gallery",
-          "description": "แกลเลอรีการกู้คืนอย่างรวดเร็วสำหรับภาพ PNG และ JPEG, ภาพหน้าจอ AERA, การรับชมแบบเต็มหน้าจอ, การซูมและเลื่อน"
-        },
-        "tr_TR": {
-          "name": "AERA Gallery",
-          "description": "PNG ve JPEG resimleri, AERA ekran görüntüleri için hızlı kurtarma galerisi, tam ekran görüntüleme, yakınlaştırma ve kaydırma."
-        },
-        "uk_UA": {
-          "name": "AERA Gallery",
-          "description": "Галерея швидкого відновлення для зображень PNG і JPEG, скріншотів AERA, перегляд на весь екран, збільшення та панорамування."
-        },
-        "vi_VN": {
-          "name": "AERA Gallery",
-          "description": "Thư viện khôi phục nhanh cho hình ảnh PNG và JPEG, ảnh chụp màn hình AERA, xem toàn màn hình, phóng to và di chuyển."
-        },
-        "zh_CN": {
-          "name": "AERA Gallery",
-          "description": "用于 PNG 和 JPEG 图片、AERA 截图的快速恢复图库，全屏查看，缩放和平移。"
-        },
-        "zh_TW": {
-          "name": "AERA Gallery",
-          "description": "PNG 和 JPEG 圖像、AERA 截圖的快速恢復畫廊，全螢幕檢視，縮放和平移。"
-        }
-      }
-    },
-    {
-      "id": "recorder",
-      "name": "AERA Recorder",
-      "version": "1.1.0",
-      "description": "Smooth recovery screen recording with native AERA controls and isolated OpenH264 MP4 encoding.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/f9204654b0693fa27d4661cef016dddab650abc8/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/f9204654b0693fa27d4661cef016dddab650abc8/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/recorder/releases/download/v1.1.0/AERA-Recorder-1.1.0.aerap",
-      "package_size": 4027404,
-      "package_sha256": "51118645d8d90d97420d5323d2f0c13c6db5bce4c9970fbc05e71d205cd8fdb5",
-      "localizations": {
-        "ar_SA": {
-          "name": "AERA Recorder",
-          "description": "تسجيل شاشة الاسترداد السلس مع عناصر التحكم الأصلية لـ AERA وترميز OpenH264 MP4 المنفصل."
-        },
-        "bg_BG": {
-          "name": "AERA Recorder",
-          "description": "Гладко възстановяване на запис на екрана с вградени контролни елементи на AERA и изолирано кодиране OpenH264 MP4."
-        },
-        "bn_BD": {
-          "name": "AERA Recorder",
-          "description": "দেশীয় AERA নিয়ন্ত্রণ এবং পৃথক OpenH264 MP4 এ সংরক্ষণের মাধ্যমে মসৃণ পুনরুদ্ধার স্ক্রিন রেকর্ডিং।"
-        },
-        "ca_ES": {
-          "name": "AERA Recorder",
-          "description": "Gravació de pantalla de recuperació suau amb controls natius AERA i codificació aïllada OpenH264 MP4."
-        },
-        "cs_CZ": {
-          "name": "AERA Recorder",
-          "description": "Hladké obnovení nahrávání obrazovky s nativními ovládacími prvky AERA a izolovaným kódováním OpenH264 MP4."
-        },
-        "de_DE": {
-          "name": "AERA Recorder",
-          "description": "Sanfte Wiederherstellung der Bildschirmaufnahme mit nativen AERA-Steuerelementen und isolierter OpenH264 MP4-Codierung."
-        },
-        "el_GR": {
-          "name": "AERA Recorder",
-          "description": "Ομαλή αποκατάσταση εγγραφής οθόνης με εγγενείς ελέγχους AERA και απομονωμένη κωδικοποίηση OpenH264 MP4."
-        },
-        "es-ES": {
-          "name": "AERA Recorder",
-          "description": "Grabación de pantalla de recuperación fluida con controles nativos de AERA y codificación aislada OpenH264 MP4."
-        },
-        "fa_IR": {
-          "name": "AERA Recorder",
-          "description": "ضبط صاف صفحه بازیابی با کنترل‌های بومی AERA و رمزگذاری ایزوله‌شده OpenH264 MP4."
-        },
-        "fr_FR": {
-          "name": "AERA Recorder",
-          "description": "Enregistrement à l'écran en récupération fluide avec les contrôles natifs AERA et l'encodage isolé OpenH264 MP4."
-        },
-        "he_IL": {
-          "name": "AERA Recorder",
-          "description": "הקלטת מסך שחזור חלקה עם בקרות AERA מקומיות וקידוד מבודד של OpenH264 MP4."
-        },
-        "hi_IN": {
-          "name": "AERA Recorder",
-          "description": "नेटिव AERA नियंत्रण और अलग OpenH264 MP4 एन्कोडिंग के साथ स्मूथ रिकवरी स्क्रीन रिकॉर्डिंग।"
-        },
-        "hu": {
-          "name": "AERA Recorder",
-          "description": "Zökkenőmentes helyreállítási képernyőfelvétel natív AERA vezérlőkkel és izolált OpenH264 MP4 kódolással."
-        },
-        "id_ID": {
-          "name": "AERA Recorder",
-          "description": "Rekam layar pemulihan yang mulus dengan kontrol AERA asli dan encoding OpenH264 MP4 yang terisolasi."
-        },
-        "it_IT": {
-          "name": "AERA Recorder",
-          "description": "Registrazione dello schermo senza intoppi con controlli nativi AERA e codifica isolata OpenH264 MP4."
-        },
-        "ja_JP": {
-          "name": "AERA Recorder",
-          "description": "ネイティブ AERA コントロールと分離された OpenH264 MP4 エンコーディングによるスムーズなリカバリ画面の録画。"
-        },
-        "ko_KR": {
-          "name": "AERA Recorder",
-          "description": "네이티브 AERA 컨트롤과 분리된 OpenH264 MP4 인코딩으로 원활한 복구 화면 녹화."
-        },
-        "nl_NL": {
-          "name": "AERA Recorder",
-          "description": "Soepel herstel van schermopname met native AERA-bedieningselementen en geïsoleerde OpenH264 MP4-codering."
-        },
-        "no_NO": {
-          "name": "AERA Recorder",
-          "description": "Jevn gjenopprettingsskjermopptak med innfødte AERA-kontroller og isolert OpenH264 MP4-koding."
-        },
-        "pl_PL": {
-          "name": "AERA Recorder",
-          "description": "Płynne nagrywanie ekranu przy odzyskiwaniu z natywnymi kontrolkami AERA oraz izolowanym kodowaniem OpenH264 MP4."
-        },
-        "pt_BR": {
-          "name": "AERA Recorder",
-          "description": "Gravação de tela de recuperação suave com controles nativos AERA e codificação isolada OpenH264 MP4."
-        },
-        "pt_PT": {
-          "name": "AERA Recorder",
-          "description": "Gravação de ecrã de recuperação suave com controlos nativos AERA e codificação isolada OpenH264 MP4."
-        },
-        "ro_RO": {
-          "name": "AERA Recorder",
-          "description": "Înregistrare ecran recuperare lină cu controale native AERA și codare izolată OpenH264 MP4."
-        },
-        "ru": {
-          "name": "AERA Recorder",
-          "description": "Плавная запись экрана восстановления с использованием родных элементов управления AERA и изолированного кодирования OpenH264 MP4."
-        },
-        "sr_Cyrl": {
-          "name": "AERA Recorder",
-          "description": "Глатко снимање екрана са нативним AERA контролама и изолованим OpenH264 MP4 кодирањем."
-        },
-        "th_TH": {
-          "name": "AERA Recorder",
-          "description": "การบันทึกหน้าจอการกู้คืนที่ลื่นไหลด้วยการควบคุม AERA เนทีฟและการเข้ารหัส OpenH264 MP4 แยกส่วน"
-        },
-        "tr_TR": {
-          "name": "AERA Recorder",
-          "description": "Yerel AERA kontrolleri ve izole OpenH264 MP4 kodlaması ile düzgün kurtarma ekran kaydı."
-        },
-        "uk_UA": {
-          "name": "AERA Recorder",
-          "description": "Гладкий відновлювальний запис екрану з рідними контролерами AERA та ізольованим кодуванням OpenH264 MP4."
-        },
-        "vi_VN": {
-          "name": "AERA Recorder",
-          "description": "Ghi màn hình phục hồi mượt mà với các điều khiển AERA gốc và mã hóa OpenH264 MP4 riêng biệt."
-        },
-        "zh_CN": {
-          "name": "AERA Recorder",
-          "description": "使用本地 AERA 控件和独立的 OpenH264 MP4 编码平滑恢复屏幕录制。"
-        },
-        "zh_TW": {
-          "name": "AERA Recorder",
-          "description": "使用原生 AERA 控制和隔離的 OpenH264 MP4 編碼平滑恢復螢幕錄製。"
-        }
-      }
-    },
-    {
-      "id": "appvault",
-      "name": "AERA App Backup Vault",
-      "version": "1.1.0",
-      "description": "Encrypted per-app backups and restores for internal or mounted network storage, powered by restic.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/5559192433ddb574a72b0c18aae9c7bc04e51059/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/5559192433ddb574a72b0c18aae9c7bc04e51059/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/app-backup-vault/releases/download/v1.1.0/AERA-App-Backup-Vault-1.1.0.aerap",
-      "package_size": 7628069,
-      "package_sha256": "30032ab85797552cf904de9371bcdbe523bd36ef5fd94089ce35f043d4ab9a30",
-      "localizations": {
-        "ar_SA": {
-          "name": "AERA App Backup Vault",
-          "description": "نسخ احتياطية واستعادة مشفرة لكل تطبيق للتخزين الداخلي أو الشبكي المثبت، بتقنية restic."
-        },
-        "bg_BG": {
-          "name": "AERA App Backup Vault",
-          "description": "Зашифровани резервни копия и възстановяване за вътрешно или свързано мрежово хранилище, захранвани от restic."
-        },
-        "bn_BD": {
-          "name": "AERA App Backup Vault",
-          "description": "অভ্যন্তরীণ বা মাউন্ট করা নেটওয়ার্ক স্টোরেজের জন্য অ্যাপ-দ্বারা এনক্রিপ্ট করা ব্যাকআপ এবং পুনরুদ্ধার, restic দ্বারা চালিত।"
-        },
-        "ca_ES": {
-          "name": "AERA App Backup Vault",
-          "description": "Còpies de seguretat i restauracions xifrades per a cada app per a emmagatzematge intern o de xarxa muntat, impulsades per restic."
-        },
-        "cs_CZ": {
-          "name": "AERA App Backup Vault",
-          "description": "Šifrované zálohy a obnovení aplikací pro interní nebo připojené síťové úložiště, poháněné restic."
-        },
-        "de_DE": {
-          "name": "AERA App Backup Vault",
-          "description": "Verschlüsselte pro-App-Backups und -Wiederherstellungen für interne oder gemountete Netzwerkspeicher, betrieben von restic."
-        },
-        "el_GR": {
-          "name": "AERA App Backup Vault",
-          "description": "Κωδικοποιημένα αντίγραφα ασφαλείας ανά εφαρμογή και επαναφορές για εσωτερική ή προσαρτημένη αποθήκευση δικτύου, υποστηριζόμενα από restic."
-        },
-        "es-ES": {
-          "name": "AERA App Backup Vault",
-          "description": "Copias de seguridad y restauraciones por aplicación encriptadas para almacenamiento interno o de red montado, impulsadas por restic."
-        },
-        "fa_IR": {
-          "name": "AERA App Backup Vault",
-          "description": "پشتیبان‌گیری و بازیابی رمزگذاری شده برای برنامه‌ها به صورت داخلی یا از طریق شبکه نصب‌شده، با قدرت restic."
-        },
-        "fr_FR": {
-          "name": "AERA App Backup Vault",
-          "description": "Sauvegardes et restaurations par application chiffrées pour un stockage réseau interne ou monté, alimentées par restic."
-        },
-        "he_IL": {
-          "name": "AERA App Backup Vault",
-          "description": "גיבויים ושחזורים מוצפנים לפי אפליקציה לאחסון פנימי או ברשת מחוברת, מופעל על ידי restic."
-        },
-        "hi_IN": {
-          "name": "AERA App Backup Vault",
-          "description": "एन्क्रिप्टेड प्रति-एप बैकअप और आंतरिक या माउंटेड नेटवर्क स्टोरेज के लिए रिस्टोर, restic द्वारा संचालित।"
-        },
-        "hu": {
-          "name": "AERA App Backup Vault",
-          "description": "Alkalmazásonként titkosított mentések és visszaállítások belső vagy csatolt hálózati tárolóhoz, a restic által biztosítva."
-        },
-        "id_ID": {
-          "name": "AERA App Backup Vault",
-          "description": "Cadangan dan pemulihan terenkripsi per-aplikasi untuk penyimpanan jaringan internal atau yang dipasang, didukung oleh restic."
-        },
-        "it_IT": {
-          "name": "AERA App Backup Vault",
-          "description": "Backup e ripristini per app crittografati per spazio di archiviazione interno o di rete montato, alimentati da restic."
-        },
-        "ja_JP": {
-          "name": "AERA App Backup Vault",
-          "description": "内部またはマウントされたネットワークストレージ用のアプリごとの暗号化バックアップとリストア、resticによって提供されます。"
-        },
-        "ko_KR": {
-          "name": "AERA App Backup Vault",
-          "description": "내부 또는 탑재된 네트워크 저장소용으로 앱별 백업 및 복원이 암호화되었으며, restic에서 지원합니다."
-        },
-        "nl_NL": {
-          "name": "AERA App Backup Vault",
-          "description": "Versleutelde per-app back-ups en herstel voor interne of aangekoppelde netwerkopslag, aangedreven door restic."
-        },
-        "no_NO": {
-          "name": "AERA App Backup Vault",
-          "description": "Krypterte per-app sikkerhetskopier og gjenopprettinger for intern eller montert nettverkslagring, drevet av restic."
-        },
-        "pl_PL": {
-          "name": "AERA App Backup Vault",
-          "description": "Zaszyfrowane kopie zapasowe i przywracanie dla wewnętrznej lub zamontowanej pamięci sieciowej, obsługiwane przez restic."
-        },
-        "pt_BR": {
-          "name": "AERA App Backup Vault",
-          "description": "Backups e restaurações criptografadas por aplicativo para armazenamento interno ou de rede montado, fornecido por restic."
-        },
-        "pt_PT": {
-          "name": "AERA App Backup Vault",
-          "description": "Backups e restauros encriptados por aplicação para almacenamiento interno ou montado em rede, suportados pelo restic."
-        },
-        "ro_RO": {
-          "name": "AERA App Backup Vault",
-          "description": "Backup-uri și restaurări criptate pe aplicație pentru stocare internă sau de rețea montată, susținute de restic."
-        },
-        "ru": {
-          "name": "AERA App Backup Vault",
-          "description": "Зашифрованные резервные копии и восстановление по приложениям для внутреннего или смонтированного сетевого хранилища, поддерживаемые restic."
-        },
-        "sr_Cyrl": {
-          "name": "AERA App Backup Vault",
-          "description": "Енкриптовани резервни и обновљени подаци по апликацији за интерну или монтирану мрежну меморију, подржано од стране restic."
-        },
-        "th_TH": {
-          "name": "AERA App Backup Vault",
-          "description": "สำรองและกู้คืนข้อมูลแบบเข้ารหัสต่อแอปสำหรับที่เก็บข้อมูลภายในหรือเครือข่ายที่เชื่อมต่อ ใช้งานโดย restic"
-        },
-        "tr_TR": {
-          "name": "AERA App Backup Vault",
-          "description": "restic tarafından desteklenen dahili veya bağlanmış ağ depolaması için uygulama başına şifreli yedeklemeler ve geri yüklemeler."
-        },
-        "uk_UA": {
-          "name": "AERA App Backup Vault",
-          "description": "Зашифровані резервні копії та відновлення для внутрішнього або змонтованого мережевого сховища, підтримувані restic."
-        },
-        "vi_VN": {
-          "name": "AERA App Backup Vault",
-          "description": "Sao lưu và khôi phục được mã hóa theo từng ứng dụng cho bộ nhớ mạng nội bộ hoặc đã gắn, được hỗ trợ bởi restic."
-        },
-        "zh_CN": {
-          "name": "AERA App Backup Vault",
-          "description": "针对内部或挂载的网络存储的应用程序加密备份和恢复，由 restic 提供支持。"
-        },
-        "zh_TW": {
-          "name": "AERA App Backup Vault",
-          "description": "為內部或已掛載的網路儲存提供每個應用程式的加密備份與還原，由 restic 提供支援。"
-        }
-      }
-    },
-    {
-      "id": "mirror",
-      "name": "AERA Mirror",
-      "version": "0.3.0",
-      "description": "View and control AERA Recovery through a browser over Wi-Fi or a low-latency USB connection.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/c016140befbb05a8ad3ced364d3dadf0fd527bcd/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/c016140befbb05a8ad3ced364d3dadf0fd527bcd/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/mirror/releases/download/v0.3.0/AERA-Mirror-0.3.0.aerap",
-      "package_size": 52823,
-      "package_sha256": "ed2adce3da98e63f8375f2cd32b0a393662263fda966718a93edd07571b0e017",
-      "localizations": {
-        "ar_SA": {
-          "name": "AERA Mirror",
-          "description": "عرض والتحكم في استعادة AERA من خلال متصفح على Wi-Fi أو اتصال منخفض الكمون USB."
-        },
-        "bg_BG": {
-          "name": "AERA Mirror",
-          "description": "Преглеждайте и контролирайте AERA Recovery чрез браузър през Wi-Fi или връзка с ниска латентност USB."
-        },
-        "bn_BD": {
-          "name": "AERA Mirror",
-          "description": "একটি ব্রাউজারের মাধ্যমে Wi-Fi বা কম-লেন্সি USB সংযোগের উপর AERA রিকভারি দেখুন এবং নিয়ন্ত্রণ করুন।"
-        },
-        "ca_ES": {
-          "name": "AERA Mirror",
-          "description": "Veure i controlar la recuperació AERA mitjançant un navegador sobre Wi-Fi o una connexió de baixa latència USB."
-        },
-        "cs_CZ": {
-          "name": "AERA Mirror",
-          "description": "Prohlížejte a ovládejte obnovení AERA prostřednictvím prohlížeče přes Wi-Fi nebo připojení s nízkou latencí USB."
-        },
-        "de_DE": {
-          "name": "AERA Mirror",
-          "description": "Anzeige und Steuerung von AERA Recovery über einen Browser über Wi-Fi oder eine Verbindung mit niedriger Latenz USB."
-        },
-        "el_GR": {
-          "name": "AERA Mirror",
-          "description": "Προβάλετε και ελέγξτε την Ανάκτηση AERA μέσω ενός προγράμματος περιήγησης πάνω σε Wi-Fi ή μέσω μιας σύνδεσης χαμηλής καθυστέρησης USB."
-        },
-        "es-ES": {
-          "name": "AERA Mirror",
-          "description": "Ver y controla la recuperación AERA a través de un navegador sobre Wi-Fi o una conexión de baja latencia USB."
-        },
-        "fa_IR": {
-          "name": "AERA Mirror",
-          "description": "مشاهده و کنترل بازیابی AERA از طریق مرورگر با استفاده از Wi-Fi یا اتصال کم‌تأخیر USB."
-        },
-        "fr_FR": {
-          "name": "AERA Mirror",
-          "description": "Afficher et contrôler la récupération AERA via un navigateur sur Wi-Fi ou une connexion basse latence USB."
-        },
-        "he_IL": {
-          "name": "AERA Mirror",
-          "description": "צפה ושלוט ב-AERA Recovery דרך דפדפן על פני Wi-Fi או חיבור USB נמוך-השיהוי."
-        },
-        "hi_IN": {
-          "name": "AERA Mirror",
-          "description": "Wi-Fi या लो-लेटेंसी USB कनेक्शन के माध्यम से ब्राउज़र में AERA रिकवरी देखें और नियंत्रित करें।"
-        },
-        "hu": {
-          "name": "AERA Mirror",
-          "description": "Nézze meg és irányítsa a AERA helyreállítást böngészőn keresztül Wi-Fi-en vagy alacsony késleltetésű USB kapcsolat segítségével."
-        },
-        "id_ID": {
-          "name": "AERA Mirror",
-          "description": "Lihat dan kendalikan Pemulihan AERA melalui browser melalui koneksi Wi-Fi atau koneksi berlatensi rendah USB."
-        },
-        "it_IT": {
-          "name": "AERA Mirror",
-          "description": "Visualizza e controlla il Recupero AERA tramite browser su Wi-Fi o una connessione a bassa latenza USB."
-        },
-        "ja_JP": {
-          "name": "AERA Mirror",
-          "description": "ブラウザを通じて Wi-Fi または低遅延 USB 接続経由で AERA リカバリーを表示および操作します。"
-        },
-        "ko_KR": {
-          "name": "AERA Mirror",
-          "description": "브라우저를 통해 AERA 복구를 Wi-Fi 또는 저지연 USB 연결로 보고 제어합니다."
-        },
-        "nl_NL": {
-          "name": "AERA Mirror",
-          "description": "Bekijk en beheer AERA Recovery via een browser via Wi-Fi of een verbinding met lage latentie USB."
-        },
-        "no_NO": {
-          "name": "AERA Mirror",
-          "description": "Se og kontroller AERA-gjenoppretting gjennom en nettleser over Wi-Fi eller en lav-latens USB-tilkobling."
-        },
-        "pl_PL": {
-          "name": "AERA Mirror",
-          "description": "Wyświetlaj i kontroluj odzyskiwanie AERA przez przeglądarkę za pomocą Wi-Fi lub połączenia o niskiej latencji USB."
-        },
-        "pt_BR": {
-          "name": "AERA Mirror",
-          "description": "Visualize e controle a Recuperação AERA através de um navegador via Wi-Fi ou uma conexão de baixa latência USB."
-        },
-        "pt_PT": {
-          "name": "AERA Mirror",
-          "description": "Ver e controlar a recuperação AERA através de um navegador sobre a ligação Wi-Fi ou uma ligação de baixa latência USB."
-        },
-        "ro_RO": {
-          "name": "AERA Mirror",
-          "description": "Vizualizează și controlează recuperarea AERA printr-un browser prin Wi-Fi sau o conexiune USB cu latență scăzută."
-        },
-        "ru": {
-          "name": "AERA Mirror",
-          "description": "Просмотр и управление восстановлением AERA через браузер с использованием Wi-Fi или низколатентного соединения USB."
-        },
-        "sr_Cyrl": {
-          "name": "AERA Mirror",
-          "description": "Прегледајте и контролишите AERA рестаурацију преко прегледача преко Wi-Fi или конекције ниске латенције USB."
-        },
-        "th_TH": {
-          "name": "AERA Mirror",
-          "description": "ดูและควบคุมการกู้คืน AERA ผ่านเบราว์เซอร์บน Wi-Fi หรือการเชื่อมต่อความหน่วงต่ำ USB"
-        },
-        "tr_TR": {
-          "name": "AERA Mirror",
-          "description": "AERA Kurtarma'yı bir tarayıcı üzerinden Wi-Fi veya düşük gecikmeli USB bağlantısı ile görüp kontrol edin."
-        },
-        "uk_UA": {
-          "name": "AERA Mirror",
-          "description": "Переглядайте та керуйте відновленням AERA через браузер за допомогою Wi-Fi або через з'єднання з низькою затримкою USB."
-        },
-        "vi_VN": {
-          "name": "AERA Mirror",
-          "description": "Xem và điều khiển AERA Recovery qua trình duyệt qua Wi-Fi hoặc kết nối độ trễ thấp USB."
-        },
-        "zh_CN": {
-          "name": "AERA Mirror",
-          "description": "通过 Wi-Fi 或低延迟 USB 连接，在浏览器中查看并控制 AERA 恢复。"
-        },
-        "zh_TW": {
-          "name": "AERA Mirror",
-          "description": "通過瀏覽器使用 Wi-Fi 或低延遲 USB 連線查看並控制 AERA 恢復。"
+          "name": "AERA Browser",
+          "description": "WebKit 瀏覽器，提供下載、視訊、GPU 渲染和揚聲器音訊。"
         }
       }
     },
     {
       "id": "media",
       "name": "AERA Media",
-      "version": "1.2.0",
-      "description": "Orientation-aware fullscreen music and video player with overlay controls, draggable seeking, GPU-composited video and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/52d1d4f634b588a6a16311f06db8b4159012f52f/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/52d1d4f634b588a6a16311f06db8b4159012f52f/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.2.0/AERA-Media-1.2.0.aerap",
-      "package_size": 6900981,
-      "package_sha256": "bb164eed568ad764656d6af27e179cc781caf7ff44dbd38b354c6feda5ae1f3d",
+      "version": "1.2.1",
+      "description": "Music and video player with rotation, timeline controls, and speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/f1a3e607f30eb3d434f38e34c7b933a322223344/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/f1a3e607f30eb3d434f38e34c7b933a322223344/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.2.0/AERA-Media-1.2.1.aerap",
+      "package_size": 6898191,
+      "package_sha256": "84322d8f56333478810441352b709effe07746ac5c9f552113fecb04f9cdeda4",
       "localizations": {
         "ar_SA": {
           "name": "AERA Media",
-          "description": "مشغل موسيقى وفيديو كامل الشاشة مع وعي الاتجاه مع عناصر تحكم متداخلة، والتمرير القابل للسحب، والفيديو المركب عبر GPU وصوت المتحدث AERA."
+          "description": "مشغل الموسيقى والفيديو مع إمكانية التدوير وعناصر التحكم في الجدول الزمني وصوت مكبر الصوت."
         },
         "bg_BG": {
           "name": "AERA Media",
-          "description": "Музикален и видео плейър на цял екран, ориентиран спрямо устройството, с контроли върху дисплея, плъзгащо се търсене, видео, композиранo от GPU, и аудио на говорителя AERA."
+          "description": "Музикален и видео плейър с ротация, контроли на времевата линия и аудио на високоговорителя."
         },
         "bn_BD": {
           "name": "AERA Media",
-          "description": "ওরিয়েন্টেশন সচেতন ফুলস্ক্রিন মিউজিক এবং ভিডিও প্লেয়ার ওভারলে কন্ট্রোল, ড্র্যাগেবল সিকিং, GPU-সংকলিত ভিডিও এবং AERA স্পিকার অডিও সহ।"
+          "description": "ঘূর্ণন, টাইমলাইন নিয়ন্ত্রণ এবং স্পিকার অডিও সহ সঙ্গীত এবং ভিডিও প্লেয়ার।"
         },
         "ca_ES": {
           "name": "AERA Media",
-          "description": "Reproductor de música i vídeo en pantalla completa amb detecció d'orientació, controls superposats, cerca arrossegable, vídeo compost per GPU i àudio del altaveu AERA."
+          "description": "Reproductor de música i vídeo amb rotació, controls de línia de temps i àudio dels altaveus."
         },
         "cs_CZ": {
           "name": "AERA Media",
-          "description": "Hudební a video přehrávač přizpůsobený orientaci s překryvnými ovládacími prvky, přetahováním hledání, videem složeným na GPU a zvukem reproduktoru AERA."
+          "description": "Přehrávač hudby a videa s rotací, ovládáním časové osy a zvukem reproduktoru."
         },
         "de_DE": {
           "name": "AERA Media",
-          "description": "Orientierungsbewusster Vollbild-Musik- und Videoplayer mit Overlay-Steuerung, ziehbarem Suchen, GPU-kombiniertem Video und AERA Lautsprecher-Audio."
+          "description": "Musik- und Videoplayer mit Drehung, Zeitleiste und Lautsprecher-Audio."
         },
         "el_GR": {
           "name": "AERA Media",
-          "description": "Πανόραμα μουσικής και βίντεο πλήρους οθόνης με επίστρωση ελέγχων, σύρσιμο για αναζήτηση, βίντεο συνθετό GPU και ήχο ηχείου AERA."
+          "description": "Πρόγραμμα αναπαραγωγής μουσικής και βίντεο με περιστροφή, χειριστήρια γραμμής χρόνου και ήχο ηχείων."
         },
         "es-ES": {
           "name": "AERA Media",
-          "description": "Reproductor de música y video a pantalla completa consciente de la orientación con controles superpuestos, búsqueda arrastrable, video compuesto por GPU y audio de altavoz AERA."
+          "description": "Reproductor de música y vídeo con rotación, controles de línea de tiempo y audio del altavoz."
         },
         "fa_IR": {
           "name": "AERA Media",
-          "description": "پخش‌کننده موسیقی و ویدئو تمام‌صفحه با قابلیت تشخیص جهت با کنترل‌های روی صفحه، جستجوی قابل کشیدن، ویدئوی ترکیب‌شده با GPU و صدای بلندگو AERA."
+          "description": "پخش کننده موسیقی و ویدیو با چرخش، کنترل های جدول زمانی و صدای بلندگو."
         },
         "fr_FR": {
           "name": "AERA Media",
-          "description": "Lecteur de musique et vidéo en plein écran sensible à l'orientation avec commandes superposées, recherche par glissement, vidéo composée par GPU et audio des haut-parleurs AERA."
+          "description": "Lecteur de musique et vidéo avec rotation, commandes de chronologie et haut-parleur audio."
         },
         "he_IL": {
           "name": "AERA Media",
-          "description": "נגן מוסיקה ווידאו במסך מלא המודע לכיוון עם בקרות חפיפה, חיפוש גרירה, וידאו מורכב באמצעות GPU ואודיו רמקול AERA."
+          "description": "נגן מוזיקה ווידאו עם סיבוב, בקרות ציר זמן ואודיו של רמקול."
         },
         "hi_IN": {
           "name": "AERA Media",
-          "description": "ओरिएंटेशन-संवेदनशील फुलस्क्रीन संगीत और वीडियो प्लेयर ओवरले नियंत्रण के साथ, ड्रैग करने योग्य सीकिंग, GPU-समायोजित वीडियो और AERA स्पीकर ऑडियो के साथ।"
+          "description": "रोटेशन, टाइमलाइन नियंत्रण और स्पीकर ऑडियो के साथ संगीत और वीडियो प्लेयर।"
         },
         "hu": {
           "name": "AERA Media",
-          "description": "Tájolásérzékeny teljes képernyős zene- és videolejátszó átfedéses vezérlőkkel, húzható kereséssel, GPU-val összerakott videóval és AERA hangszóró hangjával."
+          "description": "Zene- és videolejátszó forgatással, idővonal-vezérlőkkel és hangszóró hanggal."
         },
         "id_ID": {
           "name": "AERA Media",
-          "description": "Pemutar musik dan video layar penuh yang mendeteksi orientasi dengan kontrol overlay, pencarian yang dapat diseret, video terkomposit GPU dan audio speaker AERA."
+          "description": "Pemutar musik dan video dengan rotasi, kontrol garis waktu, dan audio speaker."
         },
         "it_IT": {
           "name": "AERA Media",
-          "description": "Lettore musicale e video a schermo intero con orientamento, controlli overlay, ricerca trascinabile, video composito GPU e audio a speaker AERA."
+          "description": "Lettore musicale e video con rotazione, controlli della timeline e audio dell'altoparlante."
         },
         "ja_JP": {
           "name": "AERA Media",
-          "description": "オーバーレイコントロール付き、ドラッグ可能なシーク、GPU 合成ビデオおよび AERA スピーカー音声対応の向き対応フルスクリーン音楽・ビデオプレーヤー。"
+          "description": "回転、タイムライン コントロール、スピーカー オーディオを備えた音楽およびビデオ プレーヤー。"
         },
         "ko_KR": {
           "name": "AERA Media",
-          "description": "오리엔테이션 인식 전체화면 음악 및 비디오 플레이어로 오버레이 컨트롤, 드래그 가능한 탐색, GPU 합성 비디오 및 AERA 스피커 오디오 제공"
+          "description": "회전, 타임라인 제어, 스피커 오디오가 포함된 음악 및 비디오 플레이어입니다."
         },
         "nl_NL": {
           "name": "AERA Media",
-          "description": "Oriëntatiebewuste fullscreen muziek- en videospeler met overlay-bedieningselementen, sleepbare zoekfunctie, GPU-gecompositeerde video en AERA luidspreker-audio."
+          "description": "Muziek- en videospeler met rotatie, tijdlijnbediening en luidsprekeraudio."
         },
         "no_NO": {
           "name": "AERA Media",
-          "description": "Orienteringsbevisst fullskjerm musikk- og videospiller med overleggskontroller, dragbar søking, GPU-komposittet video og AERA høyttalerlyd."
+          "description": "Musikk- og videospiller med rotasjon, tidslinjekontroller og høyttalerlyd."
         },
         "pl_PL": {
           "name": "AERA Media",
-          "description": "Odtwarzacz muzyki i wideo w trybie pełnoekranowym, reagujący na orientację, z kontrolkami nakładki, przesuwaniem suwaka, wideo kompozytowanym przez GPU i dźwiękiem głośnika AERA."
+          "description": "Odtwarzacz muzyki i wideo z możliwością obracania, sterowaniem osią czasu i dźwiękiem z głośników."
         },
         "pt_BR": {
           "name": "AERA Media",
-          "description": "Reprodutor de música e vídeo em tela cheia sensível à orientação com controles sobrepostos, busca arrastável, vídeo composto por GPU e áudio do alto-falante AERA."
+          "description": "Reprodutor de música e vídeo com rotação, controles de linha do tempo e áudio do alto-falante."
         },
         "pt_PT": {
           "name": "AERA Media",
-          "description": "Reprodutor de música e vídeo em ecrã completo sensível à orientação com controlos sobrepostos, procura arrastável, vídeo composto por GPU e áudio do altifalante AERA."
+          "description": "Reprodutor de música e vídeo com rotação, controlos de linha do tempo e áudio do altifalante."
         },
         "ro_RO": {
           "name": "AERA Media",
-          "description": "Player de muzică și video fullscreen conștient de orientare, cu controale suprapuse, căutare prin tragere, video compus pe GPU și audio la difuzor AERA."
+          "description": "Player muzical și video cu rotație, comenzi cronologice și audio difuzor."
         },
         "ru": {
           "name": "AERA Media",
-          "description": "Интерфейс воспроизведения музыки и видео в полноэкранном режиме с учетом ориентации, с элементами управления поверх, возможностью перетаскивания для перемотки, видеокомпозицией на GPU и звуком через динамик AERA."
+          "description": "Музыкальный и видеоплеер с вращением, элементами управления временной шкалой и звуком через динамик."
         },
         "sr_Cyrl": {
           "name": "AERA Media",
-          "description": "Orijentaciono-svesni fullscreen muzički i video plejer sa overlay kontrolama, povlačivim pretraživanjem, GPU-kompozitovanim videom i AERA zvukom zvučnika."
+          "description": "Музички и видео плејер са ротацијом, контролама временске линије и звуком звучника."
+        },
+        "sv_SE": {
+          "name": "AERA Media",
+          "description": "Musik- och videospelare med rotation, tidslinje och högtalarljud."
         },
         "th_TH": {
           "name": "AERA Media",
-          "description": "เครื่องเล่นเพลงและวิดีโอแบบเต็มหน้าจอที่ทราบการวางแนว พร้อมการควบคุมแบบซ้อนทับ การเลื่อนหาที่กำหนดเอง, วิดีโอที่รวมโดย GPU และเสียงลำโพง AERA"
+          "description": "เครื่องเล่นเพลงและวิดีโอพร้อมการหมุน การควบคุมไทม์ไลน์ และเสียงลำโพง"
         },
         "tr_TR": {
           "name": "AERA Media",
-          "description": "Yerleşik kontrollerle yatay/dikey tam ekran müzik ve video oynatıcı, sürüklenebilir arama, GPU ile birleştirilmiş video ve AERA hoparlör sesi."
+          "description": "Döndürme, zaman çizelgesi kontrolleri ve hoparlör sesi özelliklerine sahip müzik ve video oynatıcı."
         },
         "uk_UA": {
           "name": "AERA Media",
-          "description": "Музичний та відеопрогравач на весь екран, орієнтований на екран, з накладними елементами керування, перетягуванням для пошуку, відео, композитованим за допомогою GPU, та аудіо динаміка AERA."
+          "description": "Музичний та відеоплеєр із обертанням, елементами керування часовою шкалою та звуком динаміків."
         },
         "vi_VN": {
           "name": "AERA Media",
-          "description": "Trình phát nhạc và video toàn màn hình nhận biết hướng với các điều khiển phủ, tìm kiếm kéo được, video kết hợp GPU và âm thanh loa AERA."
+          "description": "Trình phát nhạc và video có tính năng xoay, điều khiển dòng thời gian và âm thanh loa."
         },
         "zh_CN": {
           "name": "AERA Media",
-          "description": "支持方向感知的全屏音乐和视频播放器，具有覆盖控件、可拖动的搜索、GPU 合成视频和 AERA 扬声器音频。"
+          "description": "具有旋转、时间线控制和扬声器音频的音乐和视频播放器。"
         },
         "zh_TW": {
           "name": "AERA Media",
-          "description": "具備方向感應全螢幕音樂和影片播放器，附覆蓋控制，支援拖曳搜尋、GPU 合成影片和 AERA 喇叭音訊。"
+          "description": "具有旋轉、時間軸控制和揚聲器音訊的音樂和視訊播放器。"
         }
       }
     },
     {
-      "id": "browser",
-      "name": "AERA Browser",
-      "version": "1.5.0",
-      "description": "Full-height mobile WebKit browser with pinch zoom, managed downloads, 120 Hz GPU compositing, video, and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/98b56060b1da732aa38f0d27a7ccdc3bf2d13a92/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/98b56060b1da732aa38f0d27a7ccdc3bf2d13a92/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.5.0/AERA-Browser-1.5.0.aerap",
-      "package_size": 40939117,
-      "package_sha256": "167b7c5e1ea2ee2e621fa7437947fad3998104785a6c07b35478a463d06418fd",
+      "id": "mirror",
+      "name": "AERA Mirror",
+      "version": "0.3.1",
+      "description": "Control AERA Recovery from a browser over Wi-Fi or USB.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/a16590fd1a84433b0f4eee9986bf3d7eb08a7c23/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/mirror/a16590fd1a84433b0f4eee9986bf3d7eb08a7c23/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/mirror/releases/download/v0.3.1/AERA-Mirror-0.3.1.aerap",
+      "package_size": 57868,
+      "package_sha256": "540e8f5b6a284c3650ac73b9a12947ba1b5ec1467eb0599c3c61d30f9b7a4793",
       "localizations": {
         "ar_SA": {
-          "name": "AERA Browser",
-          "description": "متصفح الهاتف الذكي WebKit بارتفاع كامل مع تكبير بالإيماءات، تحميلات مُدارة، تركيب رسومي GPU بمعدل 120 هرتز، فيديو، وصوت من مكبر الصوت AERA."
+          "name": "AERA Mirror",
+          "description": "التحكم في AERA Recovery من متصفح عبر Wi-Fi أو USB."
         },
         "bg_BG": {
-          "name": "AERA Browser",
-          "description": "Мобилен браузър с пълна височина WebKit с щипка за увеличение, управлявани изтегляния, 120 Hz GPU композиране, видео и аудио за говорител AERA."
+          "name": "AERA Mirror",
+          "description": "Контролирайте AERA Recovery от браузър през Wi-Fi или USB."
         },
         "bn_BD": {
-          "name": "AERA Browser",
-          "description": "পিনচ জুম, পরিচালিত ডাউনলোড, 120 Hz GPU কম্পোজিটিং, ভিডিও এবং AERA স্পিকার অডিও সম্বলিত পূর্ণ-উচ্চতা মোবাইল WebKit ব্রাউজার।"
+          "name": "AERA Mirror",
+          "description": "একটি ব্রাউজার থেকে Wi-Fi বা USB এর উপর AERA Recovery নিয়ন্ত্রণ করুন।"
         },
         "ca_ES": {
-          "name": "AERA Browser",
-          "description": "Navegador mòbil d'alçada completa WebKit amb zoom amb els dits, descàrregues gestionades, composició GPU de 120 Hz, vídeo i àudio d'altaveu AERA."
+          "name": "AERA Mirror",
+          "description": "Controla AERA Recovery des d'un navegador a través de Wi-Fi o USB."
         },
         "cs_CZ": {
-          "name": "AERA Browser",
-          "description": "Mobilní prohlížeč WebKit v plné výšce s funkcí přibližování dvěma prsty, spravovanými stahováními, 120Hz GPU kompozicí, videem a zvukem reproduktoru AERA."
+          "name": "AERA Mirror",
+          "description": "Ovládejte AERA Recovery z prohlížeče přes Wi-Fi nebo USB."
         },
         "de_DE": {
-          "name": "AERA Browser",
-          "description": "Vollbild-Mobile WebKit-Browser mit Pinch-Zoom, verwalteten Downloads, 120-Hz-GPU-Komposition, Video und AERA-Lautsprecher-Audio."
+          "name": "AERA Mirror",
+          "description": "AERA Recovery per Browser über Wi-Fi oder USB steuern."
         },
         "el_GR": {
-          "name": "AERA Browser",
-          "description": "Πλήρως ψηλό κινητό πρόγραμμα περιήγησης WebKit με μεγέθυνση με πιντσέτα, διαχείριση λήψεων, 120 Hz σύνθεση GPU, βίντεο και ήχο ηχείου AERA."
+          "name": "AERA Mirror",
+          "description": "Ελέγξτε το AERA Recovery από ένα πρόγραμμα περιήγησης μέσω Wi-Fi ή USB."
         },
         "es-ES": {
-          "name": "AERA Browser",
-          "description": "Navegador móvil de altura completa WebKit con zoom de pellizco, descargas gestionadas, composición GPU a 120 Hz, video y audio del altavoz AERA."
+          "name": "AERA Mirror",
+          "description": "Controle AERA Recovery desde un navegador a través de Wi-Fi o USB."
         },
         "fa_IR": {
-          "name": "AERA Browser",
-          "description": "موبایل تمام‌قد WebKit با مرورگر و بزرگ‌نمایی با دو انگشت، دانلودهای مدیریت‌شده، رندر ۱۲۰ هرتز GPU، ویدیئو و صدای بلندگو AERA."
+          "name": "AERA Mirror",
+          "description": "AERA Recovery را از مرورگر روی Wi-Fi یا USB کنترل کنید."
         },
         "fr_FR": {
-          "name": "AERA Browser",
-          "description": "Mobile en plein écran WebKit avec zoom par pincement, téléchargements gérés, composition GPU à 120 Hz, vidéo et audio du haut-parleur AERA."
+          "name": "AERA Mirror",
+          "description": "Contrôlez AERA Recovery depuis un navigateur via Wi-Fi ou USB."
         },
         "he_IL": {
-          "name": "AERA Browser",
-          "description": "טלפון נייד בגובה מלא WebKit עם זום בצביטה, ניהול הורדות, קומפוזיציית GPU בקצב 120 הרץ, וידאו, ו-Audio של רמקול AERA."
+          "name": "AERA Mirror",
+          "description": "שליטה ב-AERA Recovery מדפדפן מעל Wi-Fi או USB."
         },
         "hi_IN": {
-          "name": "AERA Browser",
-          "description": "पूर्ण-ऊँचाई वाला मोबाइल WebKit ब्राउज़र पिंच ज़ूम, प्रबंधित डाउनलोड, 120 Hz GPU कंपोज़िटिंग, वीडियो और AERA स्पीकर ऑडियो के साथ।"
+          "name": "AERA Mirror",
+          "description": "Wi-Fi या USB पर एक ब्राउज़र से AERA Recovery को नियंत्रित करें।"
         },
         "hu": {
-          "name": "AERA Browser",
-          "description": "Teljes magasságú mobil WebKit böngésző ujjhúzós nagyítással, kezelt letöltésekkel, 120 Hz GPU összerakással, videóval és AERA hangszóró hanggal."
+          "name": "AERA Mirror",
+          "description": "A AERA Recovery vezérlése böngészőből a Wi-Fi vagy USB felett."
         },
         "id_ID": {
-          "name": "AERA Browser",
-          "description": "Browser mobile WebKit penuh tinggi dengan zoom pinch, unduhan terkelola, komposit GPU 120 Hz, video, dan audio speaker AERA."
+          "name": "AERA Mirror",
+          "description": "Kontrol AERA Recovery dari browser melalui Wi-Fi atau USB."
         },
         "it_IT": {
-          "name": "AERA Browser",
-          "description": "Browser mobile WebKit a tutta altezza con zoom pinch, download gestiti, composizione GPU a 120 Hz, video e audio altoparlante AERA."
+          "name": "AERA Mirror",
+          "description": "Controlla AERA Recovery da un browser tramite Wi-Fi o USB."
         },
         "ja_JP": {
-          "name": "AERA Browser",
-          "description": "ピンチズーム対応の全高モバイルWebKitブラウザ、管理されたダウンロード、120 Hz GPU合成、ビデオ、およびAERAスピーカーオーディオ。"
+          "name": "AERA Mirror",
+          "description": "Wi-Fi または USB を介してブラウザから AERA Recovery を制御します。"
         },
         "ko_KR": {
-          "name": "AERA Browser",
-          "description": "줌인 핀치, 다운로드 관리, 120Hz GPU 합성, 비디오 및 AERA 스피커 오디오가 포함된 전체 높이 모바일 WebKit 브라우저"
+          "name": "AERA Mirror",
+          "description": "Wi-Fi 또는 USB를 통해 브라우저에서 AERA Recovery를 제어합니다."
         },
         "nl_NL": {
-          "name": "AERA Browser",
-          "description": "Volledige hoogte mobiele WebKit-browser met pinch-zoom, beheerde downloads, 120 Hz GPU-compositing, video en AERA-luidsprekeraudio."
+          "name": "AERA Mirror",
+          "description": "Bedien AERA Recovery vanuit een browser via Wi-Fi of USB."
         },
         "no_NO": {
-          "name": "AERA Browser",
-          "description": "Fullskjermmobil WebKit-nettleser med klypzoom, administrerte nedlastinger, 120 Hz GPU-komponering, video og AERA høyttalerlyd."
+          "name": "AERA Mirror",
+          "description": "Kontroller AERA Recovery fra en nettleser over Wi-Fi eller USB."
         },
         "pl_PL": {
-          "name": "AERA Browser",
-          "description": "Mobilna przeglądarka WebKit o pełnej wysokości z możliwością powiększania gestem szczypania, zarządzanymi pobraniami, kompozycją GPU 120 Hz, wideo i dźwiękiem głośnika AERA."
+          "name": "AERA Mirror",
+          "description": "Kontroluj AERA Recovery z przeglądarki poprzez Wi-Fi lub USB."
         },
         "pt_BR": {
-          "name": "AERA Browser",
-          "description": "Navegador móvel WebKit de altura completa com zoom de pinça, downloads gerenciados, composição de GPU a 120 Hz, vídeo e áudio do alto-falante AERA."
+          "name": "AERA Mirror",
+          "description": "Controle AERA Recovery de um navegador por meio de Wi-Fi ou USB."
         },
         "pt_PT": {
-          "name": "AERA Browser",
-          "description": "Navegador móvel WebKit de altura total com zoom de pinça, downloads geridos, composição de GPU a 120 Hz, vídeo e áudio do altifalante AERA."
+          "name": "AERA Mirror",
+          "description": "Controle AERA Recovery a partir de um navegador através de Wi-Fi ou USB."
         },
         "ro_RO": {
-          "name": "AERA Browser",
-          "description": "Browser mobil WebKit full-height cu mărire prin ciupire, descărcări gestionate, compunere GPU la 120 Hz, video și sunet de la difuzorul AERA."
+          "name": "AERA Mirror",
+          "description": "Controlați AERA Recovery dintr-un browser peste Wi-Fi sau USB."
         },
         "ru": {
-          "name": "AERA Browser",
-          "description": "Мобильный браузер WebKit на полный рост с функцией масштабирования двумя пальцами, управляемыми загрузками, 120 Гц GPU-композицией, видео и аудио через динамик AERA."
+          "name": "AERA Mirror",
+          "description": "Управляйте AERA Recovery из браузера через Wi-Fi или USB."
         },
         "sr_Cyrl": {
-          "name": "AERA Browser",
-          "description": "Прегледач за мобилне уређаје пуне висине WebKit са функцијом приближавања и одмицања, управљаним преузимањем, GPU композитингом од 120 Hz, видео и аудиo у AERA звучнику."
+          "name": "AERA Mirror",
+          "description": "Контролишите AERA Recovery из прегледача преко Wi-Fi или USB."
+        },
+        "sv_SE": {
+          "name": "AERA Mirror",
+          "description": "Styr AERA Recovery från en webbläsare via Wi-Fi eller USB."
         },
         "th_TH": {
-          "name": "AERA Browser",
-          "description": "มือถือความสูงเต็ม WebKit เบราว์เซอร์พร้อมการซูมด้วยการหยิก จัดการการดาวน์โหลด การรวม GPU 120 Hz วิดีโอ และเสียงลำโพง AERA"
+          "name": "AERA Mirror",
+          "description": "ควบคุม AERA Recovery จากเบราว์เซอร์ผ่าน Wi-Fi หรือ USB"
         },
         "tr_TR": {
-          "name": "AERA Browser",
-          "description": "Çimdik yakınlaştırmalı tam yüksekliğe sahip mobil WebKit tarayıcı, yönetilen indirmeler, 120 Hz GPU kompozisyonu, video ve AERA hoparlör sesi."
+          "name": "AERA Mirror",
+          "description": "AERA Recovery'yi Wi-Fi veya USB üzerinden bir tarayıcıdan kontrol edin."
         },
         "uk_UA": {
-          "name": "AERA Browser",
-          "description": "Повноекранний мобільний браузер WebKit з можливістю масштабування, керованими завантаженнями, 120 Гц GPU-композицією, відео та аудіо динаміка AERA."
+          "name": "AERA Mirror",
+          "description": "Керуйте AERA Recovery із браузера через Wi-Fi або USB."
         },
         "vi_VN": {
-          "name": "AERA Browser",
-          "description": "Trình duyệt di động WebKit toàn chiều cao với thu phóng pinch, tải xuống được quản lý, GPU compositing 120 Hz, video và âm thanh loa AERA."
+          "name": "AERA Mirror",
+          "description": "Điều khiển AERA Recovery từ trình duyệt qua Wi-Fi hoặc USB."
         },
         "zh_CN": {
-          "name": "AERA Browser",
-          "description": "带有捏合缩放、下载管理、120 Hz GPU 合成、视频和 AERA 扬声器音频的全高移动 WebKit 浏览器。"
+          "name": "AERA Mirror",
+          "description": "通过 Wi-Fi 或 USB 从浏览器控制 AERA Recovery。"
         },
         "zh_TW": {
-          "name": "AERA Browser",
-          "description": "全高的行動裝置 WebKit 瀏覽器，支持捏合縮放、管理下載、120 Hz GPU 合成、影片播放和 AERA 揚聲器音訊。"
+          "name": "AERA Mirror",
+          "description": "透過 Wi-Fi 或 USB 從瀏覽器控制 AERA Recovery。"
         }
       }
     },
     {
       "id": "settings-backup",
       "name": "AERA Settings Backup",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Back up and restore AERA Recovery preferences.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/settings-backup/0ff1ee3a343f526d17f36a9ecb1b97f51145ce1b/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/settings-backup/0ff1ee3a343f526d17f36a9ecb1b97f51145ce1b/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/settings-backup/releases/download/v0.2.0/AERA-Settings-Backup-0.2.0.aerap",
-      "package_size": 24355,
-      "package_sha256": "efa36008f6102a8e6ed5ab8505fceb6e0a196655101ba895bfac2040dc8cd2b6",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/settings-backup/b41339d12c6bc20308e03fa600061378fd0ca751/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/settings-backup/b41339d12c6bc20308e03fa600061378fd0ca751/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/settings-backup/releases/download/v0.2.1/AERA-Settings-Backup-0.2.1.aerap",
+      "package_size": 26904,
+      "package_sha256": "4b401ac2f1742e7fe5249041d5f776ff654048526262128a385bbaa79a60c2f3",
       "localizations": {
         "ar_SA": {
           "name": "AERA Settings Backup",
-          "description": "نسخ إعدادات الاسترداد لـ AERA احتياطيًا واستعادتها."
+          "description": "نسخ واستعادة تفضيلات AERA Recovery."
         },
         "bg_BG": {
           "name": "AERA Settings Backup",
-          "description": "Архивиране и възстановяване на предпочитания за възстановяване AERA."
+          "description": "Архивиране и възстановяване на предпочитанията на AERA Recovery."
         },
         "bn_BD": {
           "name": "AERA Settings Backup",
-          "description": "AERA রিকভারি পছন্দসমূহ ব্যাক আপ এবং পুনঃস্থাপন করুন।"
+          "description": "AERA Recovery এর পছন্দসমূহ ব্যাকআপ এবং পুনঃস্থাপন করুন।"
         },
         "ca_ES": {
           "name": "AERA Settings Backup",
-          "description": "Fes una còpia de seguretat i restaura les preferències de recuperació AERA."
+          "description": "Fes una còpia de seguretat i restaura les preferències de AERA Recovery."
         },
         "cs_CZ": {
           "name": "AERA Settings Backup",
-          "description": "Zálohovat a obnovit předvolby zotavení AERA."
+          "description": "Zálohujte a obnovte předvolby AERA Recovery."
         },
         "de_DE": {
           "name": "AERA Settings Backup",
-          "description": "AERA-Wiederherstellungseinstellungen sichern und wiederherstellen."
+          "description": "Einstellungen von AERA Recovery sichern und wiederherstellen."
         },
         "el_GR": {
           "name": "AERA Settings Backup",
-          "description": "Δημιουργήστε αντίγραφο ασφαλείας και επαναφέρετε τις προτιμήσεις Ανάκτησης του AERA."
+          "description": "Δημιουργία αντιγράφων ασφαλείας και επαναφορά των προτιμήσεων AERA Recovery."
         },
         "es-ES": {
           "name": "AERA Settings Backup",
-          "description": "Hacer copia de seguridad y restaurar las preferencias de recuperación de AERA."
+          "description": "Haga una copia de seguridad y restaure las preferencias de AERA Recovery."
         },
         "fa_IR": {
           "name": "AERA Settings Backup",
-          "description": "پشتیبان‌گیری و بازیابی تنظیمات بازیابی AERA."
+          "description": "از تنظیمات برگزیده AERA Recovery نسخه پشتیبان تهیه و بازیابی کنید."
         },
         "fr_FR": {
           "name": "AERA Settings Backup",
-          "description": "Sauvegarder et restaurer les préférences de récupération de AERA."
+          "description": "Sauvegarder et restaurer les préférences de AERA Recovery."
         },
         "he_IL": {
           "name": "AERA Settings Backup",
-          "description": "גבה ושחזר את העדפות השחזור של AERA."
+          "description": "גבה ושחזר העדפות של AERA Recovery."
         },
         "hi_IN": {
           "name": "AERA Settings Backup",
-          "description": "AERA रिकवरी प्राथमिकताओं का बैकअप और पुनर्स्थापना करें।"
+          "description": "AERA Recovery प्राथमिकताओं का बैक अप और पुनर्स्थापित करें।"
         },
         "hu": {
           "name": "AERA Settings Backup",
-          "description": "A AERA helyreállítási beállításainak mentése és visszaállítása."
+          "description": "A AERA Recovery beállításainak biztonsági mentése és visszaállítása."
         },
         "id_ID": {
           "name": "AERA Settings Backup",
-          "description": "Cadangkan dan pulihkan preferensi Pemulihan AERA."
+          "description": "Cadangkan dan pulihkan preferensi AERA Recovery."
         },
         "it_IT": {
           "name": "AERA Settings Backup",
-          "description": "Esegui il backup e ripristina le preferenze di ripristino di AERA."
+          "description": "Esegui il backup e ripristina le preferenze di AERA Recovery."
         },
         "ja_JP": {
           "name": "AERA Settings Backup",
-          "description": "バックアップして復元AERA Recovery設定を復元してください。"
+          "description": "AERA Recovery の設定をバックアップおよび復元します。"
         },
         "ko_KR": {
           "name": "AERA Settings Backup",
-          "description": "AERA 복구 설정 백업 및 복원"
+          "description": "AERA Recovery 설정을 백업하고 복원합니다."
         },
         "nl_NL": {
           "name": "AERA Settings Backup",
-          "description": "Back-up maken en herstellen van AERA Recovery-voorkeuren."
+          "description": "Maak een back-up van en herstel AERA Recovery-voorkeuren."
         },
         "no_NO": {
           "name": "AERA Settings Backup",
-          "description": "Sikkerhetskopier og gjenopprett AERA-gjenopprettingsinnstillinger."
+          "description": "Sikkerhetskopier og gjenopprett AERA Recovery-innstillinger."
         },
         "pl_PL": {
           "name": "AERA Settings Backup",
-          "description": "Twórz kopie zapasowe i przywracaj ustawienia odzyskiwania AERA."
+          "description": "Twórz kopię zapasową i przywracaj ustawienia AERA Recovery."
         },
         "pt_BR": {
           "name": "AERA Settings Backup",
-          "description": "Fazer backup e restaurar preferências de recuperação do AERA."
+          "description": "Fazer backup e restaurar as preferências de AERA Recovery."
         },
         "pt_PT": {
           "name": "AERA Settings Backup",
-          "description": "Fazer backup e restaurar as preferências de recuperação AERA."
+          "description": "Fazer cópia de segurança e restaurar as preferências do AERA Recovery."
         },
         "ro_RO": {
           "name": "AERA Settings Backup",
-          "description": "Faceți backup și restaurați preferințele de recuperare AERA."
+          "description": "Fă backup și restaurare pentru preferințele AERA Recovery."
         },
         "ru": {
           "name": "AERA Settings Backup",
-          "description": "Создайте резервную копию и восстановите настройки восстановления AERA."
+          "description": "Резервное копирование и восстановление настроек AERA Recovery."
         },
         "sr_Cyrl": {
           "name": "AERA Settings Backup",
-          "description": "Bekap i vraćanje AERA podešavanja za oporavak."
+          "description": "Направите резервну копију и вратите подешавања AERA Recovery."
+        },
+        "sv_SE": {
+          "name": "AERA Settings Backup",
+          "description": "Säkerhetskopiera och återställ AERA Recovery-inställningar."
         },
         "th_TH": {
           "name": "AERA Settings Backup",
-          "description": "สำรองและคืนค่าการตั้งค่าการกู้คืน AERA"
+          "description": "สำรองข้อมูลและกู้คืนการตั้งค่า AERA Recovery"
         },
         "tr_TR": {
           "name": "AERA Settings Backup",
-          "description": "AERA Kurtarma tercihlerini yedekle ve geri yükle."
+          "description": "AERA Recovery tercihlerini yedekleyin ve geri yükleyin."
         },
         "uk_UA": {
           "name": "AERA Settings Backup",
-          "description": "Створити резервну копію та відновити налаштування відновлення AERA."
+          "description": "Створення резервних копій та відновлення налаштувань AERA Recovery."
         },
         "vi_VN": {
           "name": "AERA Settings Backup",
-          "description": "Sao lưu và khôi phục các tùy chọn khôi phục AERA."
+          "description": "Sao lưu và khôi phục các tùy chọn AERA Recovery."
         },
         "zh_CN": {
           "name": "AERA Settings Backup",
-          "description": "备份并恢复 AERA 恢复偏好设置。"
+          "description": "备份和恢复 AERA Recovery 首选项。"
         },
         "zh_TW": {
           "name": "AERA Settings Backup",
-          "description": "備份並還原 AERA 恢復偏好設定。"
+          "description": "備份並還原 AERA Recovery 偏好設定。"
+        }
+      }
+    },
+    {
+      "id": "appvault",
+      "name": "AERA App Backup Vault",
+      "version": "1.1.1",
+      "description": "Encrypted per-app backups to internal or connected network storage.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/d0f88de358eac8304bceb3db21b76f0e0e420e20/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/app-backup-vault/d0f88de358eac8304bceb3db21b76f0e0e420e20/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/app-backup-vault/releases/download/v1.1.0/AERA-App-Backup-Vault-1.1.1.aerap",
+      "package_size": 7626777,
+      "package_sha256": "27c0070342c563dbc9bfe0a469743f2a1c82e70b7d08f49a9953c01d5a30d893",
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA App Backup Vault",
+          "description": "نسخ احتياطية مشفرة لكل تطبيق إلى وحدة تخزين الشبكة الداخلية أو المتصلة."
+        },
+        "bg_BG": {
+          "name": "AERA App Backup Vault",
+          "description": "Криптирани резервни копия за всяко приложение във вътрешно или свързано мрежово хранилище."
+        },
+        "bn_BD": {
+          "name": "AERA App Backup Vault",
+          "description": "অভ্যন্তরীণ বা সংযুক্ত নেটওয়ার্ক স্টোরেজে এনক্রিপ্ট করা প্রতি-অ্যাপ ব্যাকআপ।"
+        },
+        "ca_ES": {
+          "name": "AERA App Backup Vault",
+          "description": "Còpies de seguretat xifrades per aplicació a l'emmagatzematge de xarxa intern o connectat."
+        },
+        "cs_CZ": {
+          "name": "AERA App Backup Vault",
+          "description": "Šifrované zálohy jednotlivých aplikací do interního nebo připojeného síťového úložiště."
+        },
+        "de_DE": {
+          "name": "AERA App Backup Vault",
+          "description": "Verschlüsselte App-Backups auf internem oder verbundenem Netzwerkspeicher."
+        },
+        "el_GR": {
+          "name": "AERA App Backup Vault",
+          "description": "Κρυπτογραφημένα αντίγραφα ασφαλείας ανά εφαρμογή σε εσωτερικό ή συνδεδεμένο χώρο αποθήκευσης δικτύου."
+        },
+        "es-ES": {
+          "name": "AERA App Backup Vault",
+          "description": "Copias de seguridad cifradas por aplicación en almacenamiento de red interno o conectado."
+        },
+        "fa_IR": {
+          "name": "AERA App Backup Vault",
+          "description": "پشتیبان‌گیری رمزگذاری‌شده برای هر برنامه در فضای ذخیره‌سازی شبکه داخلی یا متصل."
+        },
+        "fr_FR": {
+          "name": "AERA App Backup Vault",
+          "description": "Sauvegardes cryptées par application sur un stockage réseau interne ou connecté."
+        },
+        "he_IL": {
+          "name": "AERA App Backup Vault",
+          "description": "גיבויים מוצפנים לכל אפליקציה לאחסון רשת פנימי או מחובר."
+        },
+        "hi_IN": {
+          "name": "AERA App Backup Vault",
+          "description": "आंतरिक या कनेक्टेड नेटवर्क स्टोरेज में एन्क्रिप्टेड प्रति-ऐप बैकअप।"
+        },
+        "hu": {
+          "name": "AERA App Backup Vault",
+          "description": "Alkalmazásonként titkosított biztonsági mentések belső vagy csatlakoztatott hálózati tárhelyre."
+        },
+        "id_ID": {
+          "name": "AERA App Backup Vault",
+          "description": "Cadangan per aplikasi terenkripsi ke penyimpanan jaringan internal atau terhubung."
+        },
+        "it_IT": {
+          "name": "AERA App Backup Vault",
+          "description": "Backup per-app crittografati su storage di rete interno o connesso."
+        },
+        "ja_JP": {
+          "name": "AERA App Backup Vault",
+          "description": "内部または接続されたネットワーク ストレージへのアプリごとの暗号化されたバックアップ。"
+        },
+        "ko_KR": {
+          "name": "AERA App Backup Vault",
+          "description": "내부 또는 연결된 네트워크 저장소에 암호화된 앱별 백업."
+        },
+        "nl_NL": {
+          "name": "AERA App Backup Vault",
+          "description": "Gecodeerde back-ups per app naar interne of verbonden netwerkopslag."
+        },
+        "no_NO": {
+          "name": "AERA App Backup Vault",
+          "description": "Krypterte sikkerhetskopier per app til intern eller tilkoblet nettverkslagring."
+        },
+        "pl_PL": {
+          "name": "AERA App Backup Vault",
+          "description": "Szyfrowane kopie zapasowe poszczególnych aplikacji w pamięci wewnętrznej lub podłączonej do sieci."
+        },
+        "pt_BR": {
+          "name": "AERA App Backup Vault",
+          "description": "Backups criptografados por aplicativo para armazenamento de rede interno ou conectado."
+        },
+        "pt_PT": {
+          "name": "AERA App Backup Vault",
+          "description": "Backups encriptados por aplicação para armazenamento de rede interno ou ligado."
+        },
+        "ro_RO": {
+          "name": "AERA App Backup Vault",
+          "description": "Copii de rezervă criptate per aplicație în stocarea internă sau conectată în rețea."
+        },
+        "ru": {
+          "name": "AERA App Backup Vault",
+          "description": "Зашифрованные резервные копии каждого приложения во внутреннем или подключенном сетевом хранилище."
+        },
+        "sr_Cyrl": {
+          "name": "AERA App Backup Vault",
+          "description": "Шифроване резервне копије по апликацији у интерну или повезану мрежну меморију."
+        },
+        "sv_SE": {
+          "name": "AERA App Backup Vault",
+          "description": "Krypterade app-backuper till intern eller ansluten nätverkslagring."
+        },
+        "th_TH": {
+          "name": "AERA App Backup Vault",
+          "description": "การสำรองข้อมูลต่อแอปที่เข้ารหัสไปยังที่เก็บข้อมูลเครือข่ายภายในหรือที่เชื่อมต่อ"
+        },
+        "tr_TR": {
+          "name": "AERA App Backup Vault",
+          "description": "Dahili veya bağlı ağ depolama alanına uygulama başına şifrelenmiş yedeklemeler."
+        },
+        "uk_UA": {
+          "name": "AERA App Backup Vault",
+          "description": "Зашифровані резервні копії для кожної програми у внутрішньому або підключеному мережевому сховищі."
+        },
+        "vi_VN": {
+          "name": "AERA App Backup Vault",
+          "description": "Bản sao lưu được mã hóa trên mỗi ứng dụng vào bộ nhớ mạng nội bộ hoặc được kết nối."
+        },
+        "zh_CN": {
+          "name": "AERA App Backup Vault",
+          "description": "每个应用程序的加密备份到内部或连接的网络存储。"
+        },
+        "zh_TW": {
+          "name": "AERA App Backup Vault",
+          "description": "每個應用程式的加密備份到內部或連接的網路儲存。"
+        }
+      }
+    },
+    {
+      "id": "recorder",
+      "name": "AERA Recorder",
+      "version": "1.1.1",
+      "description": "Record AERA Recovery as MP4 using native controls and OpenH264.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/46cba2651b6d73e1cd44aeb964634e2be3b112d0/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/recorder/46cba2651b6d73e1cd44aeb964634e2be3b112d0/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/recorder/releases/download/v1.1.0/AERA-Recorder-1.1.1.aerap",
+      "package_size": 4026402,
+      "package_sha256": "d95814000e537b14cc36fd9bd40f16efc48b1c63475840e9818d68bcd7e9f62a",
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA Recorder",
+          "description": "قم بتسجيل AERA Recovery كـ MP4 باستخدام عناصر التحكم الأصلية وOpenH264."
+        },
+        "bg_BG": {
+          "name": "AERA Recorder",
+          "description": "Запишете AERA Recovery като MP4, като използвате собствени контроли и OpenH264."
+        },
+        "bn_BD": {
+          "name": "AERA Recorder",
+          "description": "স্থানীয় নিয়ন্ত্রণ এবং OpenH264 ব্যবহার করে AERA Recovery MP4 হিসাবে রেকর্ড করুন।"
+        },
+        "ca_ES": {
+          "name": "AERA Recorder",
+          "description": "Enregistreu AERA Recovery com a MP4 mitjançant controls natius i OpenH264."
+        },
+        "cs_CZ": {
+          "name": "AERA Recorder",
+          "description": "Nahrajte AERA Recovery jako MP4 pomocí nativních ovládacích prvků a OpenH264."
+        },
+        "de_DE": {
+          "name": "AERA Recorder",
+          "description": "AERA Recovery mit nativer Steuerung und OpenH264 als MP4 aufnehmen."
+        },
+        "el_GR": {
+          "name": "AERA Recorder",
+          "description": "Καταγράψτε το AERA Recovery ως MP4 χρησιμοποιώντας εγγενή στοιχεία ελέγχου και OpenH264."
+        },
+        "es-ES": {
+          "name": "AERA Recorder",
+          "description": "Registre AERA Recovery como MP4 usando controles nativos y OpenH264."
+        },
+        "fa_IR": {
+          "name": "AERA Recorder",
+          "description": "AERA Recovery را با استفاده از کنترل های بومی و OpenH264 به عنوان MP4 ضبط کنید."
+        },
+        "fr_FR": {
+          "name": "AERA Recorder",
+          "description": "Enregistrez AERA Recovery sous le nom MP4 à l'aide des contrôles natifs et de OpenH264."
+        },
+        "he_IL": {
+          "name": "AERA Recorder",
+          "description": "הקלט את AERA Recovery כ-MP4 באמצעות פקדים מקוריים ו-OpenH264."
+        },
+        "hi_IN": {
+          "name": "AERA Recorder",
+          "description": "देशी नियंत्रणों और OpenH264 का उपयोग करके AERA Recovery को MP4 के रूप में रिकॉर्ड करें।"
+        },
+        "hu": {
+          "name": "AERA Recorder",
+          "description": "Rögzítse a AERA Recovery fájlt MP4 néven a natív vezérlők és a OpenH264 használatával."
+        },
+        "id_ID": {
+          "name": "AERA Recorder",
+          "description": "Rekam AERA Recovery sebagai MP4 menggunakan kontrol asli dan OpenH264."
+        },
+        "it_IT": {
+          "name": "AERA Recorder",
+          "description": "Registra AERA Recovery come MP4 utilizzando i controlli nativi e OpenH264."
+        },
+        "ja_JP": {
+          "name": "AERA Recorder",
+          "description": "ネイティブ コントロールと OpenH264 を使用して、AERA Recovery を MP4 として記録します。"
+        },
+        "ko_KR": {
+          "name": "AERA Recorder",
+          "description": "기본 컨트롤과 OpenH264를 사용하여 AERA Recovery를 MP4로 기록합니다."
+        },
+        "nl_NL": {
+          "name": "AERA Recorder",
+          "description": "Neem AERA Recovery op als MP4 met behulp van de systeemeigen besturingselementen en OpenH264."
+        },
+        "no_NO": {
+          "name": "AERA Recorder",
+          "description": "Registrer AERA Recovery som MP4 ved å bruke native kontroller og OpenH264."
+        },
+        "pl_PL": {
+          "name": "AERA Recorder",
+          "description": "Zapisz AERA Recovery jako MP4, używając natywnych kontrolek i OpenH264."
+        },
+        "pt_BR": {
+          "name": "AERA Recorder",
+          "description": "Grave AERA Recovery como MP4 usando controles nativos e OpenH264."
+        },
+        "pt_PT": {
+          "name": "AERA Recorder",
+          "description": "Grave AERA Recovery como MP4 utilizando controlos nativos e OpenH264."
+        },
+        "ro_RO": {
+          "name": "AERA Recorder",
+          "description": "Înregistrați AERA Recovery ca MP4 folosind comenzile native și OpenH264."
+        },
+        "ru": {
+          "name": "AERA Recorder",
+          "description": "Запишите AERA Recovery как MP4, используя встроенные элементы управления и OpenH264."
+        },
+        "sr_Cyrl": {
+          "name": "AERA Recorder",
+          "description": "Снимите AERA Recovery као MP4 користећи изворне контроле и OpenH264."
+        },
+        "sv_SE": {
+          "name": "AERA Recorder",
+          "description": "Spela in AERA Recovery som MP4 med inbyggda kontroller och OpenH264."
+        },
+        "th_TH": {
+          "name": "AERA Recorder",
+          "description": "บันทึก AERA Recovery เป็น MP4 โดยใช้การควบคุมแบบเนทิฟและ OpenH264"
+        },
+        "tr_TR": {
+          "name": "AERA Recorder",
+          "description": "Yerel kontrolleri ve OpenH264'yi kullanarak AERA Recovery'yi MP4 olarak kaydedin."
+        },
+        "uk_UA": {
+          "name": "AERA Recorder",
+          "description": "Запишіть AERA Recovery як MP4 за допомогою власних елементів керування та OpenH264."
+        },
+        "vi_VN": {
+          "name": "AERA Recorder",
+          "description": "Ghi AERA Recovery dưới dạng MP4 bằng cách sử dụng các điều khiển gốc và OpenH264."
+        },
+        "zh_CN": {
+          "name": "AERA Recorder",
+          "description": "使用本机控件和 OpenH264 将 AERA Recovery 记录为 MP4。"
+        },
+        "zh_TW": {
+          "name": "AERA Recorder",
+          "description": "使用本機控制和 OpenH264 將 AERA Recovery 記錄為 MP4。"
+        }
+      }
+    },
+    {
+      "id": "gallery",
+      "name": "AERA Gallery",
+      "version": "1.1.1",
+      "description": "View images and AERA screenshots with zoom and pan (PNG/JPEG).",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/dae4f0dab0c5e2b47ffd272b31ef99d2f25ce493/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/gallery/dae4f0dab0c5e2b47ffd272b31ef99d2f25ce493/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/gallery/releases/download/v1.1.0/AERA-Gallery-1.1.1.aerap",
+      "package_size": 6818,
+      "package_sha256": "8bfc796a80bd7e615e912075d0e5fe5a8c8c4e0fc020859fda8b7444af16dea1",
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA Gallery",
+          "description": "عرض الصور ولقطات شاشة AERA مع التكبير/التصغير والتحريك (PNG/JPEG)."
+        },
+        "bg_BG": {
+          "name": "AERA Gallery",
+          "description": "Преглеждайте изображения и AERA екранни снимки с увеличение и панорама (PNG/JPEG)."
+        },
+        "bn_BD": {
+          "name": "AERA Gallery",
+          "description": "জুম এবং প্যান সহ ছবি এবং AERA স্ক্রিনশট দেখুন (PNG/JPEG)।"
+        },
+        "ca_ES": {
+          "name": "AERA Gallery",
+          "description": "Visualitza imatges i captures de pantalla de AERA amb zoom i panoràmica (PNG/JPEG)."
+        },
+        "cs_CZ": {
+          "name": "AERA Gallery",
+          "description": "Prohlížejte obrázky a snímky obrazovky AERA s přiblížením a posunem (PNG/JPEG)."
+        },
+        "de_DE": {
+          "name": "AERA Gallery",
+          "description": "Bilder und AERA-Screenshots zoomen und verschieben (PNG/JPEG)."
+        },
+        "el_GR": {
+          "name": "AERA Gallery",
+          "description": "Προβολή εικόνων και στιγμιότυπων οθόνης AERA με ζουμ και μετατόπιση (PNG/JPEG)."
+        },
+        "es-ES": {
+          "name": "AERA Gallery",
+          "description": "Vea imágenes y capturas de pantalla de AERA con zoom y panorámica (PNG/JPEG)."
+        },
+        "fa_IR": {
+          "name": "AERA Gallery",
+          "description": "مشاهده تصاویر و اسکرین شات های AERA با زوم و حرکت (PNGZ/JPEG)."
+        },
+        "fr_FR": {
+          "name": "AERA Gallery",
+          "description": "Affichez les images et les captures d'écran de AERA avec zoom et panoramique (PNG/JPEG)."
+        },
+        "he_IL": {
+          "name": "AERA Gallery",
+          "description": "צפה בתמונות ובצילומי מסך של AERA עם זום ותנועה (PNG/JPEG)."
+        },
+        "hi_IN": {
+          "name": "AERA Gallery",
+          "description": "ज़ूम और पैन (PNG/JPEG) के साथ छवियां और AERA स्क्रीनशॉट देखें।"
+        },
+        "hu": {
+          "name": "AERA Gallery",
+          "description": "Tekintse meg a képeket és a AERA képernyőképeket nagyítással és pásztázással (PNG/JPEG)."
+        },
+        "id_ID": {
+          "name": "AERA Gallery",
+          "description": "Lihat gambar dan tangkapan layar AERA dengan zoom dan geser (PNG/JPEG)."
+        },
+        "it_IT": {
+          "name": "AERA Gallery",
+          "description": "Visualizza immagini e screenshot AERA con zoom e panoramica (PNG/JPEG)."
+        },
+        "ja_JP": {
+          "name": "AERA Gallery",
+          "description": "ズームとパンを使用して画像と AERA のスクリーンショットを表示します (PNGXXQAERA2TOKENXZ)。"
+        },
+        "ko_KR": {
+          "name": "AERA Gallery",
+          "description": "확대/축소 및 이동(PNG/JPEG)을 사용하여 이미지와 AERA 스크린샷을 봅니다."
+        },
+        "nl_NL": {
+          "name": "AERA Gallery",
+          "description": "Bekijk afbeeldingen en AERA-screenshots met zoom en pan (PNG/JPEG)."
+        },
+        "no_NO": {
+          "name": "AERA Gallery",
+          "description": "Se bilder og AERA-skjermbilder med zoom og panorering (PNG/JPEG)."
+        },
+        "pl_PL": {
+          "name": "AERA Gallery",
+          "description": "Przeglądaj obrazy i zrzuty ekranu AERA z funkcją powiększania i przesuwania (PNG/JPEG)."
+        },
+        "pt_BR": {
+          "name": "AERA Gallery",
+          "description": "Veja imagens e capturas de tela de AERA com zoom e panorâmica (PNG/JPEG)."
+        },
+        "pt_PT": {
+          "name": "AERA Gallery",
+          "description": "Veja imagens e screenshots de AERA com zoom e panorâmica (PNG/JPEG)."
+        },
+        "ro_RO": {
+          "name": "AERA Gallery",
+          "description": "Vizualizați imagini și capturi de ecran AERA cu zoom și pan (PNG/JPEG)."
+        },
+        "ru": {
+          "name": "AERA Gallery",
+          "description": "Просматривайте изображения и снимки экрана AERA с масштабированием и панорамированием (PNG/JPEG)."
+        },
+        "sr_Cyrl": {
+          "name": "AERA Gallery",
+          "description": "Погледајте слике и AERA снимке екрана са зумирањем и померањем (PNG/JPEG)."
+        },
+        "sv_SE": {
+          "name": "AERA Gallery",
+          "description": "Visa bilder och AERA-skärmbilder med zoom (PNG/JPEG)."
+        },
+        "th_TH": {
+          "name": "AERA Gallery",
+          "description": "ดูภาพและภาพหน้าจอ AERA พร้อมซูมและแพน (PNG/JPEG)"
+        },
+        "tr_TR": {
+          "name": "AERA Gallery",
+          "description": "Görüntüleri ve AERA ekran görüntülerini yakınlaştırma ve kaydırma (PNG/JPEG) ile görüntüleyin."
+        },
+        "uk_UA": {
+          "name": "AERA Gallery",
+          "description": "Переглядайте зображення та знімки екрана AERA із масштабуванням і панорамуванням (PNG/JPEG)."
+        },
+        "vi_VN": {
+          "name": "AERA Gallery",
+          "description": "Xem hình ảnh và ảnh chụp màn hình AERA bằng tính năng thu phóng và xoay (PNG/JPEG)."
+        },
+        "zh_CN": {
+          "name": "AERA Gallery",
+          "description": "通过缩放和平移查看图像和 AERA 屏幕截图 (PNG/JPEG)。"
+        },
+        "zh_TW": {
+          "name": "AERA Gallery",
+          "description": "透過縮放和平移查看影像和 AERA 螢幕截圖 (PNG/JPEG)。"
+        }
+      }
+    },
+    {
+      "id": "telegram",
+      "name": "AERA Telegram",
+      "version": "1.2.1",
+      "description": "Telegram with encrypted sessions, chats, and read-only attachments.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/387bd304c74717300ed0b719cc6fabd9b08bcbe6/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/387bd304c74717300ed0b719cc6fabd9b08bcbe6/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/telegram/releases/download/v1.2.0/AERA-Telegram-1.2.1.aerap",
+      "package_size": 7200007,
+      "package_sha256": "f8195432bb22a557bb776335c50f21477e0758fbfcf71c7128270644c7b86f09",
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA Telegram",
+          "description": "Telegram مع جلسات مشفرة ومحادثات ومرفقات للقراءة فقط."
+        },
+        "bg_BG": {
+          "name": "AERA Telegram",
+          "description": "Telegram с криптирани сесии, чатове и прикачени файлове само за четене."
+        },
+        "bn_BD": {
+          "name": "AERA Telegram",
+          "description": "Telegram এনক্রিপ্ট করা সেশন, চ্যাট এবং শুধুমাত্র পঠনযোগ্য সংযুক্তি সহ।"
+        },
+        "ca_ES": {
+          "name": "AERA Telegram",
+          "description": "Telegram amb sessions xifrades, xats i fitxers adjunts de només lectura."
+        },
+        "cs_CZ": {
+          "name": "AERA Telegram",
+          "description": "Telegram se šifrovanými relacemi, chaty a přílohami pouze pro čtení."
+        },
+        "de_DE": {
+          "name": "AERA Telegram",
+          "description": "Telegram mit verschlüsselten Sitzungen, Chats und schreibgeschützten Anhängen."
+        },
+        "el_GR": {
+          "name": "AERA Telegram",
+          "description": "Telegram με κρυπτογραφημένες συνεδρίες, συνομιλίες και συνημμένα μόνο για ανάγνωση."
+        },
+        "es-ES": {
+          "name": "AERA Telegram",
+          "description": "Telegram con sesiones cifradas, chats y archivos adjuntos de solo lectura."
+        },
+        "fa_IR": {
+          "name": "AERA Telegram",
+          "description": "Telegram با جلسات رمزگذاری شده، چت ها و پیوست های فقط خواندنی."
+        },
+        "fr_FR": {
+          "name": "AERA Telegram",
+          "description": "Telegram avec sessions cryptées, discussions et pièces jointes en lecture seule."
+        },
+        "he_IL": {
+          "name": "AERA Telegram",
+          "description": "Telegram עם הפעלות מוצפנות, צ'אטים וקבצים מצורפים לקריאה בלבד."
+        },
+        "hi_IN": {
+          "name": "AERA Telegram",
+          "description": "एन्क्रिप्टेड सत्र, चैट और केवल पढ़ने योग्य अनुलग्नकों के साथ Telegram।"
+        },
+        "hu": {
+          "name": "AERA Telegram",
+          "description": "Telegram titkosított munkamenetekkel, csevegésekkel és csak olvasható mellékletekkel."
+        },
+        "id_ID": {
+          "name": "AERA Telegram",
+          "description": "Telegram dengan sesi terenkripsi, obrolan, dan lampiran hanya-baca."
+        },
+        "it_IT": {
+          "name": "AERA Telegram",
+          "description": "Telegram con sessioni crittografate, chat e allegati di sola lettura."
+        },
+        "ja_JP": {
+          "name": "AERA Telegram",
+          "description": "暗号化されたセッション、チャット、読み取り専用添付ファイルを含む Telegram。"
+        },
+        "ko_KR": {
+          "name": "AERA Telegram",
+          "description": "암호화된 세션, 채팅 및 읽기 전용 첨부 파일이 있는 Telegram."
+        },
+        "nl_NL": {
+          "name": "AERA Telegram",
+          "description": "Telegram met gecodeerde sessies, chats en alleen-lezen bijlagen."
+        },
+        "no_NO": {
+          "name": "AERA Telegram",
+          "description": "Telegram med krypterte økter, chatter og skrivebeskyttede vedlegg."
+        },
+        "pl_PL": {
+          "name": "AERA Telegram",
+          "description": "Telegram z szyfrowanymi sesjami, czatami i załącznikami tylko do odczytu."
+        },
+        "pt_BR": {
+          "name": "AERA Telegram",
+          "description": "Telegram com sessões criptografadas, bate-papos e anexos somente leitura."
+        },
+        "pt_PT": {
+          "name": "AERA Telegram",
+          "description": "Telegram com sessões encriptadas, chats e anexos de leitura apenas."
+        },
+        "ro_RO": {
+          "name": "AERA Telegram",
+          "description": "Telegram cu sesiuni criptate, chat-uri și atașamente numai pentru citire."
+        },
+        "ru": {
+          "name": "AERA Telegram",
+          "description": "Telegram с зашифрованными сеансами, чатами и вложениями, доступными только для чтения."
+        },
+        "sr_Cyrl": {
+          "name": "AERA Telegram",
+          "description": "Telegram са шифрованим сесијама, ћаскањима и прилозима само за читање."
+        },
+        "sv_SE": {
+          "name": "AERA Telegram",
+          "description": "Telegram med krypterade sessioner, chattar och skrivskyddade bilagor."
+        },
+        "th_TH": {
+          "name": "AERA Telegram",
+          "description": "Telegram พร้อมเซสชันที่เข้ารหัส การแชท และไฟล์แนบแบบอ่านอย่างเดียว"
+        },
+        "tr_TR": {
+          "name": "AERA Telegram",
+          "description": "Şifreli oturumlar, sohbetler ve salt okunur eklerle Telegram."
+        },
+        "uk_UA": {
+          "name": "AERA Telegram",
+          "description": "Telegram із зашифрованими сеансами, чатами та вкладеннями лише для читання."
+        },
+        "vi_VN": {
+          "name": "AERA Telegram",
+          "description": "Telegram với các phiên, cuộc trò chuyện và tệp đính kèm chỉ đọc được mã hóa."
+        },
+        "zh_CN": {
+          "name": "AERA Telegram",
+          "description": "Telegram 具有加密会话、聊天和只读附件。"
+        },
+        "zh_TW": {
+          "name": "AERA Telegram",
+          "description": "Telegram 具有加密會話、聊天和唯讀附件。"
         }
       }
     },
     {
       "id": "retroarch",
       "name": "AERA RetroArch",
-      "version": "1.1.1",
-      "description": "Touch-first RetroArch with GLUI, Game Boy/Color emulation, speaker audio, isolated content access, and a bundled test core.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/7401f91a37553731990a46a51650223ad1239aff/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/7401f91a37553731990a46a51650223ad1239aff/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/retroarch/releases/download/v1.1.1/AERA-RetroArch-1.1.1.aerap",
-      "package_size": 4453453,
-      "package_sha256": "0fc9bb4664879b1b11e0ccd21a16a69d6d5e5c1314a9389711f8010b073119f2",
+      "version": "1.1.2",
+      "description": "Touch-optimized RetroArch with Game Boy emulation and speaker audio.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/aa5bdc9b30bfb9e1359d3bf780f234fd796970ac/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/aa5bdc9b30bfb9e1359d3bf780f234fd796970ac/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/retroarch/releases/download/v1.1.1/AERA-RetroArch-1.1.2.aerap",
+      "package_size": 4450775,
+      "package_sha256": "4dbb6dcab0339ace58ca97e8e7abd6384c3b6917997530f3da017465adf4964e",
       "localizations": {
         "ar_SA": {
           "name": "AERA RetroArch",
-          "description": "لمس أول RetroArch باستخدام محاكاة GLUI و Game Boy و Game Boy Color، وصوت السماعة، والوصول للمحتوى المعزول، ونواة اختبار مرفقة."
+          "description": "RetroArch المحسّن باللمس مع محاكاة Game Boy وصوت مكبر الصوت."
         },
         "bg_BG": {
           "name": "AERA RetroArch",
-          "description": "Първо докоснете RetroArch с GLUI, Game Boy и Game Boy Color емулация, аудио от високоговорителя, изолиран достъп до съдържание и включено тестово ядро."
+          "description": "Оптимизиран за докосване RetroArch с Game Boy емулация и аудио на високоговорителя."
         },
         "bn_BD": {
           "name": "AERA RetroArch",
-          "description": "RetroArch কে GLUI, Game Boy এবং Game Boy Color মিমিক্রি, স্পিকার অডিও, পৃথক বিষয়বস্তু অ্যাক্সেস এবং একটি সংযুক্ত পরীক্ষার কোর সহ প্রথমে স্পর্শ করুন।"
+          "description": "Game Boy এমুলেশন এবং স্পিকার অডিও সহ টাচ-অপ্টিমাইজ করা RetroArch।"
         },
         "ca_ES": {
           "name": "AERA RetroArch",
-          "description": "Touch-first RetroArch amb emulació GLUI, Game Boy i Game Boy Color, àudio del altaveu, accés a contingut aïllat i un nucli de prova integrat."
+          "description": "RetroArch optimitzat per al tacte amb emulació Game Boy i àudio dels altaveus."
         },
         "cs_CZ": {
           "name": "AERA RetroArch",
-          "description": "První dotyk RetroArch s emulací GLUI, Game Boy a Game Boy Color, audio reproduktor, izolovaný přístup k obsahu a součástí je testovací jádro."
+          "description": "Dotykově optimalizovaný RetroArch s emulací Game Boy a zvukem reproduktoru."
         },
         "de_DE": {
           "name": "AERA RetroArch",
-          "description": "Touch-first RetroArch mit GLUI, Game Boy und Game Boy Color-Emulation, Lautsprecher-Audio, isoliertem Inhaltszugriff und einem gebündelten Testkern."
+          "description": "Touch-optimiertes RetroArch mit Game-Boy-Emulation und Lautsprecher-Audio."
         },
         "el_GR": {
           "name": "AERA RetroArch",
-          "description": "Πρώτη χρήση αφής RetroArch με GLUI, προσομοίωση Game Boy και Game Boy Color, ήχο ηχείου, απομονωμένη πρόσβαση περιεχομένου και ενσωματωμένο δοκιμαστικό πυρήνα."
+          "description": "Βελτιστοποιημένο στην αφή RetroArch με εξομοίωση Game Boy και ήχο ηχείων."
         },
         "es-ES": {
           "name": "AERA RetroArch",
-          "description": "Tacto primero RetroArch con GLUI, emulación Game Boy y Game Boy Color, audio de altavoz, acceso a contenido aislado y un núcleo de prueba incluido."
+          "description": "RetroArch táctil optimizado con emulación Game Boy y audio de altavoz."
         },
         "fa_IR": {
           "name": "AERA RetroArch",
-          "description": "لمس اول RetroArch با شبیه‌سازی GLUI، Game Boy و Game Boy Color، صدای بلندگو، دسترسی به محتوای جدا شده و یک هسته تست بسته‌بندی شده."
+          "description": "RetroArch بهینه شده لمسی با شبیه سازی Game Boy و صدای بلندگو."
         },
         "fr_FR": {
           "name": "AERA RetroArch",
-          "description": "Touchez d'abord RetroArch avec l'émulation GLUI, Game Boy et Game Boy Color, le son du haut-parleur, l'accès au contenu isolé et un noyau de test inclus."
+          "description": "RetroArch tactile optimisé avec émulation Game Boy et audio du haut-parleur."
         },
         "he_IL": {
           "name": "AERA RetroArch",
-          "description": "גע תחילה ב-RetroArch עם GLUI, Game Boy ו-Game Boy Color חיקוי, שמע לרמקול, גישה לתוכן מבודד וליבת בדיקה מצורפת."
+          "description": "RetroArch המותאם למגע עם אמולציית Game Boy ואודיו של רמקול."
         },
         "hi_IN": {
           "name": "AERA RetroArch",
-          "description": "RetroArch को GLUI, Game Boy और Game Boy Color अनुकरण, स्पीकर ऑडियो, पृथक सामग्री पहुँच, और बंडल किए गए परीक्षण कोर के साथ पहले छूएं।"
+          "description": "Game Boy इम्यूलेशन और स्पीकर ऑडियो के साथ टच-अनुकूलित RetroArch।"
         },
         "hu": {
           "name": "AERA RetroArch",
-          "description": "Érintés-első RetroArch GLUI, Game Boy és Game Boy Color emulációval, hangszóró audióval, elszigetelt tartalom-hozzáféréssel és egy csomagolt tesztmaggal."
+          "description": "Érintés-optimalizált RetroArch Game Boy emulációval és hangszóró hanggal."
         },
         "id_ID": {
           "name": "AERA RetroArch",
-          "description": "Sentuh-pertama RetroArch dengan emulasi GLUI, Game Boy dan Game Boy Color, audio speaker, akses konten terisolasi, dan inti uji yang disertakan."
+          "description": "RetroArch yang dioptimalkan untuk sentuhan dengan emulasi Game Boy dan audio speaker."
         },
         "it_IT": {
           "name": "AERA RetroArch",
-          "description": "Primo tocco RetroArch con emulazione GLUI, Game Boy e Game Boy Color, audio altoparlante, accesso a contenuti isolati e core di test incluso."
+          "description": "RetroArch ottimizzato per il tocco con emulazione Game Boy e audio dell'altoparlante."
         },
         "ja_JP": {
           "name": "AERA RetroArch",
-          "description": "RetroArch を GLUI、Game Boy、Game Boy Color のエミュレーション、スピーカーオーディオ、分離されたコンテンツアクセス、およびバンドルされたテストコアでタッチファーストします。"
+          "description": "Game Boy エミュレーションとスピーカー オーディオを備えた、タッチに最適化された RetroArch。"
         },
         "ko_KR": {
           "name": "AERA RetroArch",
-          "description": "터치 우선 RetroArch를 GLUI, Game Boy 및 Game Boy Color 에뮬레이션, 스피커 오디오, 격리된 콘텐츠 접근, 그리고 번들 테스트 코어와 함께 사용"
+          "description": "Game Boy 에뮬레이션 및 스피커 오디오를 갖춘 터치에 최적화된 RetroArch."
         },
         "nl_NL": {
           "name": "AERA RetroArch",
-          "description": "Raak eerst RetroArch aan met GLUI, Game Boy en Game Boy Color-emulatie, luidsprekeraudio, geïsoleerde toegang tot inhoud en een gebundelde testkern."
+          "description": "Aanraakgeoptimaliseerde RetroArch met Game Boy-emulatie en luidsprekeraudio."
         },
         "no_NO": {
           "name": "AERA RetroArch",
-          "description": "Berør-først RetroArch med GLUI, Game Boy og Game Boy Color-emulering, høyttalerlyd, isolert innholdstilgang og en inkludert testkjerne."
+          "description": "Berøringsoptimalisert RetroArch med Game Boy-emulering og høyttalerlyd."
         },
         "pl_PL": {
           "name": "AERA RetroArch",
-          "description": "Dotknij najpierw RetroArch z emulacją GLUI, Game Boy i Game Boy Color, audio głośnika, izolowany dostęp do treści i zintegrowane jądro testowe."
+          "description": "Zoptymalizowany pod kątem dotyku RetroArch z emulacją Game Boy i dźwiękiem z głośników."
         },
         "pt_BR": {
           "name": "AERA RetroArch",
-          "description": "Primeiro toque RetroArch com emulação GLUI, Game Boy e Game Boy Color, áudio do alto-falante, acesso a conteúdo isolado e um núcleo de teste incluído."
+          "description": "RetroArch otimizado para toque com emulação Game Boy e áudio de alto-falante."
         },
         "pt_PT": {
           "name": "AERA RetroArch",
-          "description": "Primeiro toque RetroArch com emulação GLUI, Game Boy e Game Boy Color, áudio do altifalante, acesso a conteúdo isolado, e um núcleo de teste incluído."
+          "description": "RetroArch otimizado para toque com emulação Game Boy e áudio de colunas."
         },
         "ro_RO": {
           "name": "AERA RetroArch",
-          "description": "Atingere întâi RetroArch cu emulație GLUI, Game Boy și Game Boy Color, audio la difuzor, acces izolat la conținut și un nucleu de testare inclus."
+          "description": "RetroArch optimizat la atingere cu emulare Game Boy și sunet difuzor."
         },
         "ru": {
           "name": "AERA RetroArch",
-          "description": "Сначала коснитесь RetroArch с эмуляцией GLUI, Game Boy и Game Boy Color, аудио динамика, изолированного доступа к контенту и встроенного тестового ядра."
+          "description": "Оптимизированный для сенсорного управления RetroArch с эмуляцией Game Boy и звуком через динамик."
         },
         "sr_Cyrl": {
           "name": "AERA RetroArch",
-          "description": "Прво тапкање RetroArch са GLUI, Game Boy и Game Boy Color емулатором, звучником, изолованим приступом садржају и уграђеним тест кером."
+          "description": "RetroArch оптимизован за додир са емулацијом Game Boy и звуком звучника."
+        },
+        "sv_SE": {
+          "name": "AERA RetroArch",
+          "description": "Pekoptimerat RetroArch med Game Boy-emulering och högtalarljud."
         },
         "th_TH": {
           "name": "AERA RetroArch",
-          "description": "สัมผัส RetroArch ก่อนด้วยการจำลอง GLUI, Game Boy และ Game Boy Color, เสียงลำโพง, การเข้าถึงเนื้อหาแบบแยกส่วน, และแกนทดสอบที่รวมมาให้"
+          "description": "RetroArch ที่ปรับให้เหมาะสมด้วยระบบสัมผัสพร้อมการจำลอง Game Boy และเสียงลำโพง"
         },
         "tr_TR": {
           "name": "AERA RetroArch",
-          "description": "RetroArch'yi GLUI, Game Boy ve Game Boy Color emülasyonu, hoparlör sesi, izole içerik erişimi ve paketlenmiş test çekirdeği ile önce dokunarak kullanın."
+          "description": "Game Boy emülasyonu ve hoparlör sesiyle dokunmatik olarak optimize edilmiş RetroArch."
         },
         "uk_UA": {
           "name": "AERA RetroArch",
-          "description": "Спочатку торкніться RetroArch з емуліацією GLUI, Game Boy та Game Boy Color, аудіо динаміка, ізольованим доступом до контенту та комплектним тестовим ядром."
+          "description": "Оптимізований для дотику RetroArch з емуляцією Game Boy і звуком динаміка."
         },
         "vi_VN": {
           "name": "AERA RetroArch",
-          "description": "Chạm trước RetroArch với giả lập GLUI, Game Boy và Game Boy Color, âm thanh loa, quyền truy cập nội dung riêng biệt và lõi thử nghiệm đi kèm."
+          "description": "RetroArch được tối ưu hóa cho cảm ứng với mô phỏng Game Boy và âm thanh loa."
         },
         "zh_CN": {
           "name": "AERA RetroArch",
-          "description": "首次触控 RetroArch 与 GLUI、Game Boy 和 Game Boy Color 模拟、扬声器音频、隔离内容访问以及捆绑的测试核心。"
+          "description": "触摸优化的 RetroArch 具有 Game Boy 仿真和扬声器音频。"
         },
         "zh_TW": {
           "name": "AERA RetroArch",
-          "description": "先觸控 RetroArch，使用 GLUI、Game Boy 與 Game Boy Color 模擬、揚聲器音訊、隔離內容存取以及內建測試核心。"
+          "description": "觸控優化的 RetroArch 具有 Game Boy 模擬和揚聲器音訊。"
         }
       }
     }
