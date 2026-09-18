@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-18T13:52:26Z",
+  "generated": "2026-09-18T13:56:55Z",
   "plugins": [
     {
       "id": "mirror",
@@ -1411,17 +1411,6 @@
           "name": "AERA Streams"
         }
       }
-    },
-    {
-      "id": "test-plugin",
-      "name": "AERA Update Test",
-      "version": "1.2.0",
-      "description": "Minimal plugin for testing Plugin Manager updates.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/test-plugin/49be9cc1d2fd113a9a7ee97b3dd061a2befb295a/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/test-plugin/49be9cc1d2fd113a9a7ee97b3dd061a2befb295a/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/test-plugin/releases/download/v1.2.0/AERA-Update-Test-1.2.0.aerap",
-      "package_size": 14152,
-      "package_sha256": "7e2747ff11baa63e932050e96a52bb1b71c7017ac558eb60921acd6bb8383dd8"
     }
   ]
 }

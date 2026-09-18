@@ -252,6 +252,28 @@ def add(arguments):
     print(f"Published {manifest['name']} {manifest['version']} locally; signature verified")
 
 
+def remove(arguments):
+    catalog = current_catalog(arguments.online)
+    plugins = catalog["plugins"]
+    remaining = [item for item in plugins if item["id"] != arguments.plugin_id]
+    if len(remaining) == len(plugins):
+        raise ValueError(f"plugin is not present in the catalog: {arguments.plugin_id}")
+    catalog["plugins"] = remaining
+    catalog["generated"] = datetime.datetime.now(datetime.timezone.utc).replace(
+        microsecond=0).isoformat().replace("+00:00", "Z")
+    validate_catalog(catalog, arguments.online)
+    content = (json.dumps(catalog, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
+    signature = sign(content, arguments.key.resolve(strict=True))
+    catalog_tmp = CATALOG.with_suffix(".json.new")
+    signature_tmp = SIGNATURE.with_suffix(".sig.new")
+    catalog_tmp.write_bytes(content)
+    signature_tmp.write_bytes(signature)
+    verify_signature(catalog_tmp.read_bytes(), signature_tmp.read_bytes())
+    catalog_tmp.replace(CATALOG)
+    signature_tmp.replace(SIGNATURE)
+    print(f"Removed {arguments.plugin_id} locally; signature verified")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -264,12 +286,18 @@ def main():
     publish.add_argument("--package", type=Path, required=True)
     publish.add_argument("--key", type=Path, required=True)
     publish.add_argument("--online", action="store_true")
+    remove_plugin = subparsers.add_parser("remove")
+    remove_plugin.add_argument("--id", dest="plugin_id", required=True)
+    remove_plugin.add_argument("--key", type=Path, required=True)
+    remove_plugin.add_argument("--online", action="store_true")
     arguments = parser.parse_args()
     if arguments.command == "verify":
         current_catalog(arguments.online)
         print("Catalog, signature, manifests, and immutable URLs are valid")
-    else:
+    elif arguments.command == "add":
         add(arguments)
+    else:
+        remove(arguments)
 
 
 if __name__ == "__main__":
