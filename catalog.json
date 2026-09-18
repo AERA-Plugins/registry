@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-18T13:38:27Z",
+  "generated": "2026-09-18T13:44:24Z",
   "plugins": [
     {
       "id": "mirror",
@@ -1415,13 +1415,13 @@
     {
       "id": "test-plugin",
       "name": "AERA Update Test",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Minimal plugin for testing Plugin Manager updates.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/test-plugin/84003e7b10b65d69b7c8ccbb29e454badd15a731/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/test-plugin/84003e7b10b65d69b7c8ccbb29e454badd15a731/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/test-plugin/releases/download/v1.0.0/AERA-Update-Test-1.0.0.aerap",
-      "package_size": 14137,
-      "package_sha256": "bc2e000c3a76e49aad771b548da8a42bfb0648bf7bc511e9038196aed73812bd"
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/test-plugin/68de2896edfcf9bb1ceec92d88f13f85f9e5285f/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/test-plugin/68de2896edfcf9bb1ceec92d88f13f85f9e5285f/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/test-plugin/releases/download/v1.1.0/AERA-Update-Test-1.1.0.aerap",
+      "package_size": 14156,
+      "package_sha256": "2736429d349814e5387f8360b1662c17712e9179fb4496b245fa66bc5f7a38bc"
     }
   ]
 }
