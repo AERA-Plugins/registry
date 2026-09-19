@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-18T13:56:55Z",
+  "generated": "2026-09-19T20:38:57Z",
   "plugins": [
     {
       "id": "mirror",
@@ -1411,6 +1411,17 @@
           "name": "AERA Streams"
         }
       }
+    },
+    {
+      "id": "doom",
+      "name": "AERA Doom",
+      "version": "0.1.0",
+      "description": "Standalone native Doom engine with touch controls, speaker audio, persistent saves and support for personal IWAD files.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/doom/39e440f65e28bfa6090e1daac5bc1ec756be16a8/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/doom/39e440f65e28bfa6090e1daac5bc1ec756be16a8/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/doom/releases/download/v0.1.0/AERA-Doom-0.1.0.aerap",
+      "package_size": 8005566,
+      "package_sha256": "f76a2fdbab72689e4eb299867877b8e344cb066aaaf549c613879d3bee04b88e"
     }
   ]
 }
