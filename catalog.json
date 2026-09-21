@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-19T20:38:57Z",
+  "generated": "2026-09-21T17:15:56Z",
   "plugins": [
     {
       "id": "mirror",
@@ -1422,6 +1422,35 @@
       "package_url": "https://github.com/AERA-Plugins/doom/releases/download/v0.1.0/AERA-Doom-0.1.0.aerap",
       "package_size": 8005566,
       "package_sha256": "f76a2fdbab72689e4eb299867877b8e344cb066aaaf549c613879d3bee04b88e"
+    },
+    {
+      "id": "sysinfo",
+      "name": "AERA SysInfo",
+      "version": "0.1.0",
+      "description": "Inspect live hardware, power, storage, boot, security, and device history data.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/sysinfo/c37a129e60d8afab20bc579172914c05b174320c/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/sysinfo/c37a129e60d8afab20bc579172914c05b174320c/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/sysinfo/releases/download/v0.1.0/AERA-SysInfo-0.1.0.aerap",
+      "package_size": 51440,
+      "package_sha256": "6a01821b595a8cd05011ba95efb0e77ce05ff8211b504df383b3c2f99b08da3b",
+      "localizations": {
+        "de_DE": {
+          "name": "AERA SysInfo",
+          "description": "Live-Daten zu Hardware, Energie, Speicher, Boot, Sicherheit und Gerätehistorie anzeigen."
+        },
+        "sv_SE": {
+          "name": "AERA SysInfo",
+          "description": "Visa livedata om maskinvara, ström, lagring, uppstart, säkerhet och enhetshistorik."
+        },
+        "zh_CN": {
+          "name": "AERA 系统信息",
+          "description": "查看实时硬件、电源、存储、启动、安全和设备历史数据。"
+        },
+        "zh_TW": {
+          "name": "AERA 系統資訊",
+          "description": "檢視即時硬體、電源、儲存、啟動、安全性與裝置歷史資料。"
+        }
+      }
     }
   ]
 }
