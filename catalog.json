@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-21T17:30:03Z",
+  "generated": "2026-09-21T17:59:27Z",
   "plugins": [
     {
       "id": "mirror",
@@ -1426,13 +1426,13 @@
     {
       "id": "sysinfo",
       "name": "AERA SysInfo",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Inspect live hardware, power, storage, boot, security, and device history data.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/sysinfo/682674b30403c667fccb3602706f9a58e02a4dc6/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/sysinfo/682674b30403c667fccb3602706f9a58e02a4dc6/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/sysinfo/releases/download/v0.1.1/AERA-SysInfo-0.1.1.aerap",
-      "package_size": 51412,
-      "package_sha256": "50a2930f3ed291ccbfb56217707132ffc2ec9f321c6d3afa4e7008d78880fd83",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/sysinfo/0e1d042668885b45f4cf1bc369896a2b41f78a62/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/sysinfo/0e1d042668885b45f4cf1bc369896a2b41f78a62/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/sysinfo/releases/download/v0.1.2/AERA-SysInfo-0.1.2.aerap",
+      "package_size": 52376,
+      "package_sha256": "c3daad4bef1af3f7a4790ffdd0af06d00ef577f8f42e02180c97340541ccf1c7",
       "localizations": {
         "de_DE": {
           "name": "AERA SysInfo",
