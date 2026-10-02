@@ -75,8 +75,9 @@ def main() -> None:
     plugin_id = metadata.get("id", "")
     if metadata.get("schema") != 1 or not SAFE_ID.fullmatch(plugin_id):
         raise ValueError("unsupported plugin manifest or unsafe plugin id")
-    if metadata.get("payload") != "runtime.xz":
-        raise ValueError("AERA plugin packages require payload name runtime.xz")
+    payload_name = metadata.get("payload")
+    if payload_name not in {"runtime.xz", "font.ttf", "font.otf"}:
+        raise ValueError("unsupported AERA plugin payload name")
     if metadata.get("payload_size") != payload.stat().st_size:
         raise ValueError("payload size does not match plugin.json")
     if metadata.get("payload_sha256", "").lower() != sha256(payload):
@@ -95,7 +96,7 @@ def main() -> None:
         add_file(archive, "plugin.json", manifest)
         if signature:
             add_file(archive, "plugin.json.sig", signature)
-        add_file(archive, "runtime.xz", payload)
+        add_file(archive, payload_name, payload)
     temporary.replace(output)
     print(json.dumps({
         "path": str(output),

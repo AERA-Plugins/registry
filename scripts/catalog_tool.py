@@ -85,7 +85,7 @@ def validate_manifest(manifest, expected_id=None):
     required = {
         "schema", "id", "name", "version", "description", "type", "entry",
         "min_host_api", "payload", "payload_url", "payload_size",
-        "payload_sha256", "expanded_size", "expanded_sha256", "member_count",
+        "payload_sha256",
     }
     missing = sorted(required - manifest.keys())
     if missing:
@@ -93,7 +93,25 @@ def validate_manifest(manifest, expected_id=None):
     if manifest["schema"] != 1 or manifest["min_host_api"] not in (1, 2):
         raise ValueError("manifest schema/host API is unsupported")
     validate_localizations(manifest.get("localizations"))
-    if manifest["min_host_api"] == 2:
+    theme_extension = (
+        manifest.get("type") == "theme-extension" and
+        manifest.get("entry") == "font")
+    if theme_extension:
+        required_theme = {"protocol_version", "font_family", "permissions"}
+        missing_theme = sorted(required_theme - manifest.keys())
+        if missing_theme:
+            raise ValueError(
+                "font extension manifest is missing: " + ", ".join(missing_theme))
+        family = manifest["font_family"]
+        if (manifest["min_host_api"] != 2 or
+                manifest["protocol_version"] != 1 or
+                not isinstance(family, str) or not family or len(family) > 64 or
+                any(ord(character) < 32 or ord(character) == 127
+                    for character in family) or
+                manifest.get("executable", "") or
+                manifest["permissions"] != []):
+            raise ValueError("font extension violates AERA host policy")
+    elif manifest["min_host_api"] == 2:
         required_api2 = {"protocol_version", "executable", "permissions"}
         missing_api2 = sorted(required_api2 - manifest.keys())
         if missing_api2:
@@ -119,14 +137,32 @@ def validate_manifest(manifest, expected_id=None):
         raise ValueError("catalog and manifest IDs differ")
     if not re.fullmatch(r"[a-z0-9][a-z0-9.-]{0,63}", manifest["id"]):
         raise ValueError("plugin ID violates AERA policy")
-    if manifest["payload"] != "runtime.xz":
+    if theme_extension:
+        if manifest["payload"] not in {"font.ttf", "font.otf"}:
+            raise ValueError("font extension payload must be font.ttf or font.otf")
+        if (not isinstance(manifest["payload_size"], int) or
+                manifest["payload_size"] <= 0 or
+                manifest["payload_size"] > 32 * 1024 * 1024):
+            raise ValueError("font extension payload size is invalid")
+    elif manifest["payload"] != "runtime.xz":
         raise ValueError("payload must be named runtime.xz")
     if not manifest["payload_url"].startswith(RELEASE_PREFIX):
         raise ValueError("payload URL is outside AERA-Plugins")
-    for field in ("payload_sha256", "expanded_sha256"):
+    hash_fields = ["payload_sha256"]
+    if not theme_extension:
+        required_runtime = {"expanded_size", "expanded_sha256", "member_count"}
+        missing_runtime = sorted(required_runtime - manifest.keys())
+        if missing_runtime:
+            raise ValueError(
+                "runtime manifest is missing: " + ", ".join(missing_runtime))
+        hash_fields.append("expanded_sha256")
+    for field in hash_fields:
         if not re.fullmatch(r"[0-9a-f]{64}", manifest[field]):
             raise ValueError(f"invalid {field}")
-    for field in ("payload_size", "expanded_size", "member_count"):
+    size_fields = ["payload_size"]
+    if not theme_extension:
+        size_fields.extend(("expanded_size", "member_count"))
+    for field in size_fields:
         if not isinstance(manifest[field], int) or manifest[field] <= 0:
             raise ValueError(f"invalid {field}")
 

@@ -11,8 +11,8 @@ Changing a catalog URL cannot bypass manifest or payload verification.
 
 ## Make a plugin
 
-An AERA plugin is one `.aerap` file containing a manifest and a compressed
-runtime:
+An AERA plugin is one `.aerap` file containing a manifest and its payload.
+Application plugins carry a compressed runtime:
 
 ```text
 My-Plugin-1.0.0.aerap
@@ -90,6 +90,11 @@ resource limits, and mediated permissions.
 Host API 1 remains compatible with the built-in `browser`, `retroarch`,
 `telegram`, `gallery`, `media`, `recorder`, and `appvault` entries.
 
+Data-only font extensions use `type: "theme-extension"`, `entry: "font"`,
+Host API 2 with protocol version 1, an empty permissions list, and a
+`font.ttf` or `font.otf` payload. They contain no executable code and appear
+in Theme Engine's Typography selector rather than the application launcher.
+
 Finally, create the installable file:
 
 ```sh
@@ -126,8 +131,8 @@ catalog files. CI repeats the complete public-key and remote-URL validation.
 
 The Plugin Manager store and the recovery Files app use the same `.aerap`
 artifact. An official bundle contains exactly `plugin.json`,
-`plugin.json.sig`, and `runtime.xz`. Build it from the already signed release
-files with:
+`plugin.json.sig`, and the declared payload. Build it from the already signed
+release files with:
 
 ```sh
 python3 scripts/package_aerap.py \
