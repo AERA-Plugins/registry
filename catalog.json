@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-29T10:47:48Z",
+  "generated": "2026-10-02T19:44:05Z",
   "plugins": [
     {
       "id": "mirror",
@@ -1451,6 +1451,61 @@
           "description": "檢視即時硬體、電源、儲存、啟動、安全性與裝置歷史資料。"
         }
       }
+    },
+    {
+      "id": "font-inter",
+      "name": "Inter for AERA",
+      "version": "0.1.0",
+      "description": "A clean, highly legible interface typeface.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-inter/83d6ceb5e7ba794ca9b52bdb768f963910769ec3/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-inter/83d6ceb5e7ba794ca9b52bdb768f963910769ec3/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/font-inter/releases/download/v0.1.0/Inter-for-AERA-0.1.0.aerap",
+      "package_size": 877572,
+      "package_sha256": "93690f8a5fc365441fb6aa9f958400bf4e7804622a5bf32ab1e252617dd48420"
+    },
+    {
+      "id": "font-manrope",
+      "name": "Manrope for AERA",
+      "version": "0.1.0",
+      "description": "A modern geometric interface typeface.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-manrope/2ff461b5f85a7962431eb81f1cdcc40b62942c59/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-manrope/2ff461b5f85a7962431eb81f1cdcc40b62942c59/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/font-manrope/releases/download/v0.1.0/Manrope-for-AERA-0.1.0.aerap",
+      "package_size": 165699,
+      "package_sha256": "e064d06321fbaefb2672568b28cac2da575356faf0eb6a9c511de12396539452"
+    },
+    {
+      "id": "font-space-grotesk",
+      "name": "Space Grotesk for AERA",
+      "version": "0.1.0",
+      "description": "A technical geometric interface typeface.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-space-grotesk/fff199787140de767a70662c23796f879097a72f/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-space-grotesk/fff199787140de767a70662c23796f879097a72f/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/font-space-grotesk/releases/download/v0.1.0/Space-Grotesk-for-AERA-0.1.0.aerap",
+      "package_size": 137702,
+      "package_sha256": "266fddaec032dacabe7cf20edc8496c20386db5624901eac90c37e5542584aa2"
+    },
+    {
+      "id": "font-atkinson-hyperlegible-next",
+      "name": "Atkinson Hyperlegible Next for AERA",
+      "version": "0.1.0",
+      "description": "A high-legibility interface typeface.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-atkinson-hyperlegible-next/6736cc3401a6e2bc88c6e8de15c6dda7e0a34480/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-atkinson-hyperlegible-next/6736cc3401a6e2bc88c6e8de15c6dda7e0a34480/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/font-atkinson-hyperlegible-next/releases/download/v0.1.0/Atkinson-Hyperlegible-Next-for-AERA-0.1.0.aerap",
+      "package_size": 115626,
+      "package_sha256": "c4094169c09822610f30e504271bfb3e495fa8febe2f11a0bd39fc79934dddbe"
+    },
+    {
+      "id": "font-ibm-plex-sans",
+      "name": "IBM Plex Sans for AERA",
+      "version": "0.1.0",
+      "description": "A precise, professional interface typeface.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-ibm-plex-sans/924a1e3ab8dced0846d2a03c3c343ce79f4ce55d/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-ibm-plex-sans/924a1e3ab8dced0846d2a03c3c343ce79f4ce55d/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/font-ibm-plex-sans/releases/download/v0.1.0/IBM-Plex-Sans-for-AERA-0.1.0.aerap",
+      "package_size": 538272,
+      "package_sha256": "03abdcf3c2aaec69976f8f520657fcd7db8c0e3d434d0c0fa6070ec0ecf62b6a"
     }
   ]
 }
