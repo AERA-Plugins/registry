@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-02T19:44:05Z",
+  "generated": "2026-10-03T21:49:46Z",
   "plugins": [
     {
       "id": "mirror",
@@ -428,13 +428,13 @@
     {
       "id": "media",
       "name": "AERA Media",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "description": "Music and video player with rotation, timeline controls, and speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/f1a3e607f30eb3d434f38e34c7b933a322223344/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/f1a3e607f30eb3d434f38e34c7b933a322223344/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.2.1/AERA-Media-1.2.1.aerap",
-      "package_size": 6898191,
-      "package_sha256": "84322d8f56333478810441352b709effe07746ac5c9f552113fecb04f9cdeda4",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/media/9310095d97c05c49b31c1ca72d069d15888b5d35/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/media/9310095d97c05c49b31c1ca72d069d15888b5d35/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/media/releases/download/v1.2.2/AERA-Media-1.2.2.aerap",
+      "package_size": 7095085,
+      "package_sha256": "7b7f314077bca58580e9a4aaa14b06bc588cd6e22f3b3772a3cfdc0dca593e16",
       "localizations": {
         "ar_SA": {
           "name": "AERA Media",
