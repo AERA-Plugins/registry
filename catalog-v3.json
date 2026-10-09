@@ -8,7 +8,142 @@
       "version": "1.3.0",
       "description": "Full-height mobile WebKit browser with 120 Hz GPU compositing, video, and AERA speaker audio.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3fcd8065206c0215a285871af15020d4f5ecd0f9/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3fcd8065206c0215a285871af15020d4f5ecd0f9/plugin.json.sig"
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/3fcd8065206c0215a285871af15020d4f5ecd0f9/plugin.json.sig",
+      "store": {
+        "category": "network",
+        "summary": "Browse the web directly in recovery.",
+        "description": "Browse the web directly in recovery.\n\nWebKit browser with managed downloads, video playback and configurable homepage, zoom and cookies.",
+        "localizations": {
+          "th_TH": {
+            "summary": "ท่องเว็บโดยตรงจาก recovery",
+            "description": "ท่องเว็บโดยตรงจาก recovery\n\nเบราว์เซอร์ WebKit พร้อมดาวน์โหลด เล่นวิดีโอ และตั้งค่าหน้าแรก ซูม และคุกกี้"
+          },
+          "bn_BD": {
+            "summary": "Recovery থেকে সরাসরি ওয়েব ব্রাউজ করুন।",
+            "description": "Recovery থেকে সরাসরি ওয়েব ব্রাউজ করুন।\n\nডাউনলোড, ভিডিও এবং হোমপেজ, জুম, কুকি সেটিংসসহ WebKit ব্রাউজার।"
+          },
+          "hi_IN": {
+            "summary": "Recovery से सीधे वेब ब्राउज़ करें।",
+            "description": "Recovery से सीधे वेब ब्राउज़ करें।\n\nडाउनलोड, वीडियो और होमपेज, ज़ूम, कुकी सेटिंग्स वाला WebKit ब्राउज़र।"
+          },
+          "he_IL": {
+            "summary": "גלישה באינטרנט מתוך recovery.",
+            "description": "גלישה באינטרנט מתוך recovery.\n\nדפדפן WebKit עם הורדות, וידאו והגדרות דף בית, זום ועוגיות."
+          },
+          "fa_IR": {
+            "summary": "مستقیماً در recovery وب را مرور کنید.",
+            "description": "مستقیماً در recovery وب را مرور کنید.\n\nمرورگر WebKit با دانلود، پخش ویدیو و تنظیم صفحهٔ اصلی، بزرگ‌نمایی و کوکی‌ها."
+          },
+          "ar_SA": {
+            "summary": "تصفح الويب مباشرة من recovery.",
+            "description": "تصفح الويب مباشرة من recovery.\n\nمتصفح WebKit مع التنزيلات وتشغيل الفيديو وإعدادات الصفحة الرئيسية والتكبير وملفات الارتباط."
+          },
+          "ko_KR": {
+            "summary": "Recovery에서 바로 웹을 탐색하세요.",
+            "description": "Recovery에서 바로 웹을 탐색하세요.\n\n다운로드와 동영상 재생을 지원하는 WebKit 브라우저입니다. 홈페이지, 확대 배율, 쿠키를 설정할 수 있습니다."
+          },
+          "ja_JP": {
+            "summary": "Recovery から直接ウェブを閲覧。",
+            "description": "Recovery から直接ウェブを閲覧。\n\nWebKit ブラウザーでダウンロードや動画再生が可能。ホームページ、ズーム、Cookie を設定できます。"
+          },
+          "zh_TW": {
+            "summary": "直接在 Recovery 中瀏覽網頁。",
+            "description": "直接在 Recovery 中瀏覽網頁。\n\nWebKit 瀏覽器支援下載、影片播放，以及首頁、縮放和 Cookie 設定。"
+          },
+          "zh_CN": {
+            "summary": "直接在 Recovery 中浏览网页。",
+            "description": "直接在 Recovery 中浏览网页。\n\nWebKit 浏览器支持下载、视频播放，以及主页、缩放和 Cookie 设置。"
+          },
+          "vi_VN": {
+            "summary": "Duyệt web trực tiếp trong recovery.",
+            "description": "Duyệt web trực tiếp trong recovery.\n\nTrình duyệt WebKit có tải xuống, phát video và cài đặt trang chủ, thu phóng, cookie."
+          },
+          "id_ID": {
+            "summary": "Jelajahi web langsung dari recovery.",
+            "description": "Jelajahi web langsung dari recovery.\n\nBrowser WebKit dengan unduhan, video serta pengaturan beranda, zoom dan cookie."
+          },
+          "sr_Cyrl": {
+            "summary": "Прегледајте веб из recovery-ја.",
+            "description": "Прегледајте веб из recovery-ја.\n\nWebKit прегледач са преузимањима, видеом и подешавањима почетне странице, зума и колачића."
+          },
+          "ro_RO": {
+            "summary": "Navighează pe web din recovery.",
+            "description": "Navighează pe web din recovery.\n\nBrowser WebKit cu descărcări, video și setări pentru pagina de pornire, zoom și cookie-uri."
+          },
+          "hu": {
+            "summary": "Böngésszen a weben a recoveryből.",
+            "description": "Böngésszen a weben a recoveryből.\n\nWebKit böngésző letöltésekkel, videóval és kezdőlap-, nagyítás- és sütibeállításokkal."
+          },
+          "el_GR": {
+            "summary": "Περιηγηθείτε στον ιστό μέσα από το recovery.",
+            "description": "Περιηγηθείτε στον ιστό μέσα από το recovery.\n\nΠρόγραμμα WebKit με λήψεις, βίντεο και ρυθμίσεις αρχικής σελίδας, μεγέθυνσης και cookies."
+          },
+          "ca_ES": {
+            "summary": "Navega pel web des del recovery.",
+            "description": "Navega pel web des del recovery.\n\nNavegador WebKit amb baixades, vídeo i ajustos de pàgina d’inici, zoom i galetes."
+          },
+          "bg_BG": {
+            "summary": "Разглеждайте уебсайтове в recovery.",
+            "description": "Разглеждайте уебсайтове в recovery.\n\nWebKit браузър с изтегляния, видео и настройки за начална страница, мащаб и бисквитки."
+          },
+          "uk_UA": {
+            "summary": "Відкривайте сайти прямо в recovery.",
+            "description": "Відкривайте сайти прямо в recovery.\n\nБраузер WebKit із завантаженнями, відео й налаштуваннями домашньої сторінки, масштабу та cookies."
+          },
+          "ru": {
+            "summary": "Открывайте сайты прямо в recovery.",
+            "description": "Открывайте сайты прямо в recovery.\n\nБраузер WebKit с загрузками, видео и настройками домашней страницы, масштаба и cookies."
+          },
+          "tr_TR": {
+            "summary": "Recovery içinde web’de gezinin.",
+            "description": "Recovery içinde web’de gezinin.\n\nİndirme, video ve ana sayfa, yakınlaştırma, çerez ayarları sunan WebKit tarayıcı."
+          },
+          "cs_CZ": {
+            "summary": "Prohlížejte web přímo v recovery.",
+            "description": "Prohlížejte web přímo v recovery.\n\nProhlížeč WebKit se stahováním, videem a nastavením domovské stránky, přiblížení a cookies."
+          },
+          "pl_PL": {
+            "summary": "Przeglądaj internet w recovery.",
+            "description": "Przeglądaj internet w recovery.\n\nPrzeglądarka WebKit z pobieraniem, wideo oraz ustawieniami strony głównej, powiększenia i cookies."
+          },
+          "no_NO": {
+            "summary": "Surf på nettet direkte i recovery.",
+            "description": "Surf på nettet direkte i recovery.\n\nWebKit-nettleser med nedlastinger, video og innstillinger for startside, zoom og informasjonskapsler."
+          },
+          "nl_NL": {
+            "summary": "Surf rechtstreeks vanuit recovery.",
+            "description": "Surf rechtstreeks vanuit recovery.\n\nWebKit-browser met downloads, video en instellingen voor startpagina, zoom en cookies."
+          },
+          "pt_PT": {
+            "summary": "Navegue na web a partir do recovery.",
+            "description": "Navegue na web a partir do recovery.\n\nNavegador WebKit com transferências, vídeo e definições de página inicial, zoom e cookies."
+          },
+          "pt_BR": {
+            "summary": "Navegue na web pelo recovery.",
+            "description": "Navegue na web pelo recovery.\n\nNavegador WebKit com downloads, vídeo e configurações de página inicial, zoom e cookies."
+          },
+          "it_IT": {
+            "summary": "Naviga sul web dal recovery.",
+            "description": "Naviga sul web dal recovery.\n\nBrowser WebKit con download, video e impostazioni per pagina iniziale, zoom e cookie."
+          },
+          "es-ES": {
+            "summary": "Navega por la web desde el recovery.",
+            "description": "Navega por la web desde el recovery.\n\nNavegador WebKit con descargas, vídeo y ajustes de página de inicio, zoom y cookies."
+          },
+          "fr_FR": {
+            "summary": "Naviguez sur le Web depuis le recovery.",
+            "description": "Naviguez sur le Web depuis le recovery.\n\nNavigateur WebKit avec téléchargements, lecture vidéo et réglages de page d’accueil, zoom et cookies."
+          },
+          "sv_SE": {
+            "summary": "Surfa direkt i recovery.",
+            "description": "Surfa direkt i recovery.\n\nWebKit-webbläsare med nedladdningar, videouppspelning och inställningar för startsida, zoom och cookies."
+          },
+          "de_DE": {
+            "summary": "Webseiten direkt im Recovery öffnen.",
+            "description": "Webseiten direkt im Recovery öffnen.\n\nWebKit-Browser mit Downloads, Videowiedergabe und anpassbarer Startseite, Zoomstufe und Cookie-Einstellung."
+          }
+        }
+      }
     },
     {
       "id": "retroarch",
@@ -16,7 +151,142 @@
       "version": "1.0.6",
       "description": "Touch-first RetroArch with GLUI, Game Boy/Color emulation, speaker audio, isolated content access, and a bundled test core.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/f464b66f5cf8c572fcac9f106115cb8f77898550/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/f464b66f5cf8c572fcac9f106115cb8f77898550/plugin.json.sig"
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/retroarch/f464b66f5cf8c572fcac9f106115cb8f77898550/plugin.json.sig",
+      "store": {
+        "category": "games",
+        "summary": "Touch-friendly RetroArch emulation.",
+        "description": "Touch-friendly RetroArch emulation.\n\nIncludes Game Boy and Game Boy Color emulation and 2048. Supply your own game ROMs; copyrighted games and BIOS files are not included.",
+        "localizations": {
+          "th_TH": {
+            "summary": "RetroArch พร้อมควบคุมด้วยสัมผัส",
+            "description": "RetroArch พร้อมควบคุมด้วยสัมผัส\n\nมี Game Boy, Game Boy Color และ 2048 ใช้ ROM ของคุณเอง ไม่รวมเกมที่มีลิขสิทธิ์หรือไฟล์ BIOS"
+          },
+          "bn_BD": {
+            "summary": "টাচ নিয়ন্ত্রণসহ RetroArch।",
+            "description": "টাচ নিয়ন্ত্রণসহ RetroArch।\n\nGame Boy, Game Boy Color ও 2048 রয়েছে। নিজের ROM ব্যবহার করুন; কপিরাইটযুক্ত গেম বা BIOS ফাইল অন্তর্ভুক্ত নয়।"
+          },
+          "hi_IN": {
+            "summary": "टच नियंत्रण वाला RetroArch।",
+            "description": "टच नियंत्रण वाला RetroArch।\n\nGame Boy, Game Boy Color और 2048 शामिल हैं। अपनी ROM इस्तेमाल करें; कॉपीराइट गेम या BIOS फ़ाइलें शामिल नहीं हैं।"
+          },
+          "he_IL": {
+            "summary": "RetroArch עם בקרת מגע.",
+            "description": "RetroArch עם בקרת מגע.\n\nכולל Game Boy, Game Boy Color ו-2048. יש להשתמש ב-ROM משלך; משחקים מוגנים וקובצי BIOS אינם כלולים."
+          },
+          "fa_IR": {
+            "summary": "RetroArch با کنترل لمسی.",
+            "description": "RetroArch با کنترل لمسی.\n\nGame Boy، Game Boy Color و2048 را شامل می‌شود. از ROM شخصی استفاده کنید؛ بازی‌های دارای حق نشر و فایل BIOS همراه نیستند."
+          },
+          "ar_SA": {
+            "summary": "RetroArch مع التحكم باللمس.",
+            "description": "RetroArch مع التحكم باللمس.\n\nيشمل Game Boy وGame Boy Color و2048. استخدم ملفات ROM الخاصة بك؛ لا يتضمن ألعابًا محمية أو ملفات BIOS."
+          },
+          "ko_KR": {
+            "summary": "터치 조작을 지원하는 RetroArch.",
+            "description": "터치 조작을 지원하는 RetroArch.\n\nGame Boy, Game Boy Color, 2048이 포함됩니다. 개인 ROM을 사용하세요. 저작권 게임이나 BIOS 파일은 포함되지 않습니다."
+          },
+          "ja_JP": {
+            "summary": "タッチ操作対応の RetroArch。",
+            "description": "タッチ操作対応の RetroArch。\n\nGame Boy、Game Boy Color、2048 を同梱。自分の ROM を使用してください。著作権保護されたゲームや BIOS は含まれません。"
+          },
+          "zh_TW": {
+            "summary": "支援觸控的 RetroArch 模擬器。",
+            "description": "支援觸控的 RetroArch 模擬器。\n\n包含 Game Boy、Game Boy Color 和 2048。請使用自己的 ROM；不附帶受著作權保護的遊戲或 BIOS 檔案。"
+          },
+          "zh_CN": {
+            "summary": "支持触控的 RetroArch 模拟器。",
+            "description": "支持触控的 RetroArch 模拟器。\n\n包含 Game Boy、Game Boy Color 和 2048。请使用自己的 ROM；不附带受版权保护的游戏或 BIOS 文件。"
+          },
+          "vi_VN": {
+            "summary": "RetroArch với điều khiển cảm ứng.",
+            "description": "RetroArch với điều khiển cảm ứng.\n\nCó Game Boy, Game Boy Color và 2048. Dùng ROM riêng; không kèm trò chơi có bản quyền hay tệp BIOS."
+          },
+          "id_ID": {
+            "summary": "RetroArch dengan kontrol sentuh.",
+            "description": "RetroArch dengan kontrol sentuh.\n\nTermasuk Game Boy, Game Boy Color dan 2048. Gunakan ROM sendiri; game berhak cipta dan file BIOS tidak disertakan."
+          },
+          "sr_Cyrl": {
+            "summary": "RetroArch са додирним контролама.",
+            "description": "RetroArch са додирним контролама.\n\nУкључује Game Boy, Game Boy Color и 2048. Користите сопствене ROM-ове; заштићене игре и BIOS датотеке нису приложени."
+          },
+          "ro_RO": {
+            "summary": "RetroArch cu comenzi tactile.",
+            "description": "RetroArch cu comenzi tactile.\n\nInclude Game Boy, Game Boy Color și 2048. Folosește ROM-uri proprii; jocurile protejate și fișierele BIOS nu sunt incluse."
+          },
+          "hu": {
+            "summary": "RetroArch érintéses vezérléssel.",
+            "description": "RetroArch érintéses vezérléssel.\n\nGame Boy, Game Boy Color és 2048 jár hozzá. Saját ROM-okat használjon; jogvédett játékok és BIOS-fájlok nincsenek mellékelve."
+          },
+          "el_GR": {
+            "summary": "RetroArch με χειρισμό αφής.",
+            "description": "RetroArch με χειρισμό αφής.\n\nΠεριλαμβάνει Game Boy, Game Boy Color και 2048. Χρησιμοποιήστε δικά σας ROM· προστατευμένα παιχνίδια και BIOS δεν περιλαμβάνονται."
+          },
+          "ca_ES": {
+            "summary": "RetroArch amb controls tàctils.",
+            "description": "RetroArch amb controls tàctils.\n\nInclou Game Boy, Game Boy Color i 2048. Utilitza ROM pròpies; no inclou jocs protegits ni fitxers BIOS."
+          },
+          "bg_BG": {
+            "summary": "RetroArch със сензорно управление.",
+            "description": "RetroArch със сензорно управление.\n\nВключва Game Boy, Game Boy Color и 2048. Използвайте собствени ROM; защитени игри и BIOS файлове не са включени."
+          },
+          "uk_UA": {
+            "summary": "RetroArch із сенсорним керуванням.",
+            "description": "RetroArch із сенсорним керуванням.\n\nМістить Game Boy, Game Boy Color та 2048. Використовуйте власні ROM; захищені ігри та BIOS не додаються."
+          },
+          "ru": {
+            "summary": "RetroArch с сенсорным управлением.",
+            "description": "RetroArch с сенсорным управлением.\n\nВключены Game Boy, Game Boy Color и 2048. Используйте свои ROM; защищённые игры и BIOS не поставляются."
+          },
+          "tr_TR": {
+            "summary": "Dokunmatik kontrollü RetroArch.",
+            "description": "Dokunmatik kontrollü RetroArch.\n\nGame Boy, Game Boy Color ve 2048 içerir. Kendi ROM’larınızı kullanın; telifli oyunlar ve BIOS dosyaları dahil değildir."
+          },
+          "cs_CZ": {
+            "summary": "RetroArch s dotykovým ovládáním.",
+            "description": "RetroArch s dotykovým ovládáním.\n\nObsahuje Game Boy, Game Boy Color a 2048. Použijte vlastní ROM; chráněné hry a soubory BIOS nejsou přiloženy."
+          },
+          "pl_PL": {
+            "summary": "RetroArch z obsługą dotyku.",
+            "description": "RetroArch z obsługą dotyku.\n\nZawiera Game Boy, Game Boy Color i 2048. Użyj własnych ROM; chronione gry i pliki BIOS nie są dołączone."
+          },
+          "no_NO": {
+            "summary": "RetroArch med berøringskontroller.",
+            "description": "RetroArch med berøringskontroller.\n\nGame Boy, Game Boy Color og 2048 er inkludert. Bruk egne ROM-filer; beskyttede spill og BIOS-filer følger ikke med."
+          },
+          "nl_NL": {
+            "summary": "RetroArch met aanraakbediening.",
+            "description": "RetroArch met aanraakbediening.\n\nInclusief Game Boy, Game Boy Color en 2048. Gebruik eigen ROMs; beschermde spellen en BIOS-bestanden zijn niet inbegrepen."
+          },
+          "pt_PT": {
+            "summary": "RetroArch com controlos táteis.",
+            "description": "RetroArch com controlos táteis.\n\nInclui Game Boy, Game Boy Color e 2048. Use as suas ROM; jogos protegidos e ficheiros BIOS não estão incluídos."
+          },
+          "pt_BR": {
+            "summary": "RetroArch com controles por toque.",
+            "description": "RetroArch com controles por toque.\n\nInclui Game Boy, Game Boy Color e 2048. Use suas ROMs; jogos protegidos e arquivos BIOS não estão incluídos."
+          },
+          "it_IT": {
+            "summary": "RetroArch con controlli touch.",
+            "description": "RetroArch con controlli touch.\n\nInclude Game Boy, Game Boy Color e 2048. Usa ROM personali; giochi protetti e file BIOS non sono inclusi."
+          },
+          "es-ES": {
+            "summary": "RetroArch con controles táctiles.",
+            "description": "RetroArch con controles táctiles.\n\nIncluye Game Boy, Game Boy Color y 2048. Usa tus propias ROM; no incluye juegos protegidos ni archivos BIOS."
+          },
+          "fr_FR": {
+            "summary": "RetroArch avec commandes tactiles.",
+            "description": "RetroArch avec commandes tactiles.\n\nInclut Game Boy, Game Boy Color et 2048. Fournissez vos ROM ; aucun jeu protégé ni fichier BIOS n’est inclus."
+          },
+          "sv_SE": {
+            "summary": "RetroArch med touchkontroller.",
+            "description": "RetroArch med touchkontroller.\n\nGame Boy, Game Boy Color och 2048 ingår. Använd egna spel-ROM-filer; upphovsrättsskyddade spel och BIOS-filer ingår inte."
+          },
+          "de_DE": {
+            "summary": "RetroArch mit Touch-Steuerung.",
+            "description": "RetroArch mit Touch-Steuerung.\n\nGame Boy, Game Boy Color und 2048 sind enthalten. Eigene Spiele-ROMs verwenden; geschützte Spiele und BIOS-Dateien werden nicht mitgeliefert."
+          }
+        }
+      }
     },
     {
       "id": "telegram",
@@ -24,7 +294,142 @@
       "version": "1.0.4",
       "description": "Recovery-native Telegram with encrypted TDLib sessions, chats, history, and text messaging.",
       "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/5877aa7713d97179b55573a1027d4b58237b67aa/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/5877aa7713d97179b55573a1027d4b58237b67aa/plugin.json.sig"
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/5877aa7713d97179b55573a1027d4b58237b67aa/plugin.json.sig",
+      "store": {
+        "category": "network",
+        "summary": "Telegram messaging inside recovery.",
+        "description": "Telegram messaging inside recovery.\n\nRead chats and exchange messages, photos and files. Setup requires your own Telegram API ID and hash.",
+        "localizations": {
+          "th_TH": {
+            "summary": "ใช้ Telegram ภายใน recovery",
+            "description": "ใช้ Telegram ภายใน recovery\n\nอ่านแชตและแลกเปลี่ยนข้อความ รูปภาพ และไฟล์ ต้องใช้ Telegram API ID และ hash ของคุณเอง"
+          },
+          "bn_BD": {
+            "summary": "Recovery-তে Telegram ব্যবহার করুন।",
+            "description": "Recovery-তে Telegram ব্যবহার করুন।\n\nচ্যাট পড়ুন এবং বার্তা, ছবি ও ফাইল আদানপ্রদান করুন। নিজের Telegram API ID ও hash প্রয়োজন।"
+          },
+          "hi_IN": {
+            "summary": "Recovery में Telegram इस्तेमाल करें।",
+            "description": "Recovery में Telegram इस्तेमाल करें।\n\nचैट पढ़ें और संदेश, फ़ोटो, फ़ाइलें भेजें। अपना Telegram API ID और hash चाहिए।"
+          },
+          "he_IL": {
+            "summary": "שימוש ב-Telegram מתוך recovery.",
+            "description": "שימוש ב-Telegram מתוך recovery.\n\nקריאת שיחות והחלפת הודעות, תמונות וקבצים. נדרשים Telegram API ID ו-hash משלך."
+          },
+          "fa_IR": {
+            "summary": "در recovery از Telegram استفاده کنید.",
+            "description": "در recovery از Telegram استفاده کنید.\n\nگفتگوها را بخوانید و پیام، عکس و فایل مبادله کنید. به Telegram API ID وhash شخصی نیاز دارد."
+          },
+          "ar_SA": {
+            "summary": "استخدم Telegram داخل recovery.",
+            "description": "استخدم Telegram داخل recovery.\n\nاقرأ المحادثات وتبادل الرسائل والصور والملفات. يتطلب Telegram API ID وhash خاصين بك."
+          },
+          "ko_KR": {
+            "summary": "Recovery에서 Telegram을 사용하세요.",
+            "description": "Recovery에서 Telegram을 사용하세요.\n\n채팅을 읽고 메시지, 사진, 파일을 주고받습니다. 본인의 Telegram API ID와 hash가 필요합니다."
+          },
+          "ja_JP": {
+            "summary": "Recovery 内で Telegram を利用。",
+            "description": "Recovery 内で Telegram を利用。\n\nチャットの閲覧、メッセージ・写真・ファイルの送受信に対応。自分の Telegram API ID と hash が必要です。"
+          },
+          "zh_TW": {
+            "summary": "在 Recovery 中使用 Telegram。",
+            "description": "在 Recovery 中使用 Telegram。\n\n閱讀聊天、傳送訊息、照片和檔案。需要自己的 Telegram API ID 和 hash。"
+          },
+          "zh_CN": {
+            "summary": "在 Recovery 中使用 Telegram。",
+            "description": "在 Recovery 中使用 Telegram。\n\n阅读聊天、发送消息、照片和文件。需要自己的 Telegram API ID 和 hash。"
+          },
+          "vi_VN": {
+            "summary": "Dùng Telegram trong recovery.",
+            "description": "Dùng Telegram trong recovery.\n\nĐọc trò chuyện và trao đổi tin nhắn, ảnh, tệp. Cần ID API Telegram và hash của riêng bạn."
+          },
+          "id_ID": {
+            "summary": "Gunakan Telegram di recovery.",
+            "description": "Gunakan Telegram di recovery.\n\nBaca obrolan dan bertukar pesan, foto serta file. Memerlukan ID API Telegram dan hash milik sendiri."
+          },
+          "sr_Cyrl": {
+            "summary": "Користите Telegram у recovery-ју.",
+            "description": "Користите Telegram у recovery-ју.\n\nЧитајте разговоре и размењујте поруке, фотографије и датотеке. Потребни су сопствени Telegram API ID и hash."
+          },
+          "ro_RO": {
+            "summary": "Folosește Telegram în recovery.",
+            "description": "Folosește Telegram în recovery.\n\nCitește conversații și schimbă mesaje, fotografii și fișiere. Necesită propriul ID API Telegram și hash."
+          },
+          "hu": {
+            "summary": "Használja a Telegramot a recoveryben.",
+            "description": "Használja a Telegramot a recoveryben.\n\nOlvasson csevegéseket, küldjön üzeneteket, fotókat és fájlokat. Saját Telegram API ID és hash szükséges."
+          },
+          "el_GR": {
+            "summary": "Χρησιμοποιήστε το Telegram στο recovery.",
+            "description": "Χρησιμοποιήστε το Telegram στο recovery.\n\nΔιαβάστε συνομιλίες και ανταλλάξτε μηνύματα, φωτογραφίες και αρχεία. Απαιτεί δικό σας Telegram API ID και hash."
+          },
+          "ca_ES": {
+            "summary": "Utilitza Telegram dins del recovery.",
+            "description": "Utilitza Telegram dins del recovery.\n\nLlegeix xats i intercanvia missatges, fotos i fitxers. Calen un ID i hash propis de l’API de Telegram."
+          },
+          "bg_BG": {
+            "summary": "Използвайте Telegram в recovery.",
+            "description": "Използвайте Telegram в recovery.\n\nЧетете чатове и обменяйте съобщения, снимки и файлове. Нужни са собствени Telegram API ID и hash."
+          },
+          "uk_UA": {
+            "summary": "Використовуйте Telegram у recovery.",
+            "description": "Використовуйте Telegram у recovery.\n\nЧитайте чати та обмінюйтеся повідомленнями, фото й файлами. Потрібні власні Telegram API ID і hash."
+          },
+          "ru": {
+            "summary": "Используйте Telegram в recovery.",
+            "description": "Используйте Telegram в recovery.\n\nЧитайте чаты, обменивайтесь сообщениями, фото и файлами. Нужны собственные Telegram API ID и hash."
+          },
+          "tr_TR": {
+            "summary": "Recovery içinde Telegram kullanın.",
+            "description": "Recovery içinde Telegram kullanın.\n\nSohbetleri okuyun; mesaj, fotoğraf ve dosya gönderin. Kendi Telegram API kimliğiniz ve hash değeriniz gerekir."
+          },
+          "cs_CZ": {
+            "summary": "Používejte Telegram v recovery.",
+            "description": "Používejte Telegram v recovery.\n\nČtěte chaty a posílejte zprávy, fotografie a soubory. Vyžaduje vlastní Telegram API ID a hash."
+          },
+          "pl_PL": {
+            "summary": "Korzystaj z Telegrama w recovery.",
+            "description": "Korzystaj z Telegrama w recovery.\n\nCzytaj czaty i wymieniaj wiadomości, zdjęcia oraz pliki. Wymaga własnego ID API Telegram i hash."
+          },
+          "no_NO": {
+            "summary": "Bruk Telegram i recovery.",
+            "description": "Bruk Telegram i recovery.\n\nLes samtaler og utveksle meldinger, bilder og filer. Krever egen Telegram-API-ID og hash."
+          },
+          "nl_NL": {
+            "summary": "Gebruik Telegram in recovery.",
+            "description": "Gebruik Telegram in recovery.\n\nLees chats en wissel berichten, foto’s en bestanden uit. Vereist je eigen Telegram-API-ID en hash."
+          },
+          "pt_PT": {
+            "summary": "Use o Telegram no recovery.",
+            "description": "Use o Telegram no recovery.\n\nLeia conversas e troque mensagens, fotografias e ficheiros. Requer o seu próprio ID e hash da API do Telegram."
+          },
+          "pt_BR": {
+            "summary": "Use Telegram dentro do recovery.",
+            "description": "Use Telegram dentro do recovery.\n\nLeia chats e troque mensagens, fotos e arquivos. Exige seu próprio ID e hash da API do Telegram."
+          },
+          "it_IT": {
+            "summary": "Usa Telegram nel recovery.",
+            "description": "Usa Telegram nel recovery.\n\nLeggi chat e scambia messaggi, foto e file. Richiede il tuo ID API Telegram e hash."
+          },
+          "es-ES": {
+            "summary": "Usa Telegram dentro del recovery.",
+            "description": "Usa Telegram dentro del recovery.\n\nLee chats e intercambia mensajes, fotos y archivos. Requiere tu propio ID y hash de la API de Telegram."
+          },
+          "fr_FR": {
+            "summary": "Utilisez Telegram dans le recovery.",
+            "description": "Utilisez Telegram dans le recovery.\n\nLisez les discussions et échangez messages, photos et fichiers. Nécessite votre propre ID API Telegram et son hash."
+          },
+          "sv_SE": {
+            "summary": "Använd Telegram i recovery.",
+            "description": "Använd Telegram i recovery.\n\nLäs chattar och utbyt meddelanden, foton och filer. Kräver eget Telegram-API-ID och hash."
+          },
+          "de_DE": {
+            "summary": "Telegram direkt im Recovery nutzen.",
+            "description": "Telegram direkt im Recovery nutzen.\n\nChats lesen sowie Nachrichten, Fotos und Dateien austauschen. Benötigt eine eigene Telegram-API-ID samt Hash."
+          }
+        }
+      }
     }
   ]
 }

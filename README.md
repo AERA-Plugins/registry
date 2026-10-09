@@ -9,6 +9,43 @@ manifest that pins its payload size and SHA-256.
 Only reviewed repositories in the `AERA-Plugins` organization may be added.
 Changing a catalog URL cannot bypass manifest or payload verification.
 
+## Store Presentation Metadata
+
+Each catalog entry can carry an optional `store` object with a category,
+short `summary`, detailed `description`, and translated versions of both.
+This is presentation data, not part of the plugin manifest or install policy.
+Plugin names, versions, URLs, hashes, and existing manifest localizations must
+remain unchanged when editing store information.
+
+Categories are `tools`, `backup`, `multimedia`, `network`, `games`, and `themes`.
+`store-texts.json` contains the maintained descriptions in all recovery languages.
+The first paragraph becomes the compact list summary; the complete text appears
+on the detail page. Brand names and technical identifiers are kept intact.
+
+Preview and validate the enriched main and legacy catalogs:
+
+```sh
+python3 scripts/prepare_store.py
+python3 -m unittest discover -s tests
+```
+
+Prepare the signed files locally for review (does not push or publish):
+
+```sh
+python3 scripts/prepare_store.py --apply --key /private/path/release-key.pem
+```
+
+Older recovery versions ignore the new object. Catalog schema 1, all release
+fields, the Ed25519 signing key, and the existing size limits are preserved.
+The release helper retains `store` metadata when updating an existing plugin.
+Descriptions do not require new plugin packages or recovery releases.
+
+Optional `screenshots` can later list up to eight PNG/JPEG URLs within the
+AERA-Plugins organization, for example under `registry/screenshots/browser/`.
+Prefer immutable commit URLs. The host downloads images only when selected,
+caches them outside the recovery image, and shows no empty gallery when no
+images exist. The initial store refresh does not download screenshots.
+
 ## Make a plugin
 
 An AERA plugin is one `.aerap` file containing a manifest and its payload.

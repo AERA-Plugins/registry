@@ -167,6 +167,40 @@ def validate_manifest(manifest, expected_id=None):
             raise ValueError(f"invalid {field}")
 
 
+def validate_store(store):
+    if store is None:
+        return
+    if not isinstance(store, dict):
+        raise ValueError("store metadata must be an object")
+    if store.get("category", "tools") not in {
+            "tools", "backup", "multimedia", "network", "games", "themes"}:
+        raise ValueError("unsupported store category")
+    def text_fields(metadata):
+        if not isinstance(metadata, dict):
+            raise ValueError("store localization must be an object")
+        for field, limit in (("summary", 320), ("description", 8192), ("author", 160)):
+            if field in metadata:
+                value = metadata[field]
+                if not isinstance(value, str) or len(value.encode("utf-8")) > limit or "\0" in value:
+                    raise ValueError(f"invalid store {field}")
+    text_fields(store)
+    localizations = store.get("localizations", {})
+    if not isinstance(localizations, dict) or len(localizations) > 64:
+        raise ValueError("store localizations must be an object")
+    for locale, metadata in localizations.items():
+        if not re.fullmatch(r"[A-Za-z]{2,3}(?:[-_][A-Za-z]{2,8})?", locale):
+            raise ValueError(f"invalid store locale: {locale}")
+        text_fields(metadata)
+    screenshots = store.get("screenshots", [])
+    if not isinstance(screenshots, list) or len(screenshots) > 8:
+        raise ValueError("store supports at most eight screenshots")
+    for url in screenshots:
+        if (not isinstance(url, str) or len(url) > 2048 or
+                not url.startswith((RAW_PREFIX, RELEASE_PREFIX)) or
+                not url.lower().endswith((".png", ".jpg", ".jpeg"))):
+            raise ValueError("store screenshots must be AERA-Plugins PNG/JPEG URLs")
+
+
 def validate_catalog(catalog, online=False):
     if catalog.get("schema") != 1 or not isinstance(catalog.get("plugins"), list):
         raise ValueError("catalog schema is invalid")
@@ -180,6 +214,7 @@ def validate_catalog(catalog, online=False):
             if not isinstance(entry.get(field), str) or not entry[field]:
                 raise ValueError(f"{plugin_id or 'entry'} has invalid {field}")
         validate_localizations(entry.get("localizations"))
+        validate_store(entry.get("store"))
         expected_prefix = RAW_PREFIX + plugin_id.replace("appvault", "app-backup-vault") + "/"
         if not entry["manifest_url"].startswith(expected_prefix):
             raise ValueError(f"{plugin_id} manifest URL is outside its official repository")
@@ -269,6 +304,8 @@ def add(arguments):
         entry["localizations"] = manifest["localizations"]
     for index, item in enumerate(catalog["plugins"]):
         if item["id"] == manifest["id"]:
+            if item.get("store"):
+                entry["store"] = item["store"]
             catalog["plugins"][index] = entry
             break
     else:
