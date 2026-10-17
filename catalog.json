@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-06T17:51:40Z",
+  "generated": "2026-10-17T21:00:04Z",
   "plugins": [
     {
       "id": "mirror",
@@ -3798,6 +3798,152 @@
           "de_DE": {
             "summary": "IBM Plex Sans for AERA als AERA-Schrift verwenden.",
             "description": "IBM Plex Sans for AERA als AERA-Schrift verwenden.\n\nNach der Installation in der Theme Engine auswählbar. Die Android-Systemschriften bleiben unverändert."
+          }
+        }
+      }
+    },
+    {
+      "id": "storage-benchmark",
+      "name": "AERA Storage Benchmark",
+      "version": "0.1.5",
+      "description": "Benchmark internal, USB and network storage.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/storage-benchmark/db2a6fc5e6a9fc53f0dc5cc50d7a7e8c5754aeca/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/storage-benchmark/db2a6fc5e6a9fc53f0dc5cc50d7a7e8c5754aeca/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/storage-benchmark/releases/download/v0.1.5/AERA-Storage-Benchmark-0.1.5.aerap",
+      "package_size": 384264,
+      "package_sha256": "9a72b4d51b1a923705941d32ad2ced5fcd797dade8660280bc1abc746c20d406",
+      "store": {
+        "category": "tools",
+        "summary": "Measure internal, USB and network storage performance.",
+        "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead.",
+        "localizations": {
+          "th_TH": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "bn_BD": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "hi_IN": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "he_IL": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "fa_IR": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "ar_SA": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "ko_KR": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "ja_JP": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "zh_TW": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "zh_CN": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "vi_VN": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "id_ID": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "sr_Cyrl": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "ro_RO": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "hu": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "el_GR": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "ca_ES": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "bg_BG": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "uk_UA": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "ru": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "tr_TR": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "cs_CZ": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "pl_PL": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "no_NO": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "nl_NL": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "pt_PT": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "pt_BR": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "it_IT": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "es-ES": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "fr_FR": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "sv_SE": {
+            "summary": "Measure internal, USB and network storage performance.",
+            "description": "Measure internal, USB and network storage performance.\n\nRun sequential, 4K random and parallel fio tests with throughput, IOPS and latency results. Choose the test size, duration, passes, workers and I/O mode. Settings are saved automatically; running tests show progress and can be cancelled.\n\nOnly newly created temporary files are used, never raw partitions or existing files. Test writes consume space and cause normal flash wear. Connect NAS in Network Storage first and disable its write cache before measuring it. NAS tests are sequential full-file transfers and include network and server overhead."
+          },
+          "de_DE": {
+            "summary": "Speicherleistung von internem Speicher, USB und NAS messen.",
+            "description": "Speicherleistung von internem Speicher, USB und NAS messen.\n\nSequenzielle, zufaellige 4K- und parallele fio-Tests mit MB/s, IOPS und Latenz. Testgroesse, Dauer, Durchlaeufe, Worker und I/O-Modus sind einstellbar. Einstellungen werden automatisch gespeichert; laufende Tests zeigen Fortschritt und lassen sich abbrechen.\n\nEs werden ausschliesslich neue temporaere Testdateien verwendet, keine bestehenden Dateien oder Rohpartitionen. Schreibtests belegen voruebergehend Speicher und verursachen normalen Flash-Verschleiss. NAS vorher verbinden und dessen Schreibcache deaktivieren. NAS-Tests messen sequenzielle Dateiuebertragungen einschliesslich Netzwerk- und Serveraufwand."
           }
         }
       }
