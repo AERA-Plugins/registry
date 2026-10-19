@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-17T21:00:04Z",
+  "generated": "2026-10-19T17:59:07Z",
   "plugins": [
     {
       "id": "mirror",
@@ -3944,6 +3944,152 @@
           "de_DE": {
             "summary": "Speicherleistung von internem Speicher, USB und NAS messen.",
             "description": "Speicherleistung von internem Speicher, USB und NAS messen.\n\nSequenzielle, zufaellige 4K- und parallele fio-Tests mit MB/s, IOPS und Latenz. Testgroesse, Dauer, Durchlaeufe, Worker und I/O-Modus sind einstellbar. Einstellungen werden automatisch gespeichert; laufende Tests zeigen Fortschritt und lassen sich abbrechen.\n\nEs werden ausschliesslich neue temporaere Testdateien verwendet, keine bestehenden Dateien oder Rohpartitionen. Schreibtests belegen voruebergehend Speicher und verursachen normalen Flash-Verschleiss. NAS vorher verbinden und dessen Schreibcache deaktivieren. NAS-Tests messen sequenzielle Dateiuebertragungen einschliesslich Netzwerk- und Serveraufwand."
+          }
+        }
+      }
+    },
+    {
+      "id": "font-jetbrains-mono",
+      "name": "JetBrains Mono",
+      "version": "1.0.0",
+      "description": "A monospace font optimized for developers.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/font-jetbrains-mono/59c12cc0677cea43f503d253c5a2764e931002bc/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/font-jetbrains-mono/59c12cc0677cea43f503d253c5a2764e931002bc/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/font-jetbrains-mono/releases/download/v1.0.0/JetBrains-Mono-1.0.0.aerap",
+      "package_size": 274922,
+      "package_sha256": "6053a48de6103894bb839b12c6b866ca63b2e002a048899911e302b62e3014b6",
+      "store": {
+        "category": "themes",
+        "summary": "Use JetBrains Mono as an AERA interface font.",
+        "description": "Use JetBrains Mono as an AERA interface font.\n\nSelect it in the Theme Engine after installation. Android's system fonts are not changed.",
+        "localizations": {
+          "th_TH": {
+            "summary": "ใช้ JetBrains Mono เป็นแบบอักษรของ AERA",
+            "description": "ใช้ JetBrains Mono เป็นแบบอักษรของ AERA\n\nเลือกใน Theme Engine หลังติดตั้ง แบบอักษรระบบ Android ไม่เปลี่ยน"
+          },
+          "bn_BD": {
+            "summary": "AERA ইন্টারফেসে JetBrains Mono ব্যবহার করুন।",
+            "description": "AERA ইন্টারফেসে JetBrains Mono ব্যবহার করুন।\n\nইনস্টলের পরে Theme Engine-এ নির্বাচন করুন। Android সিস্টেম ফন্ট পরিবর্তন হয় না।"
+          },
+          "hi_IN": {
+            "summary": "AERA के इंटरफ़ेस में JetBrains Mono इस्तेमाल करें।",
+            "description": "AERA के इंटरफ़ेस में JetBrains Mono इस्तेमाल करें।\n\nइंस्टॉल करने के बाद Theme Engine में चुनें। Android सिस्टम फ़ॉन्ट नहीं बदलते।"
+          },
+          "he_IL": {
+            "summary": "שימוש ב-JetBrains Mono כגופן הממשק של AERA.",
+            "description": "שימוש ב-JetBrains Mono כגופן הממשק של AERA.\n\nאפשר לבחור אותו ב-Theme Engine לאחר ההתקנה. גופני מערכת Android אינם משתנים."
+          },
+          "fa_IR": {
+            "summary": "از JetBrains Mono به‌عنوان قلم رابط AERA استفاده کنید.",
+            "description": "از JetBrains Mono به‌عنوان قلم رابط AERA استفاده کنید.\n\nپس از نصب در Theme Engine انتخاب کنید. قلم‌های سیستم Android تغییر نمی‌کنند."
+          },
+          "ar_SA": {
+            "summary": "استخدم JetBrains Mono كخط لواجهة AERA.",
+            "description": "استخدم JetBrains Mono كخط لواجهة AERA.\n\nاختره في Theme Engine بعد التثبيت. لا تتغير خطوط نظام Android."
+          },
+          "ko_KR": {
+            "summary": "JetBrains Mono를 AERA 인터페이스 글꼴로 사용하세요.",
+            "description": "JetBrains Mono를 AERA 인터페이스 글꼴로 사용하세요.\n\n설치 후 Theme Engine에서 선택합니다. Android 시스템 글꼴은 변경되지 않습니다."
+          },
+          "ja_JP": {
+            "summary": "JetBrains Mono を AERA の表示フォントに使用。",
+            "description": "JetBrains Mono を AERA の表示フォントに使用。\n\nインストール後に Theme Engine で選択できます。Android のシステムフォントは変更されません。"
+          },
+          "zh_TW": {
+            "summary": "將 JetBrains Mono 用作 AERA 介面字型。",
+            "description": "將 JetBrains Mono 用作 AERA 介面字型。\n\n安裝後可在 Theme Engine 中選擇，不會改變 Android 系統字型。"
+          },
+          "zh_CN": {
+            "summary": "将 JetBrains Mono 用作 AERA 界面字体。",
+            "description": "将 JetBrains Mono 用作 AERA 界面字体。\n\n安装后可在 Theme Engine 中选择，不会改变 Android 系统字体。"
+          },
+          "vi_VN": {
+            "summary": "Dùng JetBrains Mono làm phông chữ AERA.",
+            "description": "Dùng JetBrains Mono làm phông chữ AERA.\n\nChọn trong Theme Engine sau khi cài. Phông chữ hệ thống Android không thay đổi."
+          },
+          "id_ID": {
+            "summary": "Gunakan JetBrains Mono sebagai font AERA.",
+            "description": "Gunakan JetBrains Mono sebagai font AERA.\n\nPilih di Theme Engine setelah pemasangan. Font sistem Android tidak berubah."
+          },
+          "sr_Cyrl": {
+            "summary": "Користите JetBrains Mono као AERA фонт.",
+            "description": "Користите JetBrains Mono као AERA фонт.\n\nИзаберите га у Theme Engine-у после инсталације. Android системски фонтови се не мењају."
+          },
+          "ro_RO": {
+            "summary": "Folosește JetBrains Mono ca font AERA.",
+            "description": "Folosește JetBrains Mono ca font AERA.\n\nSelectează-l în Theme Engine după instalare. Fonturile de sistem Android nu se modifică."
+          },
+          "hu": {
+            "summary": "Használja a JetBrains Mono betűtípust az AERA-ban.",
+            "description": "Használja a JetBrains Mono betűtípust az AERA-ban.\n\nTelepítés után válassza ki a Theme Engine-ben. Az Android rendszerbetűtípusai nem változnak."
+          },
+          "el_GR": {
+            "summary": "Χρησιμοποιήστε τη JetBrains Mono ως γραμματοσειρά AERA.",
+            "description": "Χρησιμοποιήστε τη JetBrains Mono ως γραμματοσειρά AERA.\n\nΕπιλέξτε τη στο Theme Engine μετά την εγκατάσταση. Οι γραμματοσειρές Android δεν αλλάζουν."
+          },
+          "ca_ES": {
+            "summary": "Utilitza JetBrains Mono com a font d’AERA.",
+            "description": "Utilitza JetBrains Mono com a font d’AERA.\n\nTria-la a Theme Engine després d’instal·lar-la. Les fonts del sistema Android no canvien."
+          },
+          "bg_BG": {
+            "summary": "Използвайте JetBrains Mono като шрифт на AERA.",
+            "description": "Използвайте JetBrains Mono като шрифт на AERA.\n\nИзберете го в Theme Engine след инсталиране. Системните шрифтове на Android не се променят."
+          },
+          "uk_UA": {
+            "summary": "Використовуйте JetBrains Mono як шрифт AERA.",
+            "description": "Використовуйте JetBrains Mono як шрифт AERA.\n\nВиберіть його в Theme Engine після встановлення. Системні шрифти Android не змінюються."
+          },
+          "ru": {
+            "summary": "Используйте JetBrains Mono как шрифт AERA.",
+            "description": "Используйте JetBrains Mono как шрифт AERA.\n\nВыберите его в Theme Engine после установки. Системные шрифты Android не изменяются."
+          },
+          "tr_TR": {
+            "summary": "JetBrains Mono yazı tipini AERA’da kullanın.",
+            "description": "JetBrains Mono yazı tipini AERA’da kullanın.\n\nKurulumdan sonra Theme Engine’den seçin. Android sistem yazı tipleri değişmez."
+          },
+          "cs_CZ": {
+            "summary": "Použijte JetBrains Mono jako písmo AERA.",
+            "description": "Použijte JetBrains Mono jako písmo AERA.\n\nPo instalaci jej vyberte v Theme Engine. Systémová písma Android zůstanou nezměněna."
+          },
+          "pl_PL": {
+            "summary": "Użyj JetBrains Mono jako czcionki AERA.",
+            "description": "Użyj JetBrains Mono jako czcionki AERA.\n\nWybierz ją w Theme Engine po instalacji. Czcionki systemowe Android pozostają bez zmian."
+          },
+          "no_NO": {
+            "summary": "Bruk JetBrains Mono som AERA-skrift.",
+            "description": "Bruk JetBrains Mono som AERA-skrift.\n\nVelg den i Theme Engine etter installasjon. Androids systemskrifter endres ikke."
+          },
+          "nl_NL": {
+            "summary": "Gebruik JetBrains Mono als AERA-lettertype.",
+            "description": "Gebruik JetBrains Mono als AERA-lettertype.\n\nKies het na installatie in Theme Engine. Android-systeemlettertypen blijven ongewijzigd."
+          },
+          "pt_PT": {
+            "summary": "Use JetBrains Mono como tipo de letra do AERA.",
+            "description": "Use JetBrains Mono como tipo de letra do AERA.\n\nSelecione-o em Theme Engine após instalar. Os tipos de letra do sistema Android não são alterados."
+          },
+          "pt_BR": {
+            "summary": "Use JetBrains Mono como fonte do AERA.",
+            "description": "Use JetBrains Mono como fonte do AERA.\n\nSelecione-a em Theme Engine após instalar. As fontes do sistema Android não são alteradas."
+          },
+          "it_IT": {
+            "summary": "Usa JetBrains Mono come carattere di AERA.",
+            "description": "Usa JetBrains Mono come carattere di AERA.\n\nSelezionalo in Theme Engine dopo l’installazione. I caratteri di sistema Android non cambiano."
+          },
+          "es-ES": {
+            "summary": "Usa JetBrains Mono como fuente de AERA.",
+            "description": "Usa JetBrains Mono como fuente de AERA.\n\nSelecciónala en Theme Engine tras instalarla. Las fuentes del sistema Android no cambian."
+          },
+          "fr_FR": {
+            "summary": "Utilisez JetBrains Mono comme police d’AERA.",
+            "description": "Utilisez JetBrains Mono comme police d’AERA.\n\nSélectionnez-la dans Theme Engine après installation. Les polices système Android restent inchangées."
+          },
+          "sv_SE": {
+            "summary": "Använd JetBrains Mono som AERA-gränssnittets typsnitt.",
+            "description": "Använd JetBrains Mono som AERA-gränssnittets typsnitt.\n\nVälj det i Theme Engine efter installation. Androids systemtypsnitt ändras inte."
+          },
+          "de_DE": {
+            "summary": "JetBrains Mono als AERA-Schrift verwenden.",
+            "description": "JetBrains Mono als AERA-Schrift verwenden.\n\nNach der Installation in der Theme Engine auswählbar. Die Android-Systemschriften bleiben unverändert."
           }
         }
       }
