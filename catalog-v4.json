@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-08T21:16:00Z",
+  "generated": "2026-10-30T20:54:10Z",
   "plugins": [
     {
       "id": "browser",
@@ -291,10 +291,10 @@
     {
       "id": "telegram",
       "name": "AERA Telegram",
-      "version": "1.0.4",
-      "description": "Recovery-native Telegram with encrypted TDLib sessions, chats, history, and text messaging.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/5877aa7713d97179b55573a1027d4b58237b67aa/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/5877aa7713d97179b55573a1027d4b58237b67aa/plugin.json.sig",
+      "version": "1.3.5",
+      "description": "A recovery-native client for the Telegram messaging service.",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/c96f787d7ca26148fd10aecb9e238e5e83b8d116/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/telegram/c96f787d7ca26148fd10aecb9e238e5e83b8d116/plugin.json.sig",
       "store": {
         "category": "network",
         "summary": "Telegram messaging inside recovery.",
@@ -429,7 +429,140 @@
             "description": "Telegram direkt im Recovery nutzen.\n\nChats lesen sowie Nachrichten, Fotos und Dateien austauschen. Benötigt eine eigene Telegram-API-ID samt Hash."
           }
         }
-      }
+      },
+      "localizations": {
+        "ar_SA": {
+          "name": "AERA Telegram",
+          "description": "Telegram مع جلسات مشفرة ومحادثات ومرفقات للقراءة فقط."
+        },
+        "bg_BG": {
+          "name": "AERA Telegram",
+          "description": "Telegram с криптирани сесии, чатове и прикачени файлове само за четене."
+        },
+        "bn_BD": {
+          "name": "AERA Telegram",
+          "description": "Telegram এনক্রিপ্ট করা সেশন, চ্যাট এবং শুধুমাত্র পঠনযোগ্য সংযুক্তি সহ।"
+        },
+        "ca_ES": {
+          "name": "AERA Telegram",
+          "description": "Telegram amb sessions xifrades, xats i fitxers adjunts de només lectura."
+        },
+        "cs_CZ": {
+          "name": "AERA Telegram",
+          "description": "Telegram se šifrovanými relacemi, chaty a přílohami pouze pro čtení."
+        },
+        "de_DE": {
+          "name": "AERA Telegram",
+          "description": "Telegram mit verschlüsselten Sitzungen, Chats und schreibgeschützten Anhängen."
+        },
+        "el_GR": {
+          "name": "AERA Telegram",
+          "description": "Telegram με κρυπτογραφημένες συνεδρίες, συνομιλίες και συνημμένα μόνο για ανάγνωση."
+        },
+        "es-ES": {
+          "name": "AERA Telegram",
+          "description": "Telegram con sesiones cifradas, chats y archivos adjuntos de solo lectura."
+        },
+        "fa_IR": {
+          "name": "AERA Telegram",
+          "description": "Telegram با جلسات رمزگذاری شده، چت ها و پیوست های فقط خواندنی."
+        },
+        "fr_FR": {
+          "name": "AERA Telegram",
+          "description": "Telegram avec sessions cryptées, discussions et pièces jointes en lecture seule."
+        },
+        "he_IL": {
+          "name": "AERA Telegram",
+          "description": "Telegram עם הפעלות מוצפנות, צ'אטים וקבצים מצורפים לקריאה בלבד."
+        },
+        "hi_IN": {
+          "name": "AERA Telegram",
+          "description": "एन्क्रिप्टेड सत्र, चैट और केवल पढ़ने योग्य अनुलग्नकों के साथ Telegram।"
+        },
+        "hu": {
+          "name": "AERA Telegram",
+          "description": "Telegram titkosított munkamenetekkel, csevegésekkel és csak olvasható mellékletekkel."
+        },
+        "id_ID": {
+          "name": "AERA Telegram",
+          "description": "Telegram dengan sesi terenkripsi, obrolan, dan lampiran hanya-baca."
+        },
+        "it_IT": {
+          "name": "AERA Telegram",
+          "description": "Telegram con sessioni crittografate, chat e allegati di sola lettura."
+        },
+        "ja_JP": {
+          "name": "AERA Telegram",
+          "description": "暗号化されたセッション、チャット、読み取り専用添付ファイルを含む Telegram。"
+        },
+        "ko_KR": {
+          "name": "AERA Telegram",
+          "description": "암호화된 세션, 채팅 및 읽기 전용 첨부 파일이 있는 Telegram."
+        },
+        "nl_NL": {
+          "name": "AERA Telegram",
+          "description": "Telegram met gecodeerde sessies, chats en alleen-lezen bijlagen."
+        },
+        "no_NO": {
+          "name": "AERA Telegram",
+          "description": "Telegram med krypterte økter, chatter og skrivebeskyttede vedlegg."
+        },
+        "pl_PL": {
+          "name": "AERA Telegram",
+          "description": "Telegram z szyfrowanymi sesjami, czatami i załącznikami tylko do odczytu."
+        },
+        "pt_BR": {
+          "name": "AERA Telegram",
+          "description": "Telegram com sessões criptografadas, bate-papos e anexos somente leitura."
+        },
+        "pt_PT": {
+          "name": "AERA Telegram",
+          "description": "Telegram com sessões encriptadas, chats e anexos de leitura apenas."
+        },
+        "ro_RO": {
+          "name": "AERA Telegram",
+          "description": "Telegram cu sesiuni criptate, chat-uri și atașamente numai pentru citire."
+        },
+        "ru": {
+          "name": "AERA Telegram",
+          "description": "Telegram с зашифрованными сеансами, чатами и вложениями, доступными только для чтения."
+        },
+        "sr_Cyrl": {
+          "name": "AERA Telegram",
+          "description": "Telegram са шифрованим сесијама, ћаскањима и прилозима само за читање."
+        },
+        "sv_SE": {
+          "name": "AERA Telegram",
+          "description": "Telegram med krypterade sessioner, chattar och skrivskyddade bilagor."
+        },
+        "th_TH": {
+          "name": "AERA Telegram",
+          "description": "Telegram พร้อมเซสชันที่เข้ารหัส การแชท และไฟล์แนบแบบอ่านอย่างเดียว"
+        },
+        "tr_TR": {
+          "name": "AERA Telegram",
+          "description": "Şifreli oturumlar, sohbetler ve salt okunur eklerle Telegram."
+        },
+        "uk_UA": {
+          "name": "AERA Telegram",
+          "description": "Telegram із зашифрованими сеансами, чатами та вкладеннями лише для читання."
+        },
+        "vi_VN": {
+          "name": "AERA Telegram",
+          "description": "Telegram với các phiên, cuộc trò chuyện và tệp đính kèm chỉ đọc được mã hóa."
+        },
+        "zh_CN": {
+          "name": "AERA Telegram",
+          "description": "Telegram 具有加密会话、聊天和只读附件。"
+        },
+        "zh_TW": {
+          "name": "AERA Telegram",
+          "description": "Telegram 具有加密會話、聊天和唯讀附件。"
+        }
+      },
+      "package_url": "https://github.com/AERA-Plugins/telegram/releases/download/v1.3.5/AERA-Telegram-1.3.5.aerap",
+      "package_size": 7097860,
+      "package_sha256": "f1ee35fe61294fa519a520c8745cd73470434678c5d307347b9bcfcd165658c6"
     }
   ]
 }
