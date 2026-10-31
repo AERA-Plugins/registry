@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-30T20:54:10Z",
+  "generated": "2026-10-31T16:31:39Z",
   "plugins": [
     {
       "id": "mirror",
@@ -557,13 +557,13 @@
     {
       "id": "browser",
       "name": "AERA Browser",
-      "version": "1.5.4",
+      "version": "1.5.5",
       "description": "Full-height mobile WebKit browser with persistent cookies, configurable homepage and zoom, managed downloads, 120 Hz GPU compositing, video, and AERA speaker audio.",
-      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/b52843d9358309de9f9ebd29c67c3746b513335d/plugin.json",
-      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/b52843d9358309de9f9ebd29c67c3746b513335d/plugin.json.sig",
-      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.5.4/AERA-Browser-1.5.4.aerap",
-      "package_size": 40973017,
-      "package_sha256": "a92d3f6b82e62140d067cf67401a8e89af1d3885fc28dea46dcbe79aaae534db",
+      "manifest_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/2be5b1ed7e6fb691d554aa7b366743c12bca1804/plugin.json",
+      "signature_url": "https://raw.githubusercontent.com/AERA-Plugins/browser/2be5b1ed7e6fb691d554aa7b366743c12bca1804/plugin.json.sig",
+      "package_url": "https://github.com/AERA-Plugins/browser/releases/download/v1.5.5/AERA-Browser-1.5.5.aerap",
+      "package_size": 40971469,
+      "package_sha256": "59756913603485e720517acedd4dec44d981eadf1fd9116bc10303f51fe15f38",
       "localizations": {
         "ar_SA": {
           "name": "AERA Browser",
